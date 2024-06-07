@@ -13,4 +13,8 @@ public class RegistrationConfirmationPage {
     public RegistrationConfirmationPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
+
+    public void goToFlightsSearch() {
+        this.goToFlightsSearchButton.click();
+    }
 }
