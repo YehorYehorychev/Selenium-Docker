@@ -1,13 +1,12 @@
 package com.yehorychev.pages.flightreservation;
 
+import com.yehorychev.pages.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class RegistrationPage {
-    private final WebDriver driver;
-
+public class RegistrationPage extends AbstractPage {
     @FindBy(id = "firstName")
     private WebElement firstNameInput;
 
@@ -39,8 +38,7 @@ public class RegistrationPage {
     private WebElement registerButton;
 
     public RegistrationPage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
+        super(driver);
     }
 
     public void goTo(String url) {
