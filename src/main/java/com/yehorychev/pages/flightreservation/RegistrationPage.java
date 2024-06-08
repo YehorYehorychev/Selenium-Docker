@@ -4,7 +4,7 @@ import com.yehorychev.pages.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class RegistrationPage extends AbstractPage {
     @FindBy(id = "firstName")
@@ -39,6 +39,12 @@ public class RegistrationPage extends AbstractPage {
 
     public RegistrationPage(WebDriver driver) {
         super(driver);
+    }
+
+    @Override
+    public boolean isAt() {
+        this.wait.until(ExpectedConditions.visibilityOf(this.firstNameInput));
+        return this.firstNameInput.isDisplayed();
     }
 
     public void goTo(String url) {
