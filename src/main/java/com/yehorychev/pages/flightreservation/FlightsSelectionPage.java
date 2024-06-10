@@ -11,6 +11,12 @@ public class FlightsSelectionPage extends AbstractPage {
     @FindBy(name = "departure-flight")
     private List<WebElement> departureFlightsOptions;
 
+    @FindBy(name = "arrival-flight")
+    private List<WebElement> arrivalFlightsOptions;
+
+    @FindBy(id = "confirm-flights")
+    private WebElement confirmFlightsButton;
+
 
     public FlightsSelectionPage(WebDriver driver) {
         super(driver);
