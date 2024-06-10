@@ -4,6 +4,7 @@ import com.yehorychev.pages.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.List;
 
@@ -24,6 +25,9 @@ public class FlightsSelectionPage extends AbstractPage {
 
     @Override
     public boolean isAt() {
-        return false;
+        this.wait.until(ExpectedConditions.visibilityOf(this.confirmFlightsButton));
+        return this.confirmFlightsButton.isDisplayed();
     }
+
+
 }
