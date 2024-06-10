@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.List;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class FlightsSelectionPage extends AbstractPage {
     @FindBy(name = "departure-flight")
@@ -29,5 +30,9 @@ public class FlightsSelectionPage extends AbstractPage {
         return this.confirmFlightsButton.isDisplayed();
     }
 
-
+    public void selectFlights() {
+        int random = ThreadLocalRandom.current().nextInt(0,departureFlightsOptions.size());
+        this.departureFlightsOptions.get(random).click();
+        this.arrivalFlightsOptions.get(random).click();
+    }
 }
