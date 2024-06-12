@@ -5,6 +5,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -61,5 +62,10 @@ public class FlightReservationTest {
         FlightConfirmationPage flightConfirmationPage = new FlightConfirmationPage(driver);
         Assert.assertTrue(flightConfirmationPage.isAt());
         Assert.assertEquals(flightConfirmationPage.getPrice(), "$1169 USD");
+    }
+
+    @AfterTest
+    public void quitDriver() {
+        this.driver.quit();
     }
 }
