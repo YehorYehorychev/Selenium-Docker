@@ -7,14 +7,20 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class FlightReservationTest {
-
     private WebDriver driver;
+    private String noOfPassengers;
+    private String expectedPrice;
 
     @BeforeTest
-    public void setDriver() {
+    @Parameters({"noOfPassengers", "expectedPrice"})
+    public void setDriver(String noOfPassengers, String expectedPrice) {
+        this.noOfPassengers = noOfPassengers;
+        this.expectedPrice = expectedPrice;
+        // driver setup
         WebDriverManager.chromedriver().setup();
         this.driver = new ChromeDriver();
     }
@@ -44,7 +50,7 @@ public class FlightReservationTest {
         FlightsSearchPage flightsSearchPage = new FlightsSearchPage(driver);
         Assert.assertTrue(flightsSearchPage.isAt());
 
-        flightsSearchPage.selectPassengers("2");
+        flightsSearchPage.selectPassengers(noOfPassengers);
         flightsSearchPage.searchForFlight();
     }
 
@@ -61,7 +67,7 @@ public class FlightReservationTest {
     public void flightReservationConfirmationTest() {
         FlightConfirmationPage flightConfirmationPage = new FlightConfirmationPage(driver);
         Assert.assertTrue(flightConfirmationPage.isAt());
-        Assert.assertEquals(flightConfirmationPage.getPrice(), "$1169 USD");
+        Assert.assertEquals(flightConfirmationPage.getPrice(), expectedPrice);
     }
 
     @AfterTest
