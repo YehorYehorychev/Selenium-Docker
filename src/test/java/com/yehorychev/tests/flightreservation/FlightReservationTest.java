@@ -1,5 +1,6 @@
 package com.yehorychev.tests.flightreservation;
 
+import com.yehorychev.pages.flightreservation.FlightsSearchPage;
 import com.yehorychev.pages.flightreservation.RegistrationConfirmationPage;
 import com.yehorychev.pages.flightreservation.RegistrationPage;
 import org.openqa.selenium.WebDriver;
@@ -28,5 +29,14 @@ public class FlightReservationTest {
         Assert.assertTrue(registrationConfirmationPage.isAt());
 
         registrationConfirmationPage.goToFlightsSearch();
+    }
+
+    @Test(dependsOnMethods = "registrationConfirmationTest")
+    public void flightSearchTest() {
+        FlightsSearchPage flightsSearchPage = new FlightsSearchPage(driver);
+        Assert.assertTrue(flightsSearchPage.isAt());
+
+        flightsSearchPage.selectPassengers("2");
+        flightsSearchPage.searchForFlight();
     }
 }
