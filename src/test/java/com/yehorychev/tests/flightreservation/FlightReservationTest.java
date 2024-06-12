@@ -1,9 +1,6 @@
 package com.yehorychev.tests.flightreservation;
 
-import com.yehorychev.pages.flightreservation.FlightsSearchPage;
-import com.yehorychev.pages.flightreservation.FlightsSelectionPage;
-import com.yehorychev.pages.flightreservation.RegistrationConfirmationPage;
-import com.yehorychev.pages.flightreservation.RegistrationPage;
+import com.yehorychev.pages.flightreservation.*;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -48,5 +45,13 @@ public class FlightReservationTest {
 
         flightsSelectionPage.selectFlights();
         flightsSelectionPage.confirmFlights();
+    }
+
+    @Test(dependsOnMethods = "flightSelectionTest")
+    public void flightReservationConfirmationTest() {
+        FlightConfirmationPage flightConfirmationPage = new FlightConfirmationPage(driver);
+        Assert.assertTrue(flightConfirmationPage.isAt());
+
+        Assert.assertEquals(flightConfirmationPage.getPrice(), "$1169 USD");
     }
 }
