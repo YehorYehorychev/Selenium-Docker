@@ -1,5 +1,6 @@
 package com.yehorychev.tests.flightreservation;
 
+import com.yehorychev.pages.flightreservation.RegistrationConfirmationPage;
 import com.yehorychev.pages.flightreservation.RegistrationPage;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -19,5 +20,13 @@ public class FlightReservationTest {
         registrationPage.enterUserCredentials("user@docker.com", "admin");
         registrationPage.enterAddress("1234 Main Street", "San Francisco", "94223");
         registrationPage.register();
+    }
+
+    @Test(dependsOnMethods = "userRegistrationTest")
+    public void registrationConfirmationTest() {
+        RegistrationConfirmationPage registrationConfirmationPage = new RegistrationConfirmationPage(driver);
+        Assert.assertTrue(registrationConfirmationPage.isAt());
+
+        registrationConfirmationPage.goToFlightsSearch();
     }
 }
