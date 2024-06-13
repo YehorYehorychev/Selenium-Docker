@@ -1,6 +1,6 @@
 package com.yehorychev.pages.flightreservation;
 
-import com.yehorychev.pages.AbstractPage;
+import com.yehorychev.pages.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class FlightConfirmationPage extends AbstractPage {
+public class FlightConfirmationPage extends BasePage {
     private static final Logger log = LoggerFactory.getLogger(FlightConfirmationPage.class);
 
     @FindBy(css = "#flights-confirmation-section .card-body .row:nth-child(1) .col:nth-child(2)")
