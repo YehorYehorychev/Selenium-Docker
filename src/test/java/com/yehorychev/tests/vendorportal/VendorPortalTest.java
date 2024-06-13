@@ -12,16 +12,19 @@ import org.testng.annotations.Test;
 
 public class VendorPortalTest {
     private WebDriver driver;
+    private LoginPage loginPage;
+    private DashboardPage dashboardPage;
 
     @BeforeTest
     public void setDriver() {
         WebDriverManager.chromedriver().setup();
         this.driver = new ChromeDriver();
+        this.loginPage = new LoginPage(driver);
+        this.dashboardPage = new DashboardPage(driver);
     }
 
     @Test
     public void loginTest() {
-        LoginPage loginPage = new LoginPage(driver);
         loginPage.goTo("https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html");
         Assert.assertTrue(loginPage.isAt());
         loginPage.login("sam", "sam");
@@ -29,9 +32,7 @@ public class VendorPortalTest {
 
     @Test(dependsOnMethods = "loginTest")
     public void dashboardTest() {
-        DashboardPage dashboardPage = new DashboardPage(driver);
         Assert.assertTrue(dashboardPage.isAt());
-
         Assert.assertEquals(dashboardPage.getMonthlyEarning(), "$40,000");
         Assert.assertEquals(dashboardPage.getAnnualEarning(), "$215,000");
         Assert.assertEquals(dashboardPage.getProfitMargin(), "50%");
@@ -39,8 +40,12 @@ public class VendorPortalTest {
 
         dashboardPage.searchOrderHistoryBy("adams");
         Assert.assertEquals(dashboardPage.getSearchResultsCount(), 8);
+    }
 
+    @Test(dependsOnMethods = "dashboardTest")
+    public void logoutTest() {
         dashboardPage.logout();
+        Assert.assertTrue(loginPage.isAt());
     }
 
     @AfterTest
