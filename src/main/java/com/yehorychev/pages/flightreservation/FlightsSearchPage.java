@@ -1,13 +1,13 @@
 package com.yehorychev.pages.flightreservation;
 
-import com.yehorychev.pages.AbstractPage;
+import com.yehorychev.pages.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
-public class FlightsSearchPage extends AbstractPage {
+public class FlightsSearchPage extends BasePage {
     @FindBy(id = "passengers")
     private WebElement passengerSelect;
 

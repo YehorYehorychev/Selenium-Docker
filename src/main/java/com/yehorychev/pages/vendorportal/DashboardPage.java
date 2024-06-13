@@ -1,6 +1,6 @@
 package com.yehorychev.pages.vendorportal;
 
-import com.yehorychev.pages.AbstractPage;
+import com.yehorychev.pages.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class DashboardPage extends AbstractPage {
+public class DashboardPage extends BasePage {
     private static final Logger log = LoggerFactory.getLogger(DashboardPage.class);
 
     @FindBy(id = "monthly-earning")

@@ -1,6 +1,6 @@
 package com.yehorychev.pages.flightreservation;
 
-import com.yehorychev.pages.AbstractPage;
+import com.yehorychev.pages.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class FlightsSelectionPage extends AbstractPage {
+public class FlightsSelectionPage extends BasePage {
     @FindBy(name = "departure-flight")
     private List<WebElement> departureFlightsOptions;
 
