@@ -30,6 +30,9 @@ public class DashboardPage  extends AbstractPage {
     @FindBy(linkText = "Logout")
     private WebElement logoutLink;
 
+    @FindBy(css = "#logoutModal a")
+    private WebElement modalLogoutButton;
+
     public DashboardPage(WebDriver driver) {
         super(driver);
     }
