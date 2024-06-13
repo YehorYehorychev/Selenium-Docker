@@ -4,6 +4,7 @@ import com.yehorychev.pages.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class DashboardPage  extends AbstractPage {
     @FindBy(id = "monthly-earning")
@@ -39,6 +40,23 @@ public class DashboardPage  extends AbstractPage {
 
     @Override
     public boolean isAt() {
-        return false;
+        this.wait.until(ExpectedConditions.visibilityOf(this.monthlyEarningElement));
+        return this.monthlyEarningElement.isDisplayed();
+    }
+
+    public String getMonthlyEarning() {
+        return this.monthlyEarningElement.getText();
+    }
+
+    public String getAnnualEarning() {
+        return this.annualEarningElement.getText();
+    }
+
+    public String getProfitMargin() {
+        return this.profitMarginElement.getText();
+    }
+
+    public String getAvailableInventory() {
+        return this.availableInventoryElement.getText();
     }
 }
