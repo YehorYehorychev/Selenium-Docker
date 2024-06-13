@@ -21,6 +21,15 @@ public class DashboardPage  extends AbstractPage {
     @FindBy(css = "#dataTable_filter input")
     private WebElement searchInput;
 
+    @FindBy(id = "dataTable_info")
+    private WebElement searchResultsCountElement;
+
+    @FindBy(css = "img.img-profile")
+    private WebElement userProfilePictureElement;
+
+    @FindBy(linkText = "Logout")
+    private WebElement logoutLink;
+
     public DashboardPage(WebDriver driver) {
         super(driver);
     }
