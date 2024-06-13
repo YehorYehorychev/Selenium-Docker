@@ -5,8 +5,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-public class DashboardPage  extends AbstractPage {
+public class DashboardPage extends AbstractPage {
+    private static final Logger log = LoggerFactory.getLogger(DashboardPage.class);
+
     @FindBy(id = "monthly-earning")
     private WebElement monthlyEarningElement;
 
@@ -58,5 +62,23 @@ public class DashboardPage  extends AbstractPage {
 
     public String getAvailableInventory() {
         return this.availableInventoryElement.getText();
+    }
+
+    public void searchOrderHistoryBy(String keyword) {
+        this.searchInput.sendKeys(keyword);
+    }
+
+    public int getSearchResultsCount() {
+        String resultsText = this.searchResultsCountElement.getText();
+        String[] arr = resultsText.split(" ");
+        int count = Integer.parseInt(arr[5]);
+        log.info("Results count: {}", count);
+        return count;
+    }
+
+    public void logout() {
+        this.userProfilePictureElement.click();
+        this.logoutLink.click();
+        this.modalLogoutButton.click();
     }
 }
