@@ -3,25 +3,31 @@ package com.yehorychev.tests.vendorportal;
 import com.yehorychev.pages.vendorportal.DashboardPage;
 import com.yehorychev.pages.vendorportal.LoginPage;
 import com.yehorychev.tests.BaseTest;
+import com.yehorychev.tests.util.JsonUtil;
+import com.yehorychev.tests.vendorportal.model.VendorPortalTestData;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class VendorPortalTest extends BaseTest {
     private LoginPage loginPage;
     private DashboardPage dashboardPage;
+    private VendorPortalTestData testData;
 
     @BeforeTest
-    public void setPageObjects() {
+    @Parameters("testDataPath")
+    public void setPageObjects(String testDataPath) {
         this.loginPage = new LoginPage(driver);
         this.dashboardPage = new DashboardPage(driver);
+        this.testData = JsonUtil.getTestData(testDataPath);
     }
 
     @Test
     public void loginTest() {
         loginPage.goTo("https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html");
         Assert.assertTrue(loginPage.isAt());
-        loginPage.login("sam", "sam");
+        loginPage.login(testData.username(), testData.password());
     }
 
     @Test(dependsOnMethods = "loginTest")
