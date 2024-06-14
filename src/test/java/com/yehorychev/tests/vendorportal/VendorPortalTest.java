@@ -33,13 +33,13 @@ public class VendorPortalTest extends BaseTest {
     @Test(dependsOnMethods = "loginTest")
     public void dashboardTest() {
         Assert.assertTrue(dashboardPage.isAt());
-        Assert.assertEquals(dashboardPage.getMonthlyEarning(), "$40,000");
-        Assert.assertEquals(dashboardPage.getAnnualEarning(), "$215,000");
-        Assert.assertEquals(dashboardPage.getProfitMargin(), "50%");
-        Assert.assertEquals(dashboardPage.getAvailableInventory(), "18");
+        Assert.assertEquals(dashboardPage.getMonthlyEarning(), testData.monthlyEarning());
+        Assert.assertEquals(dashboardPage.getAnnualEarning(), testData.annualEarning());
+        Assert.assertEquals(dashboardPage.getProfitMargin(), testData.profitMargin());
+        Assert.assertEquals(dashboardPage.getAvailableInventory(), testData.availableInventory());
 
-        dashboardPage.searchOrderHistoryBy("adams");
-        Assert.assertEquals(dashboardPage.getSearchResultsCount(), 8);
+        dashboardPage.searchOrderHistoryBy(testData.searchKeyword());
+        Assert.assertEquals(dashboardPage.getSearchResultsCount(), testData.searchResultsCount());
     }
 
     @Test(dependsOnMethods = "dashboardTest")
