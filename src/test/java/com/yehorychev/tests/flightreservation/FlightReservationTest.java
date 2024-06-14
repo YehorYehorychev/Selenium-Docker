@@ -2,20 +2,20 @@ package com.yehorychev.tests.flightreservation;
 
 import com.yehorychev.pages.flightreservation.*;
 import com.yehorychev.tests.BaseTest;
+import com.yehorychev.tests.flightreservation.model.FlightReservationTestData;
+import com.yehorychev.tests.util.JsonUtil;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class FlightReservationTest extends BaseTest {
-    private String noOfPassengers;
-    private String expectedPrice;
+    private FlightReservationTestData testData;
 
     @BeforeTest
-    @Parameters({"noOfPassengers", "expectedPrice"})
-    public void setNoOfPassengersAndExpectedPrice(String noOfPassengers, String expectedPrice) {
-        this.noOfPassengers = noOfPassengers;
-        this.expectedPrice = expectedPrice;
+    @Parameters("testDataPath")
+    public void setNoOfPassengersAndExpectedPrice(String testDataPath) {
+        this.testData = JsonUtil.getTestData(testDataPath, FlightReservationTestData.class);
     }
 
     @Test
