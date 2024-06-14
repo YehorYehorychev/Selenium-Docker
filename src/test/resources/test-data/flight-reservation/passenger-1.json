@@ -1,0 +1,11 @@
+{
+  "firstName" : "dwayne",
+  "lastName" : "carter",
+  "email" : "dcarter@gmail.com",
+  "password" : "dcarter123",
+  "street" : "456 main st",
+  "city" : "new orleans",
+  "zip" : "34040",
+  "passengersCount" : "1",
+  "expectedPrice" : "$584 USD"
+}
