@@ -6,6 +6,6 @@
   "street" : "456 main st",
   "city" : "new orleans",
   "zip" : "34040",
-  "passengersCount" : "2",
-  "expectedPrice" : "$1169 USD"
+  "passengersCount" : "1",
+  "expectedPrice" : "$584 USD"
 }

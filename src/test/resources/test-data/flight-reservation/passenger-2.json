@@ -1,0 +1,11 @@
+{
+  "firstName" : "mike",
+  "lastName" : "jackson",
+  "email" : "mike123@gmail.com",
+  "password" : "mike123",
+  "street" : "456 california st",
+  "city" : "los angeles",
+  "zip" : "92447",
+  "passengersCount" : "2",
+  "expectedPrice" : "$1169 USD"
+}
