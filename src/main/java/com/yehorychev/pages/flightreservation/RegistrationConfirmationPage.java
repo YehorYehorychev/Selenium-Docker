@@ -10,6 +10,9 @@ public class RegistrationConfirmationPage extends BasePage {
     @FindBy(id = "go-to-flights-search")
     private WebElement goToFlightsSearchButton;
 
+    @FindBy(css = "#registration-confirmation-section p b")
+    private WebElement fistNameElement;
+
     public RegistrationConfirmationPage(WebDriver driver) {
         super(driver);
     }
@@ -18,6 +21,10 @@ public class RegistrationConfirmationPage extends BasePage {
     public boolean isAt() {
         this.wait.until(ExpectedConditions.visibilityOf(this.goToFlightsSearchButton));
         return this.goToFlightsSearchButton.isDisplayed();
+    }
+
+    public String getFistName() {
+        return this.fistNameElement.getText();
     }
 
     public void goToFlightsSearch() {
