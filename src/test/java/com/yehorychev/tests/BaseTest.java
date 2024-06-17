@@ -15,6 +15,11 @@ public abstract class BaseTest {
         this.driver = new ChromeDriver();
     }
 
+    private WebDriver getLocalDriver() {
+        WebDriverManager.chromedriver().setup();
+        return new ChromeDriver();
+    }
+
     @AfterTest
     public void quitDriver() {
         this.driver.quit();
