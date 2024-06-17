@@ -17,9 +17,12 @@ public abstract class BaseTest {
     protected WebDriver driver;
 
     @BeforeTest
-    public void setDriver() {
-        WebDriverManager.chromedriver().setup();
-        this.driver = new ChromeDriver();
+    public void setDriver() throws MalformedURLException {
+        if (Boolean.getBoolean("selenium.grid.enabled")) {
+            this.driver = getRemoteDriver();
+        } else {
+            this.driver = getLocalDriver();
+        }
     }
 
     private WebDriver getRemoteDriver() throws MalformedURLException {
