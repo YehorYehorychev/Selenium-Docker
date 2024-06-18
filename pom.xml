@@ -46,7 +46,9 @@
                 <version>${maven.surefire.version}</version>
                 <configuration>
                     <systemPropertyVariables>
+                        // ################## PICK THE BROWSER HERE -> chrome/firefox ##################
                         <browser>chrome</browser>
+                        // ################## ENABLE/DISABLE GRID HERE -> true/false ##################
                         <selenium.grid.enabled>true</selenium.grid.enabled>
                     </systemPropertyVariables>
                     <suiteXmlFiles>
