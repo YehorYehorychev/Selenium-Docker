@@ -24,6 +24,10 @@ public class Config {
         }
     }
 
+    public static String get(String key) {
+        return properties.getProperty(key);
+    }
+
     private static Properties loadProperties() {
         Properties properties = new Properties();
         try (InputStream stream = ResourceLoader.getResource(DEFAULT_PROPERTIES)) {
@@ -33,5 +37,4 @@ public class Config {
         }
         return properties;
     }
-
 }
