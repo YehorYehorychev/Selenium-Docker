@@ -53,9 +53,10 @@
                         <selenium.grid.enabled>true</selenium.grid.enabled>
                     </systemPropertyVariables>
                     <suiteXmlFiles>
-                        <file>test-suite.xml</file>
+                        <file>src/test/resources/test-suites/flight-reservation.xml</file>
+                        <file>src/test/resources/test-suites/vendor-portal.xml</file>
                     </suiteXmlFiles>
-                    <threadCount>1</threadCount>
+                    <threadCount>6</threadCount>
                     <reportsDirectory>target/test-output</reportsDirectory>
                 </configuration>
             </plugin>

@@ -11,6 +11,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.ITestContext;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
@@ -28,8 +29,9 @@ public abstract class BaseTest {
     }
 
     @BeforeTest
-    public void setDriver() throws MalformedURLException {
+    public void setDriver(ITestContext ctx) throws MalformedURLException {
         this.driver = Boolean.parseBoolean(Config.get(Constants.GRID_ENABLED)) ? getRemoteDriver() : getLocalDriver();
+        ctx.setAttribute(Constants.DRIVER, this.driver);
     }
 
     private WebDriver getRemoteDriver() throws MalformedURLException {
