@@ -45,10 +45,11 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${maven.surefire.version}</version>
                 <configuration>
+                    <!-- mvn clean test -Dbrowser=chrome -Dselenium.grid.enabled=true -->
                     <systemPropertyVariables>
-                        // ################## PICK THE BROWSER HERE -> chrome/firefox ##################
+                        <!-- ################## PICK THE BROWSER HERE -> chrome/firefox ##################-->
                         <browser>chrome</browser>
-                        // ################## ENABLE/DISABLE GRID HERE -> true/false ###################
+                        <!-- ################## ENABLE/DISABLE GRID HERE -> true/false ###################-->
                         <selenium.grid.enabled>true</selenium.grid.enabled>
                     </systemPropertyVariables>
                     <suiteXmlFiles>
@@ -125,7 +126,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.21.0</version>
+            <version>4.22.0</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/ch.qos.logback/logback-classic -->
         <dependency>
