@@ -23,6 +23,7 @@ public class Config {
         for (String key : properties.stringPropertyNames()) {
             log.info("{}={}", key, properties.getProperty(key));
         }
+        log.info("----------------------------------------");
     }
 
     public static String get(String key) {

@@ -12,6 +12,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
@@ -21,6 +22,11 @@ import java.net.URL;
 public abstract class BaseTest {
     protected WebDriver driver;
     private static final Logger log = LoggerFactory.getLogger(BaseTest.class);
+
+    @BeforeSuite
+    public void setupConfig() {
+        Config.initialize();
+    }
 
     @BeforeTest
     public void setDriver() throws MalformedURLException {
