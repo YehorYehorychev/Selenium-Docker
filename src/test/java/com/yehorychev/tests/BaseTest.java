@@ -24,22 +24,8 @@ public abstract class BaseTest {
 
     @BeforeTest
     public void setDriver() throws MalformedURLException {
-        if (Boolean.getBoolean("selenium.grid.enabled")) {
-            this.driver = getRemoteDriver();
-        } else {
-            this.driver = getLocalDriver();
-        }
+        this.driver = Boolean.parseBoolean(Config.get(Constants.GRID_ENABLED)) ? getRemoteDriver() : getLocalDriver();
     }
-
-/*    @BeforeTest
-    @Parameters({"browser"})
-    public void setDriver(String browser) throws MalformedURLException {
-        if (Boolean.getBoolean("selenium.grid.enabled")) {
-            this.driver = getRemoteDriver(browser);
-        } else {
-            this.driver = getLocalDriver();
-        }
-    }*/
 
     private WebDriver getRemoteDriver() throws MalformedURLException {
         Capabilities capabilities = new ChromeOptions();
@@ -52,17 +38,6 @@ public abstract class BaseTest {
         log.info("Grid URL: {}", url);
         return new RemoteWebDriver(new URL(url), capabilities);
     }
-
-/*    private WebDriver getRemoteDriver(String browser) throws MalformedURLException {
-        Capabilities capabilities;
-        // if (System.getProperty("browser").equalsIgnoreCase("chrome")) {
-        if (browser.equalsIgnoreCase("chrome")) {
-            capabilities = new ChromeOptions();
-        } else {
-            capabilities = new FirefoxOptions();
-        }
-        return new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
-    }*/
 
     private WebDriver getLocalDriver() {
         WebDriverManager.chromedriver().setup();
