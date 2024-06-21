@@ -53,6 +53,4 @@ public abstract class BaseTest {
     public void quitDriver() {
         this.driver.quit();
     }
-
-    String htmlImageFormat = "<img width=700px src='data:image/png;base64,%s' />";
 }
