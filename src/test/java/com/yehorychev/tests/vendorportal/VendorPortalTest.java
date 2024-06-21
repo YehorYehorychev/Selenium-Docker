@@ -3,6 +3,8 @@ package com.yehorychev.tests.vendorportal;
 import com.yehorychev.pages.vendorportal.DashboardPage;
 import com.yehorychev.pages.vendorportal.LoginPage;
 import com.yehorychev.tests.BaseTest;
+import com.yehorychev.tests.util.Config;
+import com.yehorychev.tests.util.Constants;
 import com.yehorychev.tests.util.JsonUtil;
 import com.yehorychev.tests.vendorportal.model.VendorPortalTestData;
 import org.testng.Assert;
@@ -25,7 +27,7 @@ public class VendorPortalTest extends BaseTest {
 
     @Test
     public void loginTest() {
-        loginPage.goTo("https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html");
+        loginPage.goTo(Config.get(Constants.VENDOR_PORTAL_URL));
         Assert.assertTrue(loginPage.isAt());
         loginPage.login(testData.username(), testData.password());
     }
