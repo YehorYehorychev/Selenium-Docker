@@ -4,8 +4,8 @@ services:
     image: seleniarm/hub:4.16
     ports:
       - 4444:4444
-      - 4442:4442
-      - 4443:4443
+#      - 4442:4442
+#      - 4443:4443
   chrome:
     image: seleniarm/node-chromium:4.16
     shm_size: '2g'
