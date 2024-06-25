@@ -1,5 +1,6 @@
 package com.yehorychev.tests;
 
+import com.yehorychev.listener.TestListener;
 import com.yehorychev.tests.util.Config;
 import com.yehorychev.tests.util.Constants;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -15,10 +16,12 @@ import org.testng.ITestContext;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 
+@Listeners({TestListener.class})
 public abstract class BaseTest {
     protected WebDriver driver;
     private static final Logger log = LoggerFactory.getLogger(BaseTest.class);
