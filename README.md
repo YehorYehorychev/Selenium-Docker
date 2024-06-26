@@ -38,31 +38,36 @@ Execute automated tests on AWS with spot instances and AMI creation. This framew
 ## Archiving Results
 Archive test results via Jenkins in the cloud. This framework provides mechanisms for storing and accessing test results, ensuring that you can review and analyze your test outcomes.
 
-## Running Tests 🚀
-TestNG parameters
-Running a test suite:
+# Running Tests 🚀
 
-``java -cp 'libs/*' org.testng.TestNG test-suites/flight-reservation.xml``
+### TestNG parameters
 
-Running a test suite with specific thread count:
+- Running a test suite
 
-``java -cp 'libs/*' org.testng.TestNG -threadcount 2 test-suites/flight-reservation.xml``
+`java -cp 'libs/*' org.testng.TestNG test-suites/flight-reservation.xml`
 
-TestNG by default creates test-output directory. You can change it with -d option:
+- Running a test suite with specific thread count
 
-``java -cp 'libs/*' org.testng.TestNG -threadcount 2 -d result test-suites/flight-reservation.xml``
+`java -cp 'libs/*' org.testng.TestNG -threadcount 2 test-suites/flight-reservation.xml`
 
-System Properties
-To pass the browser option:
+- TestNG by default creates **test-output** directory. You can change it with **-d** option.
 
-``java -Dbrowser=chrome -cp 'libs/*' org.testng.TestNG test-suites/flight-reservation.xml``
+`java -cp 'libs/*' org.testng.TestNG -threadcount 2 -d result test-suites/flight-reservation.xml`
 
-To run the tests using Selenium Grid:
+---
 
-``java -Dselenium.grid.enabled=true -Dselenium.grid.hubHost=localhost -cp 'libs/*' org.testng.TestNG test-suites/flight-reservation.xml``
+### System Properties
 
-To run the tests using Selenium Grid with specific thread count:
+- To pass the browser option
 
-``java -Dselenium.grid.enabled=true -Dselenium.grid.hubHost=localhost -cp 'libs/*' org.testng.TestNG test-suites/flight-reservation.xml -threadcount 2``
+`java -Dbrowser=chrome -cp 'libs/*' org.testng.TestNG test-suites/flight-reservation.xml`
+
+- To run the tests using Selenium Grid
+
+`java -Dselenium.grid.enabled=true -Dselenium.grid.hubHost=localhost -cp 'libs/*' org.testng.TestNG test-suites/flight-reservation.xml`
+
+- To run the tests using Selenium Grid with specific thread count
+
+`java -Dselenium.grid.enabled=true -Dselenium.grid.hubHost=localhost -cp 'libs/*' org.testng.TestNG test-suites/flight-reservation.xml -threadcount 2`
 
 *Feel free to explore and contribute to the repository. For any questions or support, please refer to the documentation or raise an issue in the repository.*
