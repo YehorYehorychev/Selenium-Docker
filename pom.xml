@@ -86,7 +86,7 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>${maven.jar.version}</version>
                 <configuration>
-                    <outputDirectory>${package.directory}</outputDirectory>
+                    <outputDirectory>${package.directory}/libs</outputDirectory>
                 </configuration>
                 <executions>
                     <execution>
