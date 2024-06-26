@@ -38,7 +38,7 @@ Execute automated tests on AWS with spot instances and AMI creation. This framew
 ## Archiving Results
 Archive test results via Jenkins in the cloud. This framework provides mechanisms for storing and accessing test results, ensuring that you can review and analyze your test outcomes.
 
-## 🚀 Running Tests 🚀
+## Running Tests 🚀
 TestNG parameters
 Running a test suite:
 
