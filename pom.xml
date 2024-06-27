@@ -50,7 +50,7 @@
                         <!-- ################## PICK THE BROWSER HERE -> chrome/firefox ##################-->
                         <browser>chrome</browser>
                         <!-- ################## ENABLE/DISABLE GRID HERE -> true/false ###################-->
-                        <selenium.grid.enabled>false</selenium.grid.enabled>
+                        <selenium.grid.enabled>true</selenium.grid.enabled>
                     </systemPropertyVariables>
                     <suiteXmlFiles>
                         <file>src/test/resources/test-suites/flight-reservation.xml</file>
