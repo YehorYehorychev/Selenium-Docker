@@ -7,13 +7,8 @@ RUN apk add curl jq
 WORKDIR /home/selenium-docker
 
 # Add the required files
-ADD target/docker-resources ./
-
-# Environment Variables
-# BROWSER
-# HUB_HOST
-# TEST_SUITE
-# THREAD_COUNT
+ADD target/docker-resources        ./
+ADD runner.sh                      runner.sh
 
 # Run the test command
 ENTRYPOINT java -cp 'libs/*' \
