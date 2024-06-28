@@ -1,5 +1,8 @@
 FROM bellsoft/liberica-openjdk-alpine:17.0.10
 
+# Install curl and jq
+RUN apk add curl jq
+
 # Workspace (we create a selenium-docker directory)
 WORKDIR /home/selenium-docker
 
