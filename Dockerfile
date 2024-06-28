@@ -1,22 +1,17 @@
 FROM bellsoft/liberica-openjdk-alpine:17.0.10
 
+# Install curl and jq
+RUN apk add curl jq
+
 # Workspace (we create a selenium-docker directory)
 WORKDIR /home/selenium-docker
 
 # Add the required files
-ADD target/docker-resources ./
+ADD target/docker-resources        ./
+ADD runner.sh                      runner.sh
 
-# Environment Variables
-# BROWSER
-# HUB_HOST
-# TEST_SUITE
-# THREAD_COUNT
+# Fix for windows
+#RUN dos2unix runner.sh
 
-# Run the test command
-ENTRYPOINT java -cp 'libs/*' \
-            -Dselenium.grid.enabled=true \
-            -Dselenium.grid.hubHost=${HUB_HOST}\
-            -Dbrowser=${BROWSER} \
-            org.testng.TestNG \
-            -threadcount ${THREAD_COUNT} \
-            test-suites/${TEST_SUITE}
+# Start the runner.sh
+ENTRYPOINT sh runner.sh
