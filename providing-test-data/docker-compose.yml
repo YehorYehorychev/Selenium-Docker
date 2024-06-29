@@ -27,7 +27,7 @@ services:
       - SE_NODE_OVERRIDE_MAX_SESSIONS=true
       - SE_NODE_MAX_SESSIONS=4
   vendor-portal:
-    image: vinsdocker/selenium
+    image: yehorychev/selenium-docker
     depends_on:
       - chrome
     environment:
@@ -37,8 +37,9 @@ services:
       - TEST_SUITE=vendor-portal.xml
     volumes:
       - ./output/vendor-portal:/home/selenium-docker/test-output
+      - ./test-data/john.json:/home/selenium-docker/test-data/vendor-portal/john.json
   flight-reservation:
-    image: vinsdocker/selenium
+    image: yehorychev/selenium-docker
     depends_on:
       - firefox
     environment:
