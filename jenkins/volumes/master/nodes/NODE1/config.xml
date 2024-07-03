@@ -14,6 +14,6 @@
     </workDirSettings>
     <webSocket>false</webSocket>
   </launcher>
-  <label></label>
+  <label>windows docker java17</label>
   <nodeProperties/>
 </slave>

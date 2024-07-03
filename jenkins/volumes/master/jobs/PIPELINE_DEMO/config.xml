@@ -15,7 +15,9 @@
   <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3903.v48a_8836749e9">
     <script>pipeline{
 
-    agent any
+    agent {
+        label &apos;java17&apos; 
+    }
 
     stages{
 
