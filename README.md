@@ -11,6 +11,7 @@ To use this framework, you should have knowledge of the following:
 - Maven
 - Git
 - TestNG
+- Docker
 
 ## Key Features
 
