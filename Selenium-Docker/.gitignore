@@ -39,6 +39,8 @@
 **/*.iml
 
 **/.idea/
+**/JavaLessons/
+**/Selenium-Framework/
 
 
 **/HELP.md
