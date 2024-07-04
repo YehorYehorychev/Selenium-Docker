@@ -1,0 +1,7 @@
+Inbound agent connected from 192.168.65.1/192.168.65.1:61331
+Remoting version: 3206.vb_15dcf73f6a_9
+Launcher: JNLPLauncher
+Communication Protocol: JNLP4-connect
+This is a Unix agent
+WARNING: C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins looks suspiciously like Windows path. Maybe you meant C:/Users/egory/IdeaProjects/Selenium-Docker/jenkins-ci-cd/jenkins?
+Agent successfully connected and online
