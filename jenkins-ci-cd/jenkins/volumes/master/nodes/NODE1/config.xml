@@ -1,7 +1,9 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <slave>
   <name>NODE1</name>
-  <description></description>
+  <description>Remote root directory:
+Windows: C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins
+Mac: /Users/yehor/Documents/Projects/Selenium-Docker/jenkins-ci-cd/jenkins</description>
   <remoteFS>C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins</remoteFS>
   <numExecutors>1</numExecutors>
   <mode>NORMAL</mode>
@@ -14,6 +16,6 @@
     </workDirSettings>
     <webSocket>false</webSocket>
   </launcher>
-  <label>windows docker java17</label>
+  <label>mac windows docker java17</label>
   <nodeProperties/>
 </slave>

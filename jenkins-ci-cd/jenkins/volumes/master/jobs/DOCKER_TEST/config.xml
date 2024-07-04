@@ -12,10 +12,10 @@
   <triggers/>
   <concurrentBuild>false</concurrentBuild>
   <builders>
-    <hudson.tasks.BatchFile>
+    <hudson.tasks.Shell>
       <command>docker ps</command>
       <configuredLocalRules/>
-    </hudson.tasks.BatchFile>
+    </hudson.tasks.Shell>
   </builders>
   <publishers/>
   <buildWrappers/>
