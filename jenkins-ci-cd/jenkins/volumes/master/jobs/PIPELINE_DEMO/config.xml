@@ -15,22 +15,45 @@
   <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3903.v48a_8836749e9">
     <script>pipeline{
 
-    agent {
-        docker {
-            image &quot;alpine&quot;
-        }
+    agent any
+
+    environment {
+        NUMBER = 3
     }
 
     stages{
 
-        stage(&apos;access-google-home&apos;){
+        stage(&apos;stage-1&apos;){
             steps{
-                sh &quot;wget www.google.com&quot;
+                echo &quot;doing mvn clean&quot;
+                echo &quot;doing mvn package&quot;
+                echo &quot;NUMBER =${NUMBER}&quot;
             }
-        }              
+        }
 
+        stage(&apos;stage-2&apos;){
+            environment {
+                NUMBER = 6
+            }
+            steps{
+                echo &quot;building docker image&quot;
+                echo &quot;NUMBER =${NUMBER}&quot;
+            }
+        }
+
+        stage(&apos;stage-3&apos;){
+            steps{
+                echo &quot;pushing docker image&quot;
+                echo &quot;NUMBER =${NUMBER}&quot;
+            }
+        }
     }
 
+    post {
+        always {
+            echo &quot;doing clean up&quot;
+        }
+    }
 }</script>
     <sandbox>true</sandbox>
   </definition>
