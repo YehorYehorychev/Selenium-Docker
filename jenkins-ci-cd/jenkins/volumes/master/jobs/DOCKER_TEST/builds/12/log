@@ -1,0 +1,9 @@
+Started by user [8mha:////4H+WqQa1ZoDx9ded0jOssnob+S6HtJb53veE3/YhCypLAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building remotely on [8mha:////4P38HznfxOIL+oRei1UoftQyiCY6gXHq406EXGXbrYtmAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQifT9/F1dDAHjR2ovEAAAA[0mNODE1 (java17 windows mac docker) in workspace C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\DOCKER_TEST
+[DOCKER_TEST] $ /bin/sh -xe /var/folders/qk/ds5pdt9n4wzgjxrdn38kg90w0000gn/T/jenkins4265140054092093198.sh
++ docker ps
+CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS          PORTS                                              NAMES
+da1c48ea0562   jenkins/jenkins:lts   "/usr/bin/tini -- /u…"   32 minutes ago   Up 32 minutes   0.0.0.0:8080->8080/tcp, 0.0.0.0:50000->50000/tcp   jenkins-jenkins-1
+78c667cdd4e3   alpine                "/bin/sh"                33 minutes ago   Up 33 minutes                                                      musing_bhabha
+Finished: SUCCESS
