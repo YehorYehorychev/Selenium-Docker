@@ -1,0 +1,388 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<linked-hash-map>
+  <entry>
+    <string>2</string>
+    <Tag plugin="workflow-support@907.v6713a_ed8a_573">
+      <node class="org.jenkinsci.plugins.workflow.graph.FlowStartNode" plugin="workflow-api@1316.v33eb_726c50b_a_">
+        <parentIds/>
+        <id>2</id>
+      </node>
+      <actions>
+        <wf.a.TimingAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <startTime>1720130553981</startTime>
+        </wf.a.TimingAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>3</string>
+    <Tag plugin="workflow-support@907.v6713a_ed8a_573">
+      <node class="cps.n.StepStartNode" plugin="workflow-cps@3903.v48a_8836749e9">
+        <parentIds>
+          <string>2</string>
+        </parentIds>
+        <id>3</id>
+        <descriptorId>org.jenkinsci.plugins.workflow.support.steps.ExecutorStep</descriptorId>
+      </node>
+      <actions>
+        <s.a.LogStorageAction/>
+        <wf.a.TimingAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <startTime>1720130554449</startTime>
+        </wf.a.TimingAction>
+        <org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution_-QueueItemActionImpl plugin="workflow-durable-task-step@1353.v1891a_b_01da_18">
+          <id>40</id>
+        </org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution_-QueueItemActionImpl>
+        <s.a.WorkspaceActionImpl>
+          <node>NODE1</node>
+          <path>C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER</path>
+          <labels class="sorted-set">
+            <hudson.model.labels.LabelAtom>docker</hudson.model.labels.LabelAtom>
+            <hudson.model.labels.LabelAtom>java17</hudson.model.labels.LabelAtom>
+            <hudson.model.labels.LabelAtom>mac</hudson.model.labels.LabelAtom>
+            <hudson.model.labels.LabelAtom>windows</hudson.model.labels.LabelAtom>
+          </labels>
+        </s.a.WorkspaceActionImpl>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>4</string>
+    <Tag plugin="workflow-support@907.v6713a_ed8a_573">
+      <node class="cps.n.StepStartNode" plugin="workflow-cps@3903.v48a_8836749e9">
+        <parentIds>
+          <string>3</string>
+        </parentIds>
+        <id>4</id>
+        <descriptorId>org.jenkinsci.plugins.workflow.support.steps.ExecutorStep</descriptorId>
+      </node>
+      <actions>
+        <wf.a.BodyInvocationAction plugin="workflow-api@1316.v33eb_726c50b_a_"/>
+        <wf.a.TimingAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <startTime>1720130554541</startTime>
+        </wf.a.TimingAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>5</string>
+    <Tag plugin="workflow-support@907.v6713a_ed8a_573">
+      <node class="cps.n.StepStartNode" plugin="workflow-cps@3903.v48a_8836749e9">
+        <parentIds>
+          <string>4</string>
+        </parentIds>
+        <id>5</id>
+        <descriptorId>org.jenkinsci.plugins.workflow.support.steps.StageStep</descriptorId>
+      </node>
+      <actions>
+        <s.a.LogStorageAction/>
+        <cps.a.ArgumentsActionImpl plugin="workflow-cps@3903.v48a_8836749e9">
+          <arguments>
+            <entry>
+              <string>name</string>
+              <string>Declarative: Checkout SCM</string>
+            </entry>
+          </arguments>
+          <sensitiveVariables/>
+          <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+        </cps.a.ArgumentsActionImpl>
+        <wf.a.TimingAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <startTime>1720130554662</startTime>
+        </wf.a.TimingAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>6</string>
+    <Tag plugin="workflow-support@907.v6713a_ed8a_573">
+      <node class="cps.n.StepStartNode" plugin="workflow-cps@3903.v48a_8836749e9">
+        <parentIds>
+          <string>5</string>
+        </parentIds>
+        <id>6</id>
+        <descriptorId>org.jenkinsci.plugins.workflow.support.steps.StageStep</descriptorId>
+      </node>
+      <actions>
+        <wf.a.BodyInvocationAction plugin="workflow-api@1316.v33eb_726c50b_a_"/>
+        <wf.a.LabelAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <displayName>Declarative: Checkout SCM</displayName>
+        </wf.a.LabelAction>
+        <wf.a.TimingAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <startTime>1720130554672</startTime>
+        </wf.a.TimingAction>
+        <wf.a.TagsAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <tags>
+            <entry>
+              <string>SYNTHETIC_STAGE</string>
+              <string>PRE</string>
+            </entry>
+          </tags>
+        </wf.a.TagsAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>7</string>
+    <Tag plugin="workflow-support@907.v6713a_ed8a_573">
+      <node class="cps.n.StepAtomNode" plugin="workflow-cps@3903.v48a_8836749e9">
+        <parentIds>
+          <string>6</string>
+        </parentIds>
+        <id>7</id>
+        <descriptorId>org.jenkinsci.plugins.workflow.steps.scm.GenericSCMStep</descriptorId>
+      </node>
+      <actions>
+        <cps.a.ArgumentsActionImpl plugin="workflow-cps@3903.v48a_8836749e9">
+          <arguments>
+            <entry>
+              <string>scm</string>
+              <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable plugin="structs@338.v848422169819">
+                <symbol>scmGit</symbol>
+                <arguments class="tree-map">
+                  <entry>
+                    <string>branches</string>
+                    <list>
+                      <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+                        <arguments class="tree-map">
+                          <entry>
+                            <string>name</string>
+                            <string>*/main</string>
+                          </entry>
+                        </arguments>
+                        <model resolves-to="org.jenkinsci.plugins.structs.describable.DescribableModel$SerializedForm">
+                          <type>hudson.plugins.git.BranchSpec</type>
+                        </model>
+                      </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+                    </list>
+                  </entry>
+                  <entry>
+                    <string>extensions</string>
+                    <list>
+                      <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+                        <symbol>cleanBeforeCheckout</symbol>
+                        <klass>CleanBeforeCheckout</klass>
+                        <arguments class="tree-map"/>
+                        <model resolves-to="org.jenkinsci.plugins.structs.describable.DescribableModel$SerializedForm">
+                          <type>hudson.plugins.git.extensions.impl.CleanBeforeCheckout</type>
+                        </model>
+                      </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+                    </list>
+                  </entry>
+                  <entry>
+                    <string>userRemoteConfigs</string>
+                    <list>
+                      <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+                        <arguments class="tree-map">
+                          <entry>
+                            <string>url</string>
+                            <string>https://github.com/YehorYehorychev/Selenium-Docker.git</string>
+                          </entry>
+                        </arguments>
+                        <model resolves-to="org.jenkinsci.plugins.structs.describable.DescribableModel$SerializedForm">
+                          <type>hudson.plugins.git.UserRemoteConfig</type>
+                        </model>
+                      </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+                    </list>
+                  </entry>
+                </arguments>
+                <model resolves-to="org.jenkinsci.plugins.structs.describable.DescribableModel$SerializedForm">
+                  <type>hudson.plugins.git.GitSCM</type>
+                </model>
+              </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+            </entry>
+          </arguments>
+          <sensitiveVariables/>
+          <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+        </cps.a.ArgumentsActionImpl>
+        <wf.a.TimingAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <startTime>1720130554788</startTime>
+        </wf.a.TimingAction>
+        <s.a.LogStorageAction/>
+        <wf.a.ErrorAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <error class="hudson.plugins.git.GitException" plugin="git-client@5.0.0">
+            <detailMessage>Could not checkout f47791bf26f39100fe069f4671ee3e910e4504ff</detailMessage>
+            <cause class="hudson.plugins.git.GitException">
+              <detailMessage>Command &quot;git checkout -f f47791bf26f39100fe069f4671ee3e910e4504ff&quot; returned status code 128:
+stdout: 
+stderr: fatal: cannot create directory at &apos;jenkins-ci-cd/jenkins/volumes/master/plugins/apache-httpcomponents-client-4-api/META-INF/maven/org.jenkins-ci.plugins/apache-httpcomponents-client-4-api&apos;: Filename too long
+</detailMessage>
+              <stackTrace>
+                <trace>org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2846)</trace>
+                <trace>org.jenkinsci.plugins.gitclient.CliGitAPIImpl$9.execute(CliGitAPIImpl.java:3174)</trace>
+                <trace>org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler$GitCommandMasterToSlaveCallable.call(RemoteGitImpl.java:170)</trace>
+                <trace>org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler$GitCommandMasterToSlaveCallable.call(RemoteGitImpl.java:161)</trace>
+                <trace>hudson.remoting.UserRequest.perform(UserRequest.java:211)</trace>
+                <trace>hudson.remoting.UserRequest.perform(UserRequest.java:54)</trace>
+                <trace>hudson.remoting.Request$2.run(Request.java:377)</trace>
+                <trace>hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)</trace>
+                <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+                <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</trace>
+                <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</trace>
+                <trace>hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:137)</trace>
+                <trace>java.base/java.lang.Thread.run(Thread.java:842)</trace>
+              </stackTrace>
+              <suppressedExceptions class="empty-list"/>
+            </cause>
+            <stackTrace>
+              <trace>org.jenkinsci.plugins.gitclient.CliGitAPIImpl$9.execute(CliGitAPIImpl.java:3202)</trace>
+              <trace>org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler$GitCommandMasterToSlaveCallable.call(RemoteGitImpl.java:170)</trace>
+              <trace>org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler$GitCommandMasterToSlaveCallable.call(RemoteGitImpl.java:161)</trace>
+              <trace>hudson.remoting.UserRequest.perform(UserRequest.java:211)</trace>
+              <trace>hudson.remoting.UserRequest.perform(UserRequest.java:54)</trace>
+              <trace>hudson.remoting.Request$2.run(Request.java:377)</trace>
+              <trace>hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)</trace>
+              <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</trace>
+              <trace>hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:137)</trace>
+              <trace>java.base/java.lang.Thread.run(Thread.java:842)</trace>
+            </stackTrace>
+            <suppressedExceptions>
+              <hudson.remoting.Channel_-CallSiteStackTrace>
+                <detailMessage>Remote call to JNLP4-connect connection from 172.18.0.1/172.18.0.1:47290</detailMessage>
+                <stackTrace>
+                  <trace>hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1787)</trace>
+                  <trace>hudson.remoting.UserRequest$ExceptionResponse.retrieve(UserRequest.java:356)</trace>
+                  <trace>hudson.remoting.Channel.call(Channel.java:1003)</trace>
+                  <trace>org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler.execute(RemoteGitImpl.java:153)</trace>
+                  <trace>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                  <trace>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)</trace>
+                  <trace>java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)</trace>
+                  <trace>java.base/java.lang.reflect.Method.invoke(Unknown Source)</trace>
+                  <trace>org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler.invoke(RemoteGitImpl.java:138)</trace>
+                  <trace>jdk.proxy69/jdk.proxy69.$Proxy151.execute(Unknown Source)</trace>
+                  <trace>hudson.plugins.git.GitSCM.checkout(GitSCM.java:1355)</trace>
+                  <trace>org.jenkinsci.plugins.workflow.steps.scm.SCMStep.checkout(SCMStep.java:136)</trace>
+                  <trace>org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:101)</trace>
+                  <trace>org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:88)</trace>
+                  <trace>org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:47)</trace>
+                  <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)</trace>
+                  <trace>java.base/java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+                  <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+                  <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+                  <trace>java.base/java.lang.Thread.run(Unknown Source)</trace>
+                </stackTrace>
+                <suppressedExceptions class="empty-list"/>
+              </hudson.remoting.Channel_-CallSiteStackTrace>
+              <wf.a.ErrorAction_-ErrorId plugin="workflow-api@1316.v33eb_726c50b_a_">
+                <stackTrace/>
+                <suppressedExceptions class="empty-list"/>
+                <uuid>1560a8ae-84cb-4c82-8f7c-8d2434e088d1</uuid>
+              </wf.a.ErrorAction_-ErrorId>
+            </suppressedExceptions>
+          </error>
+        </wf.a.ErrorAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>8</string>
+    <Tag plugin="workflow-support@907.v6713a_ed8a_573">
+      <node class="cps.n.StepEndNode" plugin="workflow-cps@3903.v48a_8836749e9">
+        <parentIds>
+          <string>7</string>
+        </parentIds>
+        <id>8</id>
+        <startId>6</startId>
+      </node>
+      <actions>
+        <wf.a.BodyInvocationAction plugin="workflow-api@1316.v33eb_726c50b_a_"/>
+        <wf.a.TimingAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <startTime>1720130564125</startTime>
+        </wf.a.TimingAction>
+        <wf.a.ErrorAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <error class="hudson.plugins.git.GitException" reference="../../../../../entry[6]/Tag/actions/wf.a.ErrorAction/error"/>
+        </wf.a.ErrorAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>9</string>
+    <Tag plugin="workflow-support@907.v6713a_ed8a_573">
+      <node class="cps.n.StepEndNode" plugin="workflow-cps@3903.v48a_8836749e9">
+        <parentIds>
+          <string>8</string>
+        </parentIds>
+        <id>9</id>
+        <startId>5</startId>
+      </node>
+      <actions>
+        <wf.a.TimingAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <startTime>1720130564291</startTime>
+        </wf.a.TimingAction>
+        <wf.a.ErrorAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <error class="hudson.plugins.git.GitException" reference="../../../../../entry[6]/Tag/actions/wf.a.ErrorAction/error"/>
+        </wf.a.ErrorAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>10</string>
+    <Tag plugin="workflow-support@907.v6713a_ed8a_573">
+      <node class="cps.n.StepEndNode" plugin="workflow-cps@3903.v48a_8836749e9">
+        <parentIds>
+          <string>9</string>
+        </parentIds>
+        <id>10</id>
+        <startId>4</startId>
+      </node>
+      <actions>
+        <wf.a.BodyInvocationAction plugin="workflow-api@1316.v33eb_726c50b_a_"/>
+        <wf.a.TimingAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <startTime>1720130564321</startTime>
+        </wf.a.TimingAction>
+        <wf.a.ErrorAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <error class="hudson.plugins.git.GitException" reference="../../../../../entry[6]/Tag/actions/wf.a.ErrorAction/error"/>
+        </wf.a.ErrorAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>11</string>
+    <Tag plugin="workflow-support@907.v6713a_ed8a_573">
+      <node class="cps.n.StepEndNode" plugin="workflow-cps@3903.v48a_8836749e9">
+        <parentIds>
+          <string>10</string>
+        </parentIds>
+        <id>11</id>
+        <startId>3</startId>
+      </node>
+      <actions>
+        <wf.a.TimingAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <startTime>1720130564514</startTime>
+        </wf.a.TimingAction>
+        <wf.a.ErrorAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <error class="hudson.plugins.git.GitException" reference="../../../../../entry[6]/Tag/actions/wf.a.ErrorAction/error"/>
+        </wf.a.ErrorAction>
+        <wf.a.ErrorAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <error class="hudson.plugins.git.GitException" reference="../../../../../entry[6]/Tag/actions/wf.a.ErrorAction/error"/>
+        </wf.a.ErrorAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>12</string>
+    <Tag plugin="workflow-support@907.v6713a_ed8a_573">
+      <node class="org.jenkinsci.plugins.workflow.graph.FlowEndNode" plugin="workflow-api@1316.v33eb_726c50b_a_">
+        <parentIds>
+          <string>11</string>
+        </parentIds>
+        <id>12</id>
+        <startId>2</startId>
+        <result>
+          <name>FAILURE</name>
+          <ordinal>2</ordinal>
+          <color>RED</color>
+          <completeBuild>true</completeBuild>
+        </result>
+      </node>
+      <actions>
+        <wf.a.ErrorAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <error class="hudson.plugins.git.GitException" reference="../../../../../entry[6]/Tag/actions/wf.a.ErrorAction/error"/>
+        </wf.a.ErrorAction>
+        <wf.a.TimingAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <startTime>1720130564567</startTime>
+        </wf.a.TimingAction>
+      </actions>
+    </Tag>
+  </entry>
+</linked-hash-map>
