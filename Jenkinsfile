@@ -28,32 +28,38 @@ pipeline{
 
 // WINDOWS USING BAT ->
 
-pipeline{
+pipeline {
 
     agent any
 
-    stages{
+    stages {
 
-        stage('Build Jar'){
+        stage('Build Jar') {
             steps{
                 bat "mvn clean package -DskipTests"
             }
         }
 
-        stage('Build Image'){
+        stage('Build Image') {
             steps{
                 bat "docker build -t=yehorychev/selenium-docker ."
             }
         }
 
-        stage('Push Image'){
+        stage('Push Image') {
             environment{
                 DOCKER_HUB = credentials('docker-hub-credentials')
             }
-            steps{
+            steps {
                 bat 'docker login -u %DOCKER_HUB_USR% -p %DOCKER_HUB_PSW%'
                 bat "docker push yehorychev/selenium-docker"
             }
+        }
+    }
+
+    post {
+        always {
+            bat "docker logout"
         }
     }
 }
