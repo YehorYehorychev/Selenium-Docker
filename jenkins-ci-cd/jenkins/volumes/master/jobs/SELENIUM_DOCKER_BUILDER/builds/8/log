@@ -1,0 +1,243 @@
+Started by user [8mha:////4H+WqQa1ZoDx9ded0jOssnob+S6HtJb53veE3/YhCypLAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Replayed [8mha:////4NyTZai504oyvvI5SIAOGNxGGsz4NcqmAnvx4q1eiJ8oAAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZ5/az8JP1gVx9XP89Q33gXf2dv16B4p1BPHxfXIH1zfQAttOG/1AAAAA==[0m#7
+[8mha:////4LrkJDeuQiCu9WGOe39ouc2G+RQHL3nWjroV7/3KHkKZAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4FoCj1V+q54xQlBE7k7fYBfEsktUqNG+jGgRa0XxNCREAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4PE9qqNypaSIdLUGqe6DIAW+T9brEeVagzN3wZtqDLrtAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgYB/eT83ILSktQifT9/F1dDfQCjW1X2xQAAAA==[0mNODE1 in C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER
+[8mha:////4CquftZvq+ID6Kwzdf3GUwijUgkh2GnSWFutyc+IYqQCAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4PKVLhbRIY4FE3aY6lSoRgEg7ZTqK/qemY+D8ua7J4akAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4KX7S3o40vroNSPaRAbdvTOzKJEbLn0xrvL72MCZQ9n4AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4KlypsoNTkUrBa2Bje5a8djqGROYut906aZJoNn6UeouAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: git
+No credentials specified
+Fetching changes from the remote Git repository
+Cleaning workspace
+Checking out Revision 707505c30cf83110299040508c2969c2bcba49b1 (refs/remotes/origin/main)
+Commit message: "Merge pull request #61 from YehorYehorychev/DockerCredentials"
+ > git rev-parse --resolve-git-dir C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\.git # timeout=10
+ > git config remote.origin.url https://github.com/YehorYehorychev/Selenium-Docker.git # timeout=10
+ > git rev-parse --verify HEAD # timeout=10
+Resetting working tree
+ > git reset --hard # timeout=10
+ > git clean -fdx # timeout=10
+Fetching upstream changes from https://github.com/YehorYehorychev/Selenium-Docker.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.45.1.windows.1'
+ > git fetch --tags --force --progress -- https://github.com/YehorYehorychev/Selenium-Docker.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 707505c30cf83110299040508c2969c2bcba49b1 # timeout=10
+ > git rev-list --no-walk 707505c30cf83110299040508c2969c2bcba49b1 # timeout=10
+[8mha:////4BdQUPup8n3Cg3EzAX14RngV+zd0z0FJ0Bvs27USC7EqAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4JcG4E8m7QCqiWgcBT2NJBaSzKtB/Pv4SOaJF6mdfglHAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4HV6v/lRT7xdxJoLQDF5+rJnHbTjXNHsuQ4MeRn5Tt+YAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4HVz3cM/4y9BWJNoWQv2pjjxiYx6A5xn0cEmk3lhE91wAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4KUa9Wu7m8seMBbB8/J+N1LuO5UZt2IfdfLNg3gI28IdAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4ASJ5BATpCIfdDmB54ZlImdkV/jzScq9oDtvrZxEgvdlAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Build Jar)
+[8mha:////4EWlIPCfBxy4ZFxXkoQOAlWHghhOLoeo6EZaH0oAvIfYAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] bat
+
+C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER>mvn clean package -DskipTests 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< org.yehorychev:Selenium-Docker >-------------------
+[INFO] Building Selenium-Docker 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ Selenium-Docker ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Selenium-Docker ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ Selenium-Docker ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 8 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ Selenium-Docker ---
+[INFO] Copying 10 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ Selenium-Docker ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 10 source files with javac [debug release 17] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ Selenium-Docker ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- dependency:3.6.0:copy-dependencies (copy-dependencies) @ Selenium-Docker ---
+[INFO] Copying selenium-java-4.22.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-java-4.22.0.jar
+[INFO] Copying selenium-api-4.22.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-api-4.22.0.jar
+[INFO] Copying selenium-chrome-driver-4.22.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-chrome-driver-4.22.0.jar
+[INFO] Copying auto-service-annotations-1.1.1.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\auto-service-annotations-1.1.1.jar
+[INFO] Copying selenium-chromium-driver-4.22.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-chromium-driver-4.22.0.jar
+[INFO] Copying selenium-json-4.22.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-json-4.22.0.jar
+[INFO] Copying selenium-manager-4.22.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-manager-4.22.0.jar
+[INFO] Copying selenium-devtools-v124-4.22.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-devtools-v124-4.22.0.jar
+[INFO] Copying selenium-devtools-v125-4.22.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-devtools-v125-4.22.0.jar
+[INFO] Copying selenium-devtools-v126-4.22.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-devtools-v126-4.22.0.jar
+[INFO] Copying selenium-devtools-v85-4.22.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-devtools-v85-4.22.0.jar
+[INFO] Copying selenium-edge-driver-4.22.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-edge-driver-4.22.0.jar
+[INFO] Copying selenium-firefox-driver-4.22.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-firefox-driver-4.22.0.jar
+[INFO] Copying selenium-http-4.22.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-http-4.22.0.jar
+[INFO] Copying failsafe-3.3.2.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\failsafe-3.3.2.jar
+[INFO] Copying selenium-ie-driver-4.22.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-ie-driver-4.22.0.jar
+[INFO] Copying selenium-remote-driver-4.22.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-remote-driver-4.22.0.jar
+[INFO] Copying guava-33.2.1-jre.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\guava-33.2.1-jre.jar
+[INFO] Copying failureaccess-1.0.2.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\failureaccess-1.0.2.jar
+[INFO] Copying listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[INFO] Copying jsr305-3.0.2.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\jsr305-3.0.2.jar
+[INFO] Copying checker-qual-3.42.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\checker-qual-3.42.0.jar
+[INFO] Copying error_prone_annotations-2.26.1.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\error_prone_annotations-2.26.1.jar
+[INFO] Copying j2objc-annotations-3.0.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\j2objc-annotations-3.0.0.jar
+[INFO] Copying opentelemetry-semconv-1.25.0-alpha.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\opentelemetry-semconv-1.25.0-alpha.jar
+[INFO] Copying opentelemetry-api-1.39.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\opentelemetry-api-1.39.0.jar
+[INFO] Copying opentelemetry-context-1.39.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\opentelemetry-context-1.39.0.jar
+[INFO] Copying opentelemetry-exporter-logging-1.39.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\opentelemetry-exporter-logging-1.39.0.jar
+[INFO] Copying opentelemetry-sdk-common-1.39.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\opentelemetry-sdk-common-1.39.0.jar
+[INFO] Copying opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar
+[INFO] Copying opentelemetry-sdk-extension-autoconfigure-1.39.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\opentelemetry-sdk-extension-autoconfigure-1.39.0.jar
+[INFO] Copying opentelemetry-api-incubator-1.39.0-alpha.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\opentelemetry-api-incubator-1.39.0-alpha.jar
+[INFO] Copying opentelemetry-sdk-trace-1.39.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\opentelemetry-sdk-trace-1.39.0.jar
+[INFO] Copying opentelemetry-sdk-1.39.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\opentelemetry-sdk-1.39.0.jar
+[INFO] Copying opentelemetry-sdk-metrics-1.39.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\opentelemetry-sdk-metrics-1.39.0.jar
+[INFO] Copying opentelemetry-sdk-logs-1.39.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\opentelemetry-sdk-logs-1.39.0.jar
+[INFO] Copying byte-buddy-1.14.17.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\byte-buddy-1.14.17.jar
+[INFO] Copying selenium-os-4.22.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-os-4.22.0.jar
+[INFO] Copying commons-exec-1.4.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\commons-exec-1.4.0.jar
+[INFO] Copying selenium-safari-driver-4.22.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-safari-driver-4.22.0.jar
+[INFO] Copying selenium-support-4.22.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-support-4.22.0.jar
+[INFO] Copying logback-classic-1.5.6.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\logback-classic-1.5.6.jar
+[INFO] Copying logback-core-1.5.6.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\logback-core-1.5.6.jar
+[INFO] Copying slf4j-api-2.0.13.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\slf4j-api-2.0.13.jar
+[INFO] Copying webdrivermanager-5.8.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\webdrivermanager-5.8.0.jar
+[INFO] Copying gson-2.10.1.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\gson-2.10.1.jar
+[INFO] Copying docker-java-3.3.6.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\docker-java-3.3.6.jar
+[INFO] Copying docker-java-core-3.3.6.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\docker-java-core-3.3.6.jar
+[INFO] Copying docker-java-api-3.3.6.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\docker-java-api-3.3.6.jar
+[INFO] Copying bcpkix-jdk18on-1.76.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\bcpkix-jdk18on-1.76.jar
+[INFO] Copying bcprov-jdk18on-1.76.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\bcprov-jdk18on-1.76.jar
+[INFO] Copying bcutil-jdk18on-1.76.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\bcutil-jdk18on-1.76.jar
+[INFO] Copying jcl-over-slf4j-1.7.30.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\jcl-over-slf4j-1.7.30.jar
+[INFO] Copying docker-java-transport-httpclient5-3.3.6.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\docker-java-transport-httpclient5-3.3.6.jar
+[INFO] Copying docker-java-transport-3.3.6.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\docker-java-transport-3.3.6.jar
+[INFO] Copying jna-5.13.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\jna-5.13.0.jar
+[INFO] Copying dec-0.1.2.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\dec-0.1.2.jar
+[INFO] Copying commons-lang3-3.14.0.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\commons-lang3-3.14.0.jar
+[INFO] Copying commons-compress-1.26.1.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\commons-compress-1.26.1.jar
+[INFO] Copying commons-codec-1.16.1.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\commons-codec-1.16.1.jar
+[INFO] Copying commons-io-2.15.1.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\commons-io-2.15.1.jar
+[INFO] Copying httpclient5-5.2.1.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\httpclient5-5.2.1.jar
+[INFO] Copying httpcore5-5.2.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\httpcore5-5.2.jar
+[INFO] Copying httpcore5-h2-5.2.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\httpcore5-h2-5.2.jar
+[INFO] Copying jackson-databind-2.17.1.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\jackson-databind-2.17.1.jar
+[INFO] Copying jackson-annotations-2.17.1.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\jackson-annotations-2.17.1.jar
+[INFO] Copying jackson-core-2.17.1.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\jackson-core-2.17.1.jar
+[INFO] Copying testng-7.10.2.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\testng-7.10.2.jar
+[INFO] Copying jcommander-1.82.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\jcommander-1.82.jar
+[INFO] Copying jquery-3.7.1.jar to C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\jquery-3.7.1.jar
+[INFO] 
+[INFO] --- resources:3.3.1:copy-resources (copy-resources) @ Selenium-Docker ---
+[INFO] Copying 10 resources from src\test\resources to target\docker-resources
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ Selenium-Docker ---
+[INFO] Building jar: C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-docker.jar
+[INFO] 
+[INFO] --- jar:3.3.0:test-jar (default) @ Selenium-Docker ---
+[INFO] Building jar: C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER\target\docker-resources\libs\selenium-docker-tests.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.653 s
+[INFO] Finished at: 2024-07-05T10:36:10-07:00
+[INFO] ------------------------------------------------------------------------
+[8mha:////4ExSMHKyuVvqUQHuvmByFGdy1pKucqqNp4rvn+F7QN/nAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N7BnLt++AAAA[0m[Pipeline] }
+[8mha:////4PT6HAqfmsNIKv+2DWpMvfbREYAthy2xEb77JcFWL2RmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N4glvS6+AAAA[0m[Pipeline] // stage
+[8mha:////4ACNx9KsS/KtW83IXDECKB3bkAZCVDPCSRWY/Dhar5s/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUnRgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9ANydZ8vCAAAA[0m[Pipeline] stage
+[8mha:////4FcVNRXreD6tIpbZUt/SOmqXlvqUzt4xq/H2Meq3LHP+AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (Build Image)
+[8mha:////4F5E+mz8qMxVA92AucpEV6mtq+uCn8qGbqH/G9eEb2/TAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] bat
+
+C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER>docker build -t=yehory/selenium-docker . 
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 427B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/bellsoft/liberica-openjdk-alpine:17.0.10
+#2 DONE 0.8s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/5] FROM docker.io/bellsoft/liberica-openjdk-alpine:17.0.10@sha256:aa932c5388580e3f9ca35cc43329ca33f88e22fba5d7e0d8f710bc7713c64098
+#4 resolve docker.io/bellsoft/liberica-openjdk-alpine:17.0.10@sha256:aa932c5388580e3f9ca35cc43329ca33f88e22fba5d7e0d8f710bc7713c64098 0.0s done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 35.92kB 0.0s done
+#5 DONE 0.1s
+
+#6 [2/5] RUN apk add curl jq
+#6 CACHED
+
+#7 [3/5] WORKDIR /home/selenium-docker
+#7 CACHED
+
+#8 [4/5] ADD target/docker-resources        ./
+#8 DONE 0.1s
+
+#9 [5/5] ADD runner.sh                      runner.sh
+#9 DONE 0.1s
+
+#10 exporting to image
+#10 exporting layers 0.1s done
+#10 writing image sha256:190da5d4002df62d91fa4f16b8ede782b64808dabc4b9dde5d40089203225100 done
+#10 naming to docker.io/yehory/selenium-docker done
+#10 DONE 0.1s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/wz09caxv5xgvftsoomafqrwh3
+[8mha:////4OHSaVXYol+h67ejZ/x9n7OVt+sCfzPiX8Wik4KjoUK2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AEWNdkpvgAAAA==[0m[Pipeline] }
+[8mha:////4MEHosIqskyDQX0KCnTTA71M0lNURwODhMdOjuIMpqLfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0FAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEi+zpyvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Af3VNxrlfLxJoX2PPYSoPob1GKoSZkcol3o64lLAh5NAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohU7YqYWKMunCCkISSN/m+TlHbiRFyNOxCoxIQHy7ZkvecLyhjgSMFwp7G3GJXlg59MTnym0F89zdzRhSvCSF7zVs8tdfq01paShlUFg42ArUblKVo0CXbCybusvERTnVPI20EAs90IDyhEJicZ0rcsAfa3qYuEP85fACxDAlbX2Zrm8yzf8hZCqsIAAAA=[0m[Pipeline] stage
+[8mha:////4GDWf53nJaP5cVZosN//JpNg7VHp6GnKqXp82bUawBtyAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] { (Push Image)
+[8mha:////4H00YlMCNgDgjQucfiZVi/atH/4XbRGC0KFsLxWWnITJAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] withCredentials
+Masking supported pattern matches of %DOCKER_HUB% or %DOCKER_HUB_PSW%
+[8mha:////4HKVsqxfLEKKdT1Fi77c75jCMSVXy/zWJZ+nEWajp5H8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] {
+[8mha:////4IrVuuQw3PGUB4c9QrpP69Xy/ubPfINrc60biV3cLG8lAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] bat
+
+C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER>docker login -u egor57899@gmail.com -p **** 
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+Login Succeeded
+[8mha:////4CtpQ4a3n8kXIcmvbyqbvu8XhdlP0Uz4WV5ffRYc5XngAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q1Ja5owvgAAAA==[0m[Pipeline] bat
+
+C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER>docker push yehorychev/selenium-docker 
+Using default tag: latest
+The push refers to repository [docker.io/yehorychev/selenium-docker]
+82ce718917d0: Preparing
+ab20354b5956: Preparing
+d9007497f8bf: Preparing
+e3965e97e39d: Preparing
+c1a9d8258a6b: Preparing
+b80b02f4d275: Preparing
+d4fc045c9e3a: Preparing
+b80b02f4d275: Waiting
+d4fc045c9e3a: Waiting
+denied: requested access to the resource is denied
+[8mha:////4DjEKcsXaF6bHtJxbzrcdA45wRCcsrDcEu6sRhGRwt8iAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEhIaq0lhteYGJjnFh3xnZIKl7E1/gDgUhUbLHa2WaeL1imCEeOFltDnaPUOAy+t9PCgWN38Txgy2dsmBJ7g9IMkrWpZ5ScDcwpSlgIWBlqPCdHNsNatOquKq/IVqccp+8goHT6Bg8oxGTOKuYvjBE2114npp/nrwDGEDKU2/2ndm8FmBaQvgAAAA==[0m[Pipeline] }
+[8mha:////4LL6iH5IYmM+aiknrwnN0wJ6m9m0Fo/pbOBCGiFWhjbQAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIRqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQE2e00svgAAAA==[0m[Pipeline] // withCredentials
+[8mha:////4CcclQfzIJiheLLoi0QuzeVUkEuuCTh2EB/G5CAIDWmOAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCSImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoKz3uQ71B+m0UTO+AAAA[0m[Pipeline] }
+[8mha:////4OE/7JnPnG4XDoFFYEfwRo6rRkIFJ8hgr19X3UuNA3uvAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRoURUaa00vMDEh3Fi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTCiRxosxc4K70aTl5g4DFfHk+j5IjqmyA5Fi1PLGpsFW04IS4oSVhI2SJ3jaMkk2MpePVTlFJnqnEL+jhJKq+/whEJmc1IhfWEOsLuNOjL9PH8FMHufoDzsc9X1B9pXCo++AAAA[0m[Pipeline] // stage
+[8mha:////4GjySF1wXF3aXkRD0oPT3nWhGGGGHIFA4/V+w3TAnWybAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUhRExdY26cILQhJA0+r8kKenEibgadyBQiQkPlm3Jes8XVMHDkbxmVuFgMPSGjW7SObFEfrg4SszSmfWEgZxinUodSdUutaOoYFFRworDWmHvKBjUETbciruonUBdn6LP24FDaeQNHlDwTI7Cx2+ZPWyvkwyEP85fAMxjhLJpsu13n2f1BkYdNQzCAAAA[0m[Pipeline] stage
+[8mha:////4BgokKhhLmZplWtgTZ4NJN6LuITGrOGuBp1lzWAUZa0VAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4JRgbH2HU34aTXXWHcN7hkeVSTBVm50d6s9sGdjZj5QVAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxM6xsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NGWcPtb4AAAA=[0m[Pipeline] bat
+
+C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_BUILDER>docker logout 
+Removing login credentials for https://index.docker.io/v1/
+[8mha:////4OSSc74fo/sv5kKdRYD0f9tjMRnb/kVPIss/txI8SmycAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZKwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfGxSHer4AAAA=[0m[Pipeline] }
+[8mha:////4CcPxMdvtEZxZEFwxkVtA6uUIh/krXVh+GcPu8IilcWzAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEjVhSLvgAAAA==[0m[Pipeline] // stage
+[8mha:////4ONA+UCtD0A5bdpk3Vez3Ncm84KjsA6aQ1pYlyWJmjdmAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiiIICUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5P+Sq6w++tnfrvgAAAA==[0m[Pipeline] }
+[8mha:////4Bz58Gft8lWY77iL919a27hFu+VLWJNiaAfNfuKKrLhGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w/9NCZtvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4Jy9lmYgqFAQ6YlBXUOaexy9HiWkGtTWFsBGfJCavLneAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpoEGIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP/+idkr0AAAA=[0m[Pipeline] }
+[8mha:////4Kayrb6QyJ+uIF4bkP4F+7+h7HMYz5uZgvBENH0ef3i2AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBgg5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcBlS/sHL0AAAA=[0m[Pipeline] // node
+[8mha:////4OOVk0Qrm/6uG6/2QSToCjJERcR1bBI3Ukkkb8J875stAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRiA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcBszaLVr0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE
