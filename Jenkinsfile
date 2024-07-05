@@ -42,7 +42,7 @@ pipeline {
 
         stage('Build Image') {
             steps{
-                bat "docker build -t=yehorychev/selenium-docker ."
+                bat "docker build -t=yehory/selenium-docker ."
             }
         }
 
