@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-07-05 17:15:24.793 UTC</timestamp>
+  <md5sum>fda8c38a52c02c01f989e2d715821d30</md5sum>
+  <fileName>Credential id=docker-hub-credentials name=egor57899@gmail.com/****** (my docker hub credentials)</fileName>
+  <usages>
+    <entry>
+      <string>SELENIUM_DOCKER_BUILDER</string>
+      <ranges>5-6</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
