@@ -42,7 +42,7 @@ pipeline {
 
         stage('Build Image') {
             steps{
-                bat "docker build -t=yehorychev/selenium-docker ." // <- Local docker image name
+                bat "docker build -t=yehorychev/selenium-docker:latest ." // <- Local docker image name
             }
         }
 
@@ -52,7 +52,7 @@ pipeline {
             }
             steps {
                 bat 'docker login -u %DOCKER_HUB_USR% -p %DOCKER_HUB_PSW%'
-                bat "docker push yehory/selenium-docker"  // <- docker-hub repository name
+                bat "docker push yehory/selenium-docker:latest"  // <- docker-hub repository name
             }
         }
     }
