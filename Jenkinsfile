@@ -29,25 +29,23 @@ pipeline {
 // WINDOWS USING BAT ->
 
 pipeline {
-
     agent any
 
     stages {
-
         stage('Build Jar') {
-            steps{
+            steps {
                 bat "mvn clean package -DskipTests"
             }
         }
 
         stage('Build Image') {
-            steps{
-                bat "docker build -t=yehorychev/selenium-docker:latest ." // <- Local docker image name
+            steps {
+                bat "docker build -t yehory/selenium-docker:latest ." // <- local docker-image name
             }
         }
 
         stage('Push Image') {
-            environment{
+            environment {
                 DOCKER_HUB = credentials('docker-hub-credentials')
             }
             steps {
