@@ -6,7 +6,7 @@
   <usages>
     <entry>
       <string>SELENIUM_DOCKER_BUILDER</string>
-      <ranges>1-9,11,13-20</ranges>
+      <ranges>1-9,11,13-22</ranges>
     </entry>
   </usages>
   <facets>

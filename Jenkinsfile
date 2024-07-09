@@ -53,6 +53,8 @@ pipeline {
             steps {
                 bat 'docker login -u %DOCKER_HUB_USR% -p %DOCKER_HUB_PSW%'
                 bat "docker push yehory/selenium-docker:latest"  // <- docker-hub repository name
+                bat "docker tag yehory/selenium-docker:latest yehory/selenium-docker:${env.BUILD_NUMBER}"
+                bat "docker push yehory/selenium-docker:${env.BUILD_NUMBER}"
             }
         }
     }
