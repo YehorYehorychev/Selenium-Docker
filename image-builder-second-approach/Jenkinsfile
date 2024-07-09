@@ -1,5 +1,6 @@
 pipeline {
-    agent none
+    agent any
+
     stages {
         stage('Build Jar') {
             agent {
@@ -9,27 +10,35 @@ pipeline {
                 }
             }
             steps {
-                sh 'mvn clean package -DskipTests'
+                bat 'mvn clean package -DskipTests'
             }
         }
+
         stage('Build Image') {
             steps {
                 script {
-                    app = docker.build('vinsdocker/selenium')
+                    app = docker.build('yehorychev/selenium-docker')
                 }
             }
         }
 
-        stage('Push Image'){
-            steps{
+        stage('Push Image') {
+            environment {
+                DOCKER_HUB = credentials('docker-hub-credentials')
+            }
+            steps {
                 script {
-                    // registry url is blank for dockerhub
-                    docker.withRegistry('', 'dockerhub-creds') {
+                    docker.withRegistry('', 'docker-hub-credentials') {
                         app.push("latest")
                     }
                 }
             }
         }
+    }
 
+    post {
+        always {
+            bat 'docker logout'
+        }
     }
 }
