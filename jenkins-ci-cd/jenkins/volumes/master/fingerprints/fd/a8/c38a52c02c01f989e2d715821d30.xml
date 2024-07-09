@@ -6,8 +6,14 @@
   <usages>
     <entry>
       <string>SELENIUM_DOCKER_BUILDER</string>
-      <ranges>5-9</ranges>
+      <ranges>1-9</ranges>
     </entry>
   </usages>
-  <facets/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1350.v1b_df4d227d1b_">
+      <timestamp>1720485255524</timestamp>
+      <itemFullName>SELENIUM_DOCKER_BUILDER</itemFullName>
+      <timestamp0>1720484923809</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
 </fingerprint>

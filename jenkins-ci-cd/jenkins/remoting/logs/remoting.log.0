@@ -1,29 +1,29 @@
-Jul 05, 2024 9:44:40 AM hudson.remoting.Launcher createEngine
+Jul 08, 2024 5:25:12 PM hudson.remoting.Launcher createEngine
 INFO: Setting up agent: NODE1
-Jul 05, 2024 9:44:40 AM hudson.remoting.Engine startEngine
+Jul 08, 2024 5:25:12 PM hudson.remoting.Engine startEngine
 INFO: Using Remoting version: 3206.vb_15dcf73f6a_9
-Jul 05, 2024 9:44:40 AM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+Jul 08, 2024 5:25:12 PM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
 INFO: Using C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\remoting as a remoting work directory
-Jul 05, 2024 9:44:40 AM hudson.remoting.Launcher$CuiListener status
+Jul 08, 2024 5:25:12 PM hudson.remoting.Launcher$CuiListener status
 INFO: Locating server among [http://localhost:8080/]
-Jul 05, 2024 9:44:40 AM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+Jul 08, 2024 5:25:12 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
 INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
-Jul 05, 2024 9:44:40 AM hudson.remoting.Launcher$CuiListener status
+Jul 08, 2024 5:25:12 PM hudson.remoting.Launcher$CuiListener status
 INFO: Agent discovery successful
   Agent address: localhost
   Agent port:    50000
   Identity:      8a:a8:ea:c1:d2:26:f6:89:21:8a:47:a3:29:ed:89:5b
-Jul 05, 2024 9:44:40 AM hudson.remoting.Launcher$CuiListener status
+Jul 08, 2024 5:25:12 PM hudson.remoting.Launcher$CuiListener status
 INFO: Handshaking
-Jul 05, 2024 9:44:40 AM hudson.remoting.Launcher$CuiListener status
+Jul 08, 2024 5:25:12 PM hudson.remoting.Launcher$CuiListener status
 INFO: Connecting to localhost:50000
-Jul 05, 2024 9:44:40 AM hudson.remoting.Launcher$CuiListener status
+Jul 08, 2024 5:25:12 PM hudson.remoting.Launcher$CuiListener status
 INFO: Server reports protocol JNLP4-connect-proxy not supported, skipping
-Jul 05, 2024 9:44:40 AM hudson.remoting.Launcher$CuiListener status
+Jul 08, 2024 5:25:12 PM hudson.remoting.Launcher$CuiListener status
 INFO: Trying protocol: JNLP4-connect
-Jul 05, 2024 9:44:40 AM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+Jul 08, 2024 5:25:12 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
 INFO: Waiting for ProtocolStack to start.
-Jul 05, 2024 9:44:41 AM hudson.remoting.Launcher$CuiListener status
+Jul 08, 2024 5:25:13 PM hudson.remoting.Launcher$CuiListener status
 INFO: Remote identity confirmed: 8a:a8:ea:c1:d2:26:f6:89:21:8a:47:a3:29:ed:89:5b
-Jul 05, 2024 9:44:41 AM hudson.remoting.Launcher$CuiListener status
+Jul 08, 2024 5:25:13 PM hudson.remoting.Launcher$CuiListener status
 INFO: Connected
