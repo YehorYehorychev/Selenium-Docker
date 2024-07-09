@@ -1,6 +1,5 @@
 pipeline {
-    agent any
-
+    agent none
     stages {
         stage('Build Jar') {
             agent {
@@ -10,10 +9,9 @@ pipeline {
                 }
             }
             steps {
-                bat 'mvn clean package -DskipTests'
+                sh 'mvn clean package -DskipTests'
             }
         }
-
         stage('Build Image') {
             steps {
                 script {
@@ -23,22 +21,14 @@ pipeline {
         }
 
         stage('Push Image') {
-            environment {
-                DOCKER_HUB = credentials('docker-hub-credentials')
-            }
             steps {
                 script {
+                    // registry url is blank for dockerhub
                     docker.withRegistry('', 'docker-hub-credentials') {
                         app.push("latest")
                     }
                 }
             }
-        }
-    }
-
-    post {
-        always {
-            bat 'docker logout'
         }
     }
 }
