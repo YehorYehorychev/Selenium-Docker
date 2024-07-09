@@ -1,24 +1,24 @@
 // MAC OS ->
 /*
-pipeline{
+pipeline {
 
     agent any
 
     stages{
 
-        stage('Build Jar'){
+        stage('Build Jar') {
             steps{
                 sh "mvn clean package -DskipTests"
             }
         }
 
-        stage('Build Image'){
+        stage('Build Image') {
             steps{
                 sh "docker build -t=yehorychev/selenium-docker ."
             }
         }
 
-        stage('Push Image'){
+        stage('Push Image') {
             steps{
                 sh "docker push yehorychev/selenium-docker"
             }
