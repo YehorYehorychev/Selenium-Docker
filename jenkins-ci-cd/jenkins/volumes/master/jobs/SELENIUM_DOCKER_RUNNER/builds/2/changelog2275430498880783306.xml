@@ -1,0 +1,28 @@
+commit b8ecaa14bc8afe5d98b43d4e457ba09fbb149efc
+tree f8ed9ff55c331448fca1a91aa960c86058ba0386
+parent 7877bd7b166dc7bdfbd6bebadc60b3c70afa5e3a
+author Yehor Yehorychev <131714384+YehorYehorychev@users.noreply.github.com> 2024-07-09 18:07:17 -0700
+committer GitHub <noreply@github.com> 2024-07-09 18:07:17 -0700
+
+     Jenkinsfile and docker-compose have been added and implemented as Project Runners
+
+:000000 100644 0000000000000000000000000000000000000000 608d7abec49ed528b03ec10fa1c9ed5fb6b29311 A	Jenkinsfile
+:000000 100644 0000000000000000000000000000000000000000 b3a8cbd2afb599d5be3d0ac7eeae82c62e6e9711 A	docker-compose.yml
+commit 7877bd7b166dc7bdfbd6bebadc60b3c70afa5e3a
+tree 4b825dc642cb6eb9a060e54bf8d69288fbee4904
+parent e4362a3d3bc63526a926016b3c6c3b0c9d1ec0bb
+author Yehor Yehorychev <131714384+YehorYehorychev@users.noreply.github.com> 2024-07-09 18:06:42 -0700
+committer GitHub <noreply@github.com> 2024-07-09 18:06:42 -0700
+
+    Delete docker-compose.yml
+
+:100644 000000 a605389b8303947e7251918868181f72415688a3 0000000000000000000000000000000000000000 D	docker-compose.yml
+commit e4362a3d3bc63526a926016b3c6c3b0c9d1ec0bb
+tree 7010c01c23b3e0966761f1b5e541476f69ec31fe
+parent df79daf6dfb254ab20be24e6924340bbab8d57fd
+author Yehor Yehorychev <131714384+YehorYehorychev@users.noreply.github.com> 2024-07-09 18:06:35 -0700
+committer GitHub <noreply@github.com> 2024-07-09 18:06:35 -0700
+
+    Delete Jenkinsfile
+
+:100644 000000 80872c39618e419d8d5486f9aeb2a971e1ddf1c8 0000000000000000000000000000000000000000 D	Jenkinsfile
