@@ -1,4 +1,4 @@
-pipeline{
+pipeline {
 
     agent any
 
@@ -6,9 +6,9 @@ pipeline{
         NUMBER = 3
     }
 
-    stages{
+    stages {
 
-        stage('stage-1'){
+        stage('stage-1') {
             steps{
                 echo "doing mvn clean"
                 echo "doing mvn package"
@@ -16,17 +16,17 @@ pipeline{
             }
         }
 
-        stage('stage-2'){
+        stage('stage-2') {
             environment {
                 NUMBER = 6
             }
-            steps{
+            steps {
                 echo "building docker image"
                 echo "NUMBER =${NUMBER}"
             }
         }
 
-        stage('stage-3'){
+        stage('stage-3') {
             steps{
                 echo "pushing docker image"
                 echo "NUMBER =${NUMBER}"
