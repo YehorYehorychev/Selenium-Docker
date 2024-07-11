@@ -2,8 +2,6 @@ version: "3"
 services:
   vendor-portal:
     image: yehory/selenium-docker
-    depends_on:
-      - chrome
     environment:
       - BROWSER=chrome
       - HUB_HOST=hub
@@ -13,8 +11,6 @@ services:
       - ./output/vendor-portal:/home/selenium-docker/test-output
   flight-reservation:
     image: yehory/selenium-docker
-    depends_on:
-      - firefox
     environment:
       - BROWSER=firefox
       - HUB_HOST=hub
