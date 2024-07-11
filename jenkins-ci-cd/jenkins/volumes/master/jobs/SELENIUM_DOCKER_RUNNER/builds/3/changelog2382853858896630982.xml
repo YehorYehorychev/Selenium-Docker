@@ -1,0 +1,27 @@
+commit d02dabea45cfc5753ca187c703d752ba91b20838
+tree 6848f2d96faff89c4ae22b86ce549b11cc1ad12b
+parent 88e501006fe36087f66c953d90173170ef931220
+author Yehor Yehorychev <131714384+YehorYehorychev@users.noreply.github.com> 2024-07-09 18:17:19 -0700
+committer GitHub <noreply@github.com> 2024-07-09 18:17:19 -0700
+
+    Update README.md
+
+:100644 100644 5b1749df76ff218b09e1c39ac679b28ceb0bbfa6 fd722558a0d4d2e764dffa061513410a5983474e M	README.md
+commit 88e501006fe36087f66c953d90173170ef931220
+tree d065b83a015e6a05f575a4f7f33c30889c20fe83
+parent f20d8f9253e241ba14e456cdd43b5e23fe951091
+author Yehor Yehorychev <131714384+YehorYehorychev@users.noreply.github.com> 2024-07-09 18:16:36 -0700
+committer GitHub <noreply@github.com> 2024-07-09 18:16:36 -0700
+
+    Update README.md
+
+:100644 100644 93abd59e14298611b3c7fe14a42e8c72e580eda6 5b1749df76ff218b09e1c39ac679b28ceb0bbfa6 M	README.md
+commit f20d8f9253e241ba14e456cdd43b5e23fe951091
+tree 530db5b2dca37027cebf7c6add6d96b12ebde594
+parent b8ecaa14bc8afe5d98b43d4e457ba09fbb149efc
+author Yehor Yehorychev <131714384+YehorYehorychev@users.noreply.github.com> 2024-07-09 18:12:10 -0700
+committer GitHub <noreply@github.com> 2024-07-09 18:12:10 -0700
+
+    Create README.md
+
+:000000 100644 0000000000000000000000000000000000000000 93abd59e14298611b3c7fe14a42e8c72e580eda6 A	README.md
