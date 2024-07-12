@@ -1,4 +1,4 @@
-pipeline {
+pipeline{
 
     agent {
         docker {
@@ -6,14 +6,20 @@ pipeline {
         }
     }
 
-    stages {
+    stages{
 
-        stage('access-google-home') {
+        stage('access-google-home'){
             steps{
                 sh "wget www.google.com"
             }
         }
 
+    }
+
+    post {
+        always {
+            archiveArtifacts artifacts: 'index.html', followSymlinks: false
+        }
     }
 
 }
