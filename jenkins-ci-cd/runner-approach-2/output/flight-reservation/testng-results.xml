@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-11T00:09:34 GMT" name="flight-reservation" finished-at="2024-07-11T00:09:45 GMT" duration-ms="10553">
+    <groups>
+    </groups>
+    <test started-at="2024-07-11T00:09:34 GMT" name="passengers-count-4" finished-at="2024-07-11T00:09:43 GMT" duration-ms="9010">
+      <class name="com.yehorychev.tests.flightreservation.FlightReservationTest">
+        <test-method is-config="true" signature="setupConfig()[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@6cb6decd]" started-at="2024-07-11T00:09:34 GMT" name="setupConfig" finished-at="2024-07-11T00:09:34 GMT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfig -->
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@6cb6decd]" started-at="2024-07-11T00:09:34 GMT" name="setDriver" finished-at="2024-07-11T00:09:36 GMT" duration-ms="1927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@ca30bc1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setNoOfPassengersAndExpectedPrice(java.lang.String)[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@6cb6decd]" started-at="2024-07-11T00:09:36 GMT" name="setNoOfPassengersAndExpectedPrice" finished-at="2024-07-11T00:09:36 GMT" depends-on-methods="com.yehorychev.tests.BaseTest.setDriver" duration-ms="80" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/flight-reservation/passenger-4.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNoOfPassengersAndExpectedPrice -->
+        <test-method signature="userRegistrationTest()[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@6cb6decd]" started-at="2024-07-11T00:09:36 GMT" name="userRegistrationTest" finished-at="2024-07-11T00:09:38 GMT" duration-ms="1163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="registrationConfirmationTest()[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@6cb6decd]" started-at="2024-07-11T00:09:38 GMT" name="registrationConfirmationTest" finished-at="2024-07-11T00:09:39 GMT" depends-on-methods="com.yehorychev.tests.flightreservation.FlightReservationTest.userRegistrationTest" duration-ms="1610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationTest -->
+        <test-method signature="flightSearchTest()[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@6cb6decd]" started-at="2024-07-11T00:09:39 GMT" name="flightSearchTest" finished-at="2024-07-11T00:09:41 GMT" depends-on-methods="com.yehorychev.tests.flightreservation.FlightReservationTest.registrationConfirmationTest" duration-ms="2026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSearchTest -->
+        <test-method signature="flightSelectionTest()[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@6cb6decd]" started-at="2024-07-11T00:09:41 GMT" name="flightSelectionTest" finished-at="2024-07-11T00:09:42 GMT" depends-on-methods="com.yehorychev.tests.flightreservation.FlightReservationTest.flightSearchTest" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSelectionTest -->
+        <test-method signature="flightReservationConfirmationTest()[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@6cb6decd]" started-at="2024-07-11T00:09:42 GMT" name="flightReservationConfirmationTest" finished-at="2024-07-11T00:09:43 GMT" depends-on-methods="com.yehorychev.tests.flightreservation.FlightReservationTest.flightSelectionTest" duration-ms="1063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightReservationConfirmationTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@6cb6decd]" started-at="2024-07-11T00:09:43 GMT" name="quitDriver" finished-at="2024-07-11T00:09:43 GMT" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.yehorychev.tests.flightreservation.FlightReservationTest -->
+    </test> <!-- passengers-count-4 -->
+    <test started-at="2024-07-11T00:09:34 GMT" name="passengers-count-1" finished-at="2024-07-11T00:09:45 GMT" duration-ms="10347">
+      <class name="com.yehorychev.tests.flightreservation.FlightReservationTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@3fc79729]" started-at="2024-07-11T00:09:34 GMT" name="setDriver" finished-at="2024-07-11T00:09:36 GMT" duration-ms="1927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6cce16f4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setNoOfPassengersAndExpectedPrice(java.lang.String)[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@3fc79729]" started-at="2024-07-11T00:09:36 GMT" name="setNoOfPassengersAndExpectedPrice" finished-at="2024-07-11T00:09:36 GMT" depends-on-methods="com.yehorychev.tests.BaseTest.setDriver" duration-ms="80" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/flight-reservation/passenger-1.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNoOfPassengersAndExpectedPrice -->
+        <test-method signature="userRegistrationTest()[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@3fc79729]" started-at="2024-07-11T00:09:36 GMT" name="userRegistrationTest" finished-at="2024-07-11T00:09:38 GMT" duration-ms="1161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="registrationConfirmationTest()[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@3fc79729]" started-at="2024-07-11T00:09:38 GMT" name="registrationConfirmationTest" finished-at="2024-07-11T00:09:39 GMT" depends-on-methods="com.yehorychev.tests.flightreservation.FlightReservationTest.userRegistrationTest" duration-ms="1097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationTest -->
+        <test-method signature="flightSearchTest()[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@3fc79729]" started-at="2024-07-11T00:09:39 GMT" name="flightSearchTest" finished-at="2024-07-11T00:09:41 GMT" depends-on-methods="com.yehorychev.tests.flightreservation.FlightReservationTest.registrationConfirmationTest" duration-ms="2331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSearchTest -->
+        <test-method signature="flightSelectionTest()[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@3fc79729]" started-at="2024-07-11T00:09:41 GMT" name="flightSelectionTest" finished-at="2024-07-11T00:09:43 GMT" depends-on-methods="com.yehorychev.tests.flightreservation.FlightReservationTest.flightSearchTest" duration-ms="2199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSelectionTest -->
+        <test-method signature="flightReservationConfirmationTest()[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@3fc79729]" started-at="2024-07-11T00:09:43 GMT" name="flightReservationConfirmationTest" finished-at="2024-07-11T00:09:44 GMT" depends-on-methods="com.yehorychev.tests.flightreservation.FlightReservationTest.flightSelectionTest" duration-ms="1065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightReservationConfirmationTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@3fc79729]" started-at="2024-07-11T00:09:44 GMT" name="quitDriver" finished-at="2024-07-11T00:09:45 GMT" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.yehorychev.tests.flightreservation.FlightReservationTest -->
+    </test> <!-- passengers-count-1 -->
+    <test started-at="2024-07-11T00:09:34 GMT" name="passengers-count-2" finished-at="2024-07-11T00:09:45 GMT" duration-ms="10550">
+      <class name="com.yehorychev.tests.flightreservation.FlightReservationTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@19e7a160]" started-at="2024-07-11T00:09:34 GMT" name="setDriver" finished-at="2024-07-11T00:09:36 GMT" duration-ms="1939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7efaad5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setNoOfPassengersAndExpectedPrice(java.lang.String)[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@19e7a160]" started-at="2024-07-11T00:09:36 GMT" name="setNoOfPassengersAndExpectedPrice" finished-at="2024-07-11T00:09:36 GMT" depends-on-methods="com.yehorychev.tests.BaseTest.setDriver" duration-ms="67" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/flight-reservation/passenger-2.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNoOfPassengersAndExpectedPrice -->
+        <test-method signature="userRegistrationTest()[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@19e7a160]" started-at="2024-07-11T00:09:36 GMT" name="userRegistrationTest" finished-at="2024-07-11T00:09:38 GMT" duration-ms="1160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="registrationConfirmationTest()[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@19e7a160]" started-at="2024-07-11T00:09:38 GMT" name="registrationConfirmationTest" finished-at="2024-07-11T00:09:40 GMT" depends-on-methods="com.yehorychev.tests.flightreservation.FlightReservationTest.userRegistrationTest" duration-ms="2126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationTest -->
+        <test-method signature="flightSearchTest()[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@19e7a160]" started-at="2024-07-11T00:09:40 GMT" name="flightSearchTest" finished-at="2024-07-11T00:09:42 GMT" depends-on-methods="com.yehorychev.tests.flightreservation.FlightReservationTest.registrationConfirmationTest" duration-ms="2025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSearchTest -->
+        <test-method signature="flightSelectionTest()[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@19e7a160]" started-at="2024-07-11T00:09:42 GMT" name="flightSelectionTest" finished-at="2024-07-11T00:09:43 GMT" depends-on-methods="com.yehorychev.tests.flightreservation.FlightReservationTest.flightSearchTest" duration-ms="1183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSelectionTest -->
+        <test-method signature="flightReservationConfirmationTest()[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@19e7a160]" started-at="2024-07-11T00:09:43 GMT" name="flightReservationConfirmationTest" finished-at="2024-07-11T00:09:44 GMT" depends-on-methods="com.yehorychev.tests.flightreservation.FlightReservationTest.flightSelectionTest" duration-ms="1572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightReservationConfirmationTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@19e7a160]" started-at="2024-07-11T00:09:44 GMT" name="quitDriver" finished-at="2024-07-11T00:09:45 GMT" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.yehorychev.tests.flightreservation.FlightReservationTest -->
+    </test> <!-- passengers-count-2 -->
+    <test started-at="2024-07-11T00:09:34 GMT" name="passengers-count-3" finished-at="2024-07-11T00:09:45 GMT" duration-ms="10553">
+      <class name="com.yehorychev.tests.flightreservation.FlightReservationTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@45a4b042]" started-at="2024-07-11T00:09:34 GMT" name="setDriver" finished-at="2024-07-11T00:09:36 GMT" duration-ms="2026" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@291a7e3c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setNoOfPassengersAndExpectedPrice(java.lang.String)[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@45a4b042]" started-at="2024-07-11T00:09:36 GMT" name="setNoOfPassengersAndExpectedPrice" finished-at="2024-07-11T00:09:36 GMT" depends-on-methods="com.yehorychev.tests.BaseTest.setDriver" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/flight-reservation/passenger-3.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNoOfPassengersAndExpectedPrice -->
+        <test-method signature="userRegistrationTest()[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@45a4b042]" started-at="2024-07-11T00:09:36 GMT" name="userRegistrationTest" finished-at="2024-07-11T00:09:38 GMT" duration-ms="1147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="registrationConfirmationTest()[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@45a4b042]" started-at="2024-07-11T00:09:38 GMT" name="registrationConfirmationTest" finished-at="2024-07-11T00:09:38 GMT" depends-on-methods="com.yehorychev.tests.flightreservation.FlightReservationTest.userRegistrationTest" duration-ms="582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationTest -->
+        <test-method signature="flightSearchTest()[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@45a4b042]" started-at="2024-07-11T00:09:38 GMT" name="flightSearchTest" finished-at="2024-07-11T00:09:41 GMT" depends-on-methods="com.yehorychev.tests.flightreservation.FlightReservationTest.registrationConfirmationTest" duration-ms="2547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSearchTest -->
+        <test-method signature="flightSelectionTest()[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@45a4b042]" started-at="2024-07-11T00:09:41 GMT" name="flightSelectionTest" finished-at="2024-07-11T00:09:43 GMT" depends-on-methods="com.yehorychev.tests.flightreservation.FlightReservationTest.flightSearchTest" duration-ms="2203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSelectionTest -->
+        <test-method signature="flightReservationConfirmationTest()[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@45a4b042]" started-at="2024-07-11T00:09:43 GMT" name="flightReservationConfirmationTest" finished-at="2024-07-11T00:09:44 GMT" depends-on-methods="com.yehorychev.tests.flightreservation.FlightReservationTest.flightSelectionTest" duration-ms="1574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightReservationConfirmationTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.yehorychev.tests.flightreservation.FlightReservationTest@45a4b042]" started-at="2024-07-11T00:09:44 GMT" name="quitDriver" finished-at="2024-07-11T00:09:45 GMT" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.yehorychev.tests.flightreservation.FlightReservationTest -->
+    </test> <!-- passengers-count-3 -->
+  </suite> <!-- flight-reservation -->
+</testng-results>
