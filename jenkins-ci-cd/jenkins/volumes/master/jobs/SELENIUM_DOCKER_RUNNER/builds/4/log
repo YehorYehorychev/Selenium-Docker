@@ -1,0 +1,353 @@
+Started by user [8mha:////4H+WqQa1ZoDx9ded0jOssnob+S6HtJb53veE3/YhCypLAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Obtained Jenkinsfile from git https://github.com/YehorYehorychev/Selenium-Docker-Runner.git
+[8mha:////4LrkJDeuQiCu9WGOe39ouc2G+RQHL3nWjroV7/3KHkKZAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4FoCj1V+q54xQlBE7k7fYBfEsktUqNG+jGgRa0XxNCREAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4PE9qqNypaSIdLUGqe6DIAW+T9brEeVagzN3wZtqDLrtAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgYB/eT83ILSktQifT9/F1dDfQCjW1X2xQAAAA==[0mNODE1 in C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_RUNNER
+[8mha:////4CquftZvq+ID6Kwzdf3GUwijUgkh2GnSWFutyc+IYqQCAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4PKVLhbRIY4FE3aY6lSoRgEg7ZTqK/qemY+D8ua7J4akAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4KX7S3o40vroNSPaRAbdvTOzKJEbLn0xrvL72MCZQ9n4AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4KlypsoNTkUrBa2Bje5a8djqGROYut906aZJoNn6UeouAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Fetching changes from the remote Git repository
+Cleaning workspace
+ > git rev-parse --resolve-git-dir C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_RUNNER\.git # timeout=10
+ > git config remote.origin.url https://github.com/YehorYehorychev/Selenium-Docker-Runner.git # timeout=10
+ > git rev-parse --verify HEAD # timeout=10
+Resetting working tree
+ > git reset --hard # timeout=10
+ > git clean -fdx # timeout=10
+Fetching upstream changes from https://github.com/YehorYehorychev/Selenium-Docker-Runner.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.45.1.windows.1'
+ > git fetch --tags --force --progress -- https://github.com/YehorYehorychev/Selenium-Docker-Runner.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision d02dabea45cfc5753ca187c703d752ba91b20838 (refs/remotes/origin/main)
+Commit message: "Update README.md"
+ > git rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d02dabea45cfc5753ca187c703d752ba91b20838 # timeout=10
+ > git rev-list --no-walk d02dabea45cfc5753ca187c703d752ba91b20838 # timeout=10
+[8mha:////4BdQUPup8n3Cg3EzAX14RngV+zd0z0FJ0Bvs27USC7EqAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4JcG4E8m7QCqiWgcBT2NJBaSzKtB/Pv4SOaJF6mdfglHAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4HV6v/lRT7xdxJoLQDF5+rJnHbTjXNHsuQ4MeRn5Tt+YAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4HVz3cM/4y9BWJNoWQv2pjjxiYx6A5xn0cEmk3lhE91wAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4KUa9Wu7m8seMBbB8/J+N1LuO5UZt2IfdfLNg3gI28IdAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4ASJ5BATpCIfdDmB54ZlImdkV/jzScq9oDtvrZxEgvdlAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Run Test)
+[8mha:////4EWlIPCfBxy4ZFxXkoQOAlWHghhOLoeo6EZaH0oAvIfYAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] bat
+
+C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_RUNNER>docker-compose up 
+time="2024-07-10T17:24:41-07:00" level=warning msg="C:\\Users\\egory\\IdeaProjects\\Selenium-Docker\\jenkins-ci-cd\\jenkins\\workspace\\SELENIUM_DOCKER_RUNNER\\docker-compose.yml: `version` is obsolete"
+ Container selenium_docker_runner-hub-1  Created
+ Container selenium_docker_runner-firefox-1  Created
+ Container selenium_docker_runner-flight-reservation-1  Created
+ Container selenium_docker_runner-chrome-1  Created
+ Container selenium_docker_runner-vendor-portal-1  Created
+Attaching to chrome-1, firefox-1, flight-reservation-1, hub-1, vendor-portal-1
+hub-1                 | 2024-07-11 00:24:41,435 INFO Included extra file "/etc/supervisor/conf.d/selenium-grid-hub.conf" during parsing
+hub-1                 | 2024-07-11 00:24:41,436 INFO RPC interface 'supervisor' initialized
+hub-1                 | 2024-07-11 00:24:41,436 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+hub-1                 | 2024-07-11 00:24:41,436 INFO supervisord started with pid 8
+chrome-1              | 2024-07-11 00:24:41,671 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+chrome-1              | 2024-07-11 00:24:41,672 INFO RPC interface 'supervisor' initialized
+chrome-1              | 2024-07-11 00:24:41,672 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+chrome-1              | 2024-07-11 00:24:41,672 INFO supervisord started with pid 8
+firefox-1             | 2024-07-11 00:24:41,888 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+firefox-1             | 2024-07-11 00:24:41,889 INFO RPC interface 'supervisor' initialized
+firefox-1             | 2024-07-11 00:24:41,889 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+firefox-1             | 2024-07-11 00:24:41,889 INFO supervisord started with pid 8
+vendor-portal-1       | -------------------------------------------
+vendor-portal-1       | HUB_HOST      : hub
+vendor-portal-1       | BROWSER       : chrome
+vendor-portal-1       | THREAD_COUNT  : 3
+vendor-portal-1       | TEST_SUITE    : vendor-portal.xml
+vendor-portal-1       | -------------------------------------------
+vendor-portal-1       | Checking if hub is ready..!
+vendor-portal-1       | Attempt: 1
+flight-reservation-1  | -------------------------------------------
+flight-reservation-1  | HUB_HOST      : hub
+flight-reservation-1  | BROWSER       : firefox
+flight-reservation-1  | THREAD_COUNT  : 4
+flight-reservation-1  | TEST_SUITE    : flight-reservation.xml
+flight-reservation-1  | -------------------------------------------
+flight-reservation-1  | Checking if hub is ready..!
+flight-reservation-1  | Attempt: 1
+hub-1                 | 2024-07-11 00:24:42,438 INFO spawned: 'selenium-grid-hub' with pid 9
+hub-1                 | Tracing is disabled
+hub-1                 | 2024-07-11 00:24:42,440 INFO success: selenium-grid-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+hub-1                 | 00:24:42.620 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+hub-1                 | 00:24:42.625 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+hub-1                 | 00:24:42.662 INFO [BoundZmqEventBus.<init>] - XPUB binding to [binding to tcp://*:4442, advertising as tcp://172.21.0.2:4442], XSUB binding to [binding to tcp://*:4443, advertising as tcp://172.21.0.2:4443]
+chrome-1              | 2024-07-11 00:24:42,674 INFO spawned: 'xvfb' with pid 9
+chrome-1              | 2024-07-11 00:24:42,674 INFO spawned: 'vnc' with pid 10
+chrome-1              | 2024-07-11 00:24:42,675 INFO spawned: 'novnc' with pid 11
+chrome-1              | 2024-07-11 00:24:42,676 INFO spawned: 'selenium-node' with pid 13
+chrome-1              | 2024-07-11 00:24:42,678 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+hub-1                 | 00:24:42.691 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://172.21.0.2:4442 and tcp://172.21.0.2:4443
+hub-1                 | 00:24:42.699 INFO [UnboundZmqEventBus.<init>] - Sockets created
+firefox-1             | 2024-07-11 00:24:42,891 INFO spawned: 'xvfb' with pid 9
+firefox-1             | 2024-07-11 00:24:42,892 INFO spawned: 'vnc' with pid 10
+firefox-1             | 2024-07-11 00:24:42,893 INFO spawned: 'novnc' with pid 11
+firefox-1             | 2024-07-11 00:24:42,893 INFO spawned: 'selenium-node' with pid 13
+firefox-1             | 2024-07-11 00:24:42,898 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+firefox-1             | E: [pulseaudio] main.c: Daemon startup failed.
+firefox-1             | No PulseAudio daemon running, or not running as session daemon.
+firefox-1             | No PulseAudio daemon running, or not running as session daemon.
+firefox-1             | No PulseAudio daemon running, or not running as session daemon.
+firefox-1             | Appending Selenium node session timeout via SE_OPTS:  --session-timeout 300
+firefox-1             | Generating Selenium Config
+firefox-1             | Configuring server...
+firefox-1             | Setting up SE_NODE_HOST...
+firefox-1             | Setting up SE_NODE_PORT...
+firefox-1             | Setting up SE_NODE_GRID_URL...
+firefox-1             | Tracing is disabled
+firefox-1             | Selenium Grid Node configuration: 
+firefox-1             | [events]
+firefox-1             | publish = "tcp://hub:4442"
+firefox-1             | subscribe = "tcp://hub:4443"
+firefox-1             | 
+firefox-1             | [node]
+firefox-1             | session-timeout = "300"
+firefox-1             | override-max-sessions = true
+firefox-1             | detect-drivers = false
+firefox-1             | drain-after-session-count = 0
+firefox-1             | max-sessions = 4
+firefox-1             | 
+firefox-1             | [[node.driver-configuration]]
+firefox-1             | display-name = "firefox"
+firefox-1             | stereotype = '{"browserName": "firefox", "browserVersion": "120.0", "platformName": "Linux", "moz:firefoxOptions": {"binary": "/usr/bin/firefox"}}'
+firefox-1             | max-sessions = 4
+firefox-1             | 
+firefox-1             | Starting Selenium Grid Node...
+chrome-1              | Appending Selenium options: --session-timeout 300
+chrome-1              | Generating Selenium Config
+chrome-1              | Configuring server...
+chrome-1              | Setting up SE_NODE_HOST...
+chrome-1              | Setting up SE_NODE_PORT...
+chrome-1              | Setting up SE_NODE_GRID_URL...
+chrome-1              | Tracing is disabled
+chrome-1              | Selenium Grid Node configuration: 
+chrome-1              | [events]
+chrome-1              | publish = "tcp://hub:4442"
+chrome-1              | subscribe = "tcp://hub:4443"
+chrome-1              | 
+chrome-1              | [node]
+chrome-1              | session-timeout = "300"
+chrome-1              | override-max-sessions = true
+chrome-1              | detect-drivers = false
+chrome-1              | drain-after-session-count = 0
+chrome-1              | max-sessions = 4
+chrome-1              | 
+chrome-1              | [[node.driver-configuration]]
+chrome-1              | display-name = "chrome"
+chrome-1              | stereotype = '{"browserName": "chrome", "browserVersion": ".", "platformName": "Linux", "goog:chromeOptions": {"binary": "/usr/bin/chromium"}}'
+chrome-1              | max-sessions = 4
+chrome-1              | 
+chrome-1              | Starting Selenium Grid Node...
+vendor-portal-1       | Attempt: 2
+firefox-1             | 00:24:43.102 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+firefox-1             | 00:24:43.109 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+firefox-1             | 00:24:43.152 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://hub:4442 and tcp://hub:4443
+firefox-1             | 00:24:43.179 INFO [UnboundZmqEventBus.<init>] - Sockets created
+chrome-1              | 00:24:43.204 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+chrome-1              | 00:24:43.209 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+chrome-1              | 00:24:43.248 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://hub:4442 and tcp://hub:4443
+flight-reservation-1  | Attempt: 2
+chrome-1              | 00:24:43.273 INFO [UnboundZmqEventBus.<init>] - Sockets created
+chrome-1              | 2024-07-11 00:24:43,681 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-1              | 2024-07-11 00:24:43,681 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-1              | 2024-07-11 00:24:43,681 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+hub-1                 | 00:24:43.700 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+firefox-1             | 2024-07-11 00:24:43,900 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+firefox-1             | 2024-07-11 00:24:43,900 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+firefox-1             | 2024-07-11 00:24:43,900 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+hub-1                 | 00:24:44.011 INFO [Hub.execute] - Started Selenium Hub 4.16.1 (revision 9b4c83354e): http://172.21.0.2:4444
+vendor-portal-1       | Attempt: 3
+firefox-1             | 00:24:44.181 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+firefox-1             | 00:24:44.223 INFO [NodeServer.createHandlers] - Reporting self as: http://172.21.0.4:5555
+firefox-1             | 00:24:44.231 INFO [NodeOptions.getSessionFactories] - Detected 32 available processors
+firefox-1             | 00:24:44.231 WARN [NodeOptions.getSessionFactories] - Overriding max recommended number of 32 concurrent sessions. Session stability and reliability might suffer!
+firefox-1             | 00:24:44.231 WARN [NodeOptions.getSessionFactories] - One browser session is recommended per available processor. Safari is always limited to 1 session per host.
+firefox-1             | 00:24:44.232 WARN [NodeOptions.getSessionFactories] - Overriding this value for Internet Explorer is not recommended. Issues related to parallel testing with Internet Explored won't be accepted.
+firefox-1             | 00:24:44.232 WARN [NodeOptions.getSessionFactories] - Double check if enabling 'override-max-sessions' is really needed
+firefox-1             | 00:24:44.252 INFO [NodeOptions.report] - Adding firefox for {"browserName": "firefox","browserVersion": "120.0","moz:firefoxOptions": {"binary": "\u002fusr\u002fbin\u002ffirefox"},"platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 4 times
+firefox-1             | 00:24:44.264 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+flight-reservation-1  | Attempt: 3
+chrome-1              | 00:24:44.274 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+chrome-1              | 00:24:44.318 INFO [NodeServer.createHandlers] - Reporting self as: http://172.21.0.3:5555
+chrome-1              | 00:24:44.329 INFO [NodeOptions.getSessionFactories] - Detected 32 available processors
+chrome-1              | 00:24:44.329 WARN [NodeOptions.getSessionFactories] - Overriding max recommended number of 32 concurrent sessions. Session stability and reliability might suffer!
+chrome-1              | 00:24:44.329 WARN [NodeOptions.getSessionFactories] - One browser session is recommended per available processor. Safari is always limited to 1 session per host.
+chrome-1              | 00:24:44.329 WARN [NodeOptions.getSessionFactories] - Overriding this value for Internet Explorer is not recommended. Issues related to parallel testing with Internet Explored won't be accepted.
+chrome-1              | 00:24:44.329 WARN [NodeOptions.getSessionFactories] - Double check if enabling 'override-max-sessions' is really needed
+firefox-1             | 00:24:44.344 INFO [NodeServer$1.start] - Starting registration process for Node http://172.21.0.4:5555
+firefox-1             | 00:24:44.344 INFO [NodeServer.execute] - Started Selenium node 4.16.1 (revision 9b4c83354e): http://172.21.0.4:5555
+chrome-1              | 00:24:44.350 INFO [NodeOptions.report] - Adding chrome for {"browserName": "chrome","browserVersion": ".","goog:chromeOptions": {"binary": "\u002fusr\u002fbin\u002fchromium"},"platformName": "linux","se:noVncPort": 7900,"se:vncEnabled": true} 4 times
+firefox-1             | 00:24:44.353 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+chrome-1              | 00:24:44.363 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+hub-1                 | 00:24:44.381 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+chrome-1              | 00:24:44.442 INFO [NodeServer$1.start] - Starting registration process for Node http://172.21.0.3:5555
+chrome-1              | 00:24:44.443 INFO [NodeServer.execute] - Started Selenium node 4.16.1 (revision 9b4c83354e): http://172.21.0.3:5555
+chrome-1              | 00:24:44.452 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+hub-1                 | 00:24:44.540 INFO [GridModel.setAvailability] - Switching Node a27ebede-50e7-4c78-a98c-db70cc167870 (uri: http://172.21.0.4:5555) from DOWN to UP
+hub-1                 | 00:24:44.541 INFO [LocalDistributor.add] - Added node a27ebede-50e7-4c78-a98c-db70cc167870 at http://172.21.0.4:5555. Health check every 120s
+hub-1                 | 00:24:44.542 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+firefox-1             | 00:24:44.544 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+hub-1                 | 00:24:44.598 INFO [GridModel.setAvailability] - Switching Node 27731255-6d48-47ce-b7a1-8cd6237c6020 (uri: http://172.21.0.3:5555) from DOWN to UP
+hub-1                 | 00:24:44.598 INFO [LocalDistributor.add] - Added node 27731255-6d48-47ce-b7a1-8cd6237c6020 at http://172.21.0.3:5555. Health check every 120s
+chrome-1              | 00:24:44.600 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+vendor-portal-1       | Selenium Grid is up and running. Running the test....
+flight-reservation-1  | Selenium Grid is up and running. Running the test....
+vendor-portal-1       | 00:24:45.613 INFO  [           main] [36morg.testng.internal.Utils     [0;39m : [TestNG] Running:
+vendor-portal-1       |   /home/selenium-docker/test-suites/vendor-portal.xml
+vendor-portal-1       | 
+vendor-portal-1       | 00:24:45.622 INFO  [           main] [36mc.y.tests.util.ResourceLoader [0;39m : Reading resource from location: config/default.properties
+vendor-portal-1       | 00:24:45.622 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : Test Properties
+vendor-portal-1       | 00:24:45.622 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : ----------------------------------------
+vendor-portal-1       | 00:24:45.622 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : selenium.grid.urlFormat=http://%s:4444/wd/hub
+vendor-portal-1       | 00:24:45.622 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : browser=chrome
+vendor-portal-1       | 00:24:45.622 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+vendor-portal-1       | 00:24:45.622 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : selenium.grid.enabled=true
+vendor-portal-1       | 00:24:45.623 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+vendor-portal-1       | 00:24:45.623 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : selenium.grid.hubHost=hub
+vendor-portal-1       | 00:24:45.623 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : ----------------------------------------
+vendor-portal-1       | 00:24:45.632 INFO  [ TestNG-tests-2] [36mcom.yehorychev.tests.BaseTest [0;39m : Grid URL: http://hub:4444/wd/hub
+vendor-portal-1       | 00:24:45.632 INFO  [ TestNG-tests-1] [36mcom.yehorychev.tests.BaseTest [0;39m : Grid URL: http://hub:4444/wd/hub
+vendor-portal-1       | 00:24:45.632 INFO  [ TestNG-tests-3] [36mcom.yehorychev.tests.BaseTest [0;39m : Grid URL: http://hub:4444/wd/hub
+vendor-portal-1       | Jul 11, 2024 12:24:45 AM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+vendor-portal-1       | INFO: Using OpenTelemetry for tracing
+flight-reservation-1  | 00:24:45.770 INFO  [           main] [36morg.testng.internal.Utils     [0;39m : [TestNG] Running:
+flight-reservation-1  |   /home/selenium-docker/test-suites/flight-reservation.xml
+flight-reservation-1  | 
+flight-reservation-1  | 00:24:45.780 INFO  [           main] [36mc.y.tests.util.ResourceLoader [0;39m : Reading resource from location: config/default.properties
+flight-reservation-1  | 00:24:45.781 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : Test Properties
+flight-reservation-1  | 00:24:45.781 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : ----------------------------------------
+flight-reservation-1  | 00:24:45.781 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : selenium.grid.urlFormat=http://%s:4444/wd/hub
+flight-reservation-1  | 00:24:45.781 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : browser=firefox
+flight-reservation-1  | 00:24:45.781 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+flight-reservation-1  | 00:24:45.781 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : selenium.grid.enabled=true
+flight-reservation-1  | 00:24:45.781 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+flight-reservation-1  | 00:24:45.781 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : selenium.grid.hubHost=hub
+flight-reservation-1  | 00:24:45.781 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : ----------------------------------------
+flight-reservation-1  | 00:24:45.793 INFO  [ TestNG-tests-2] [36mcom.yehorychev.tests.BaseTest [0;39m : Grid URL: http://hub:4444/wd/hub
+flight-reservation-1  | 00:24:45.793 INFO  [ TestNG-tests-1] [36mcom.yehorychev.tests.BaseTest [0;39m : Grid URL: http://hub:4444/wd/hub
+flight-reservation-1  | 00:24:45.793 INFO  [ TestNG-tests-4] [36mcom.yehorychev.tests.BaseTest [0;39m : Grid URL: http://hub:4444/wd/hub
+flight-reservation-1  | 00:24:45.793 INFO  [ TestNG-tests-3] [36mcom.yehorychev.tests.BaseTest [0;39m : Grid URL: http://hub:4444/wd/hub
+flight-reservation-1  | Jul 11, 2024 12:24:45 AM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+flight-reservation-1  | INFO: Using OpenTelemetry for tracing
+hub-1                 | 00:24:45.963 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+hub-1                 |  [Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]
+hub-1                 | 00:24:45.963 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+hub-1                 |  [Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]
+hub-1                 | 00:24:45.963 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+hub-1                 |  [Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]
+hub-1                 | 00:24:46.080 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+hub-1                 |  [Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {prefs: {remote.active-protocols: 3}}}]
+hub-1                 | 00:24:46.081 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+hub-1                 |  [Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {prefs: {remote.active-protocols: 3}}}]
+hub-1                 | 00:24:46.081 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+hub-1                 |  [Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {prefs: {remote.active-protocols: 3}}}]
+hub-1                 | 00:24:46.081 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+hub-1                 |  [Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {prefs: {remote.active-protocols: 3}}}]
+chrome-1              | 00:24:46.410 INFO [LocalNode.newSession] - Session created by the Node. Id: f6d2f07b69177923ee229fb4b70e8ca0, Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.85, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43767}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.0.3:4444/sessio..., se:cdpVersion: 121.0.6167.85, se:vnc: ws://172.21.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+chrome-1              | 00:24:46.410 INFO [LocalNode.newSession] - Session created by the Node. Id: d8fb67e1cd8c39a72083e1abc711b735, Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.85, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34311}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.0.3:4444/sessio..., se:cdpVersion: 121.0.6167.85, se:vnc: ws://172.21.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+chrome-1              | 00:24:46.411 INFO [LocalNode.newSession] - Session created by the Node. Id: c9ccb13146a6eea19b505bdf08a38263, Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.85, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44047}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.0.3:4444/sessio..., se:cdpVersion: 121.0.6167.85, se:vnc: ws://172.21.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+hub-1                 | 00:24:46.422 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: c9ccb13146a6eea19b505bdf08a38263 
+hub-1                 |  Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.85, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44047}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: {}, se:bidiEnabled: false, se:cdp: ws://172.21.0.3:4444/sessio..., se:cdpVersion: 121.0.6167.85, se:vnc: ws://172.21.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+hub-1                 | 00:24:46.424 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: d8fb67e1cd8c39a72083e1abc711b735 
+hub-1                 |  Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.85, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34311}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: {}, se:bidiEnabled: false, se:cdp: ws://172.21.0.3:4444/sessio..., se:cdpVersion: 121.0.6167.85, se:vnc: ws://172.21.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+hub-1                 | 00:24:46.424 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: f6d2f07b69177923ee229fb4b70e8ca0 
+hub-1                 |  Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.85, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43767}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: {}, se:bidiEnabled: false, se:cdp: ws://172.21.0.3:4444/sessio..., se:cdpVersion: 121.0.6167.85, se:vnc: ws://172.21.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+vendor-portal-1       | 00:24:46.531 INFO  [ TestNG-tests-1] [36mc.y.tests.util.ResourceLoader [0;39m : Reading resource from location: test-data/vendor-portal/sam.json
+vendor-portal-1       | 00:24:46.531 INFO  [ TestNG-tests-3] [36mc.y.tests.util.ResourceLoader [0;39m : Reading resource from location: test-data/vendor-portal/john.json
+vendor-portal-1       | 00:24:46.531 INFO  [ TestNG-tests-2] [36mc.y.tests.util.ResourceLoader [0;39m : Reading resource from location: test-data/vendor-portal/mike.json
+firefox-1             | 00:24:47.881 INFO [LocalNode.newSession] - Session created by the Node. Id: 7e1c3482-637d-4d03-8689-323bdac89243, Caps: Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:13417, moz:firefoxOptions: {prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.146.1-microsoft-standa..., moz:processID: 216, moz:profile: /tmp/rust_mozprofilebGRI8N, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.21.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+hub-1                 | 00:24:47.886 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: 7e1c3482-637d-4d03-8689-323bdac89243 
+hub-1                 |  Caps: Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:13417, moz:firefoxOptions: {prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.146.1-microsoft-standa..., moz:processID: 216, moz:profile: /tmp/rust_mozprofilebGRI8N, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: {}, se:bidiEnabled: false, se:cdp: ws://172.21.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.21.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+firefox-1             | 00:24:47.911 INFO [LocalNode.newSession] - Session created by the Node. Id: e6e1e39c-20cd-4f34-a33b-5f480cd1a2f2, Caps: Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:13476, moz:firefoxOptions: {prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.146.1-microsoft-standa..., moz:processID: 218, moz:profile: /tmp/rust_mozprofilexoS8iM, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.21.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+firefox-1             | 00:24:47.912 INFO [LocalNode.newSession] - Session created by the Node. Id: 99b28b6f-0c7b-471b-94ef-d9cd283ce731, Caps: Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:5259, moz:firefoxOptions: {prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.146.1-microsoft-standa..., moz:processID: 219, moz:profile: /tmp/rust_mozprofileP0sNem, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.21.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+hub-1                 | 00:24:47.920 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: e6e1e39c-20cd-4f34-a33b-5f480cd1a2f2 
+hub-1                 |  Caps: Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:13476, moz:firefoxOptions: {prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.146.1-microsoft-standa..., moz:processID: 218, moz:profile: /tmp/rust_mozprofilexoS8iM, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: {}, se:bidiEnabled: false, se:cdp: ws://172.21.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.21.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+hub-1                 | 00:24:47.923 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: 99b28b6f-0c7b-471b-94ef-d9cd283ce731 
+hub-1                 |  Caps: Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:5259, moz:firefoxOptions: {prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.146.1-microsoft-standa..., moz:processID: 219, moz:profile: /tmp/rust_mozprofileP0sNem, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: {}, se:bidiEnabled: false, se:cdp: ws://172.21.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.21.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+firefox-1             | 00:24:47.923 INFO [LocalNode.newSession] - Session created by the Node. Id: 1551db38-2aa3-4aaa-9b85-dacb69b2637b, Caps: Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:28048, moz:firefoxOptions: {prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.146.1-microsoft-standa..., moz:processID: 217, moz:profile: /tmp/rust_mozprofileyMR95n, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.21.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+hub-1                 | 00:24:47.929 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: 1551db38-2aa3-4aaa-9b85-dacb69b2637b 
+hub-1                 |  Caps: Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:28048, moz:firefoxOptions: {prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 5.15.146.1-microsoft-standa..., moz:processID: 217, moz:profile: /tmp/rust_mozprofileyMR95n, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: {}, se:bidiEnabled: false, se:cdp: ws://172.21.0.4:4444/sessio..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://172.21.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+flight-reservation-1  | 00:24:47.986 INFO  [ TestNG-tests-4] [36mc.y.tests.util.ResourceLoader [0;39m : Reading resource from location: test-data/flight-reservation/passenger-4.json
+flight-reservation-1  | 00:24:47.986 INFO  [ TestNG-tests-1] [36mc.y.tests.util.ResourceLoader [0;39m : Reading resource from location: test-data/flight-reservation/passenger-1.json
+flight-reservation-1  | 00:24:47.986 INFO  [ TestNG-tests-2] [36mc.y.tests.util.ResourceLoader [0;39m : Reading resource from location: test-data/flight-reservation/passenger-2.json
+flight-reservation-1  | 00:24:47.986 INFO  [ TestNG-tests-3] [36mc.y.tests.util.ResourceLoader [0;39m : Reading resource from location: test-data/flight-reservation/passenger-3.json
+vendor-portal-1       | 00:24:48.378 INFO  [ TestNG-tests-1] [36mc.y.p.v.DashboardPage         [0;39m : Results count: 8
+vendor-portal-1       | 00:24:48.686 INFO  [ TestNG-tests-3] [36mc.y.p.v.DashboardPage         [0;39m : Results count: 0
+chrome-1              | 00:24:50.026 INFO [SessionSlot.stop] - Stopping session d8fb67e1cd8c39a72083e1abc711b735
+hub-1                 | 00:24:50.028 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: d8fb67e1cd8c39a72083e1abc711b735
+hub-1                 | 00:24:50.028 INFO [GridModel.release] - Releasing slot for session id d8fb67e1cd8c39a72083e1abc711b735
+vendor-portal-1       | 00:24:50.313 INFO  [ TestNG-tests-2] [36mc.y.p.v.DashboardPage         [0;39m : Results count: 10
+chrome-1              | 00:24:51.632 INFO [SessionSlot.stop] - Stopping session c9ccb13146a6eea19b505bdf08a38263
+hub-1                 | 00:24:51.633 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: c9ccb13146a6eea19b505bdf08a38263
+hub-1                 | 00:24:51.633 INFO [GridModel.release] - Releasing slot for session id c9ccb13146a6eea19b505bdf08a38263
+chrome-1              | 00:24:52.849 INFO [SessionSlot.stop] - Stopping session f6d2f07b69177923ee229fb4b70e8ca0
+hub-1                 | 00:24:52.850 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: f6d2f07b69177923ee229fb4b70e8ca0
+hub-1                 | 00:24:52.850 INFO [GridModel.release] - Releasing slot for session id f6d2f07b69177923ee229fb4b70e8ca0
+vendor-portal-1       | 
+vendor-portal-1       | ===============================================
+vendor-portal-1       | vendor-portal
+vendor-portal-1       | Total tests run: 9, Passes: 9, Failures: 0, Skips: 0
+vendor-portal-1       | ===============================================
+vendor-portal-1       | 
+[Kvendor-portal-1 exited with code 0
+flight-reservation-1  | 00:24:54.104 INFO  [ TestNG-tests-4] [36mc.y.p.f.FlightConfirmationPage[0;39m : Flight confirmation number# : 2024-7-1720657493596
+flight-reservation-1  | 00:24:54.104 INFO  [ TestNG-tests-4] [36mc.y.p.f.FlightConfirmationPage[0;39m : Total Price : $2338 USD
+firefox-1             | 00:24:54.575 INFO [SessionSlot.stop] - Stopping session 7e1c3482-637d-4d03-8689-323bdac89243
+hub-1                 | 00:24:54.577 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: 7e1c3482-637d-4d03-8689-323bdac89243
+hub-1                 | 00:24:54.577 INFO [GridModel.release] - Releasing slot for session id 7e1c3482-637d-4d03-8689-323bdac89243
+flight-reservation-1  | 00:24:54.632 INFO  [ TestNG-tests-2] [36mc.y.p.f.FlightConfirmationPage[0;39m : Flight confirmation number# : 2024-7-1720657494552
+flight-reservation-1  | 00:24:54.632 INFO  [ TestNG-tests-2] [36mc.y.p.f.FlightConfirmationPage[0;39m : Total Price : $1169 USD
+firefox-1             | 00:24:55.097 INFO [SessionSlot.stop] - Stopping session e6e1e39c-20cd-4f34-a33b-5f480cd1a2f2
+hub-1                 | 00:24:55.098 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: e6e1e39c-20cd-4f34-a33b-5f480cd1a2f2
+hub-1                 | 00:24:55.098 INFO [GridModel.release] - Releasing slot for session id e6e1e39c-20cd-4f34-a33b-5f480cd1a2f2
+flight-reservation-1  | 00:24:55.941 INFO  [ TestNG-tests-1] [36mc.y.p.f.FlightConfirmationPage[0;39m : Flight confirmation number# : 2024-7-1720657495403
+flight-reservation-1  | 00:24:55.941 INFO  [ TestNG-tests-1] [36mc.y.p.f.FlightConfirmationPage[0;39m : Total Price : $584 USD
+firefox-1             | 00:24:56.407 INFO [SessionSlot.stop] - Stopping session 99b28b6f-0c7b-471b-94ef-d9cd283ce731
+hub-1                 | 00:24:56.408 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: 99b28b6f-0c7b-471b-94ef-d9cd283ce731
+hub-1                 | 00:24:56.408 INFO [GridModel.release] - Releasing slot for session id 99b28b6f-0c7b-471b-94ef-d9cd283ce731
+flight-reservation-1  | 00:24:57.704 INFO  [ TestNG-tests-3] [36mc.y.p.f.FlightConfirmationPage[0;39m : Flight confirmation number# : 2024-7-1720657497312
+flight-reservation-1  | 00:24:57.704 INFO  [ TestNG-tests-3] [36mc.y.p.f.FlightConfirmationPage[0;39m : Total Price : $1753 USD
+firefox-1             | 00:24:58.183 INFO [SessionSlot.stop] - Stopping session 1551db38-2aa3-4aaa-9b85-dacb69b2637b
+hub-1                 | 00:24:58.184 INFO [GridModel.release] - Releasing slot for session id 1551db38-2aa3-4aaa-9b85-dacb69b2637b
+hub-1                 | 00:24:58.184 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: 1551db38-2aa3-4aaa-9b85-dacb69b2637b
+flight-reservation-1  | 
+flight-reservation-1  | ===============================================
+flight-reservation-1  | flight-reservation
+flight-reservation-1  | Total tests run: 20, Passes: 20, Failures: 0, Skips: 0
+flight-reservation-1  | ===============================================
+flight-reservation-1  | 
+[Kflight-reservation-1 exited with code 0
+Aborted by [8mha:////4H+WqQa1ZoDx9ded0jOssnob+S6HtJb53veE3/YhCypLAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Sending interrupt signal to process
+Gracefully stopping... (press Ctrl+C again to force)
+ Container selenium_docker_runner-flight-reservation-1  Stopping
+ Container selenium_docker_runner-vendor-portal-1  Stopping
+ Container selenium_docker_runner-vendor-portal-1  Stopped
+ Container selenium_docker_runner-chrome-1  Stopping
+ Container selenium_docker_runner-flight-reservation-1  Stopped
+ Container selenium_docker_runner-firefox-1  Stopping
+ Container selenium_docker_runner-chrome-1  Stopped
+ Container selenium_docker_runner-firefox-1  Stopped
+ Container selenium_docker_runner-hub-1  Stopping
+script returned exit code -1
+[8mha:////4ExSMHKyuVvqUQHuvmByFGdy1pKucqqNp4rvn+F7QN/nAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N7BnLt++AAAA[0m[Pipeline] }
+[8mha:////4PT6HAqfmsNIKv+2DWpMvfbREYAthy2xEb77JcFWL2RmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N4glvS6+AAAA[0m[Pipeline] // stage
+[8mha:////4ACNx9KsS/KtW83IXDECKB3bkAZCVDPCSRWY/Dhar5s/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUnRgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9ANydZ8vCAAAA[0m[Pipeline] stage
+[8mha:////4FcVNRXreD6tIpbZUt/SOmqXlvqUzt4xq/H2Meq3LHP+AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (Bring Grid Down)
+Stage "Bring Grid Down" skipped due to earlier failure(s)
+[8mha:////4F5E+mz8qMxVA92AucpEV6mtq+uCn8qGbqH/G9eEb2/TAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] getContext
+[8mha:////4OHSaVXYol+h67ejZ/x9n7OVt+sCfzPiX8Wik4KjoUK2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AEWNdkpvgAAAA==[0m[Pipeline] }
+[8mha:////4MEHosIqskyDQX0KCnTTA71M0lNURwODhMdOjuIMpqLfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0FAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEi+zpyvgAAAA==[0m[Pipeline] // stage
+[8mha:////4EjKHt+bU/gUl1/b1DF5tmAGDYRQmFO761zVs7rBZB+9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJR0iIqWisNLzCxMU6sO8e+kFS8iK/xBywiUbHFamebeb1hmyKcKFrRGxwcps6J4Cebl5gpDjdPs+jpKjrCRN6I1swtaXNesSU2sKYoYSNhZ7DzlBxahr3s1UNVXqGtLhzzd5RQOj3CEwqZzawif2GJcLhPOhH+PH8FsITAUDZNrrr+ALkszR2+AAAA[0m[Pipeline] }
+[8mha:////4D2Yx0+Hh5uDlzhFmyXqpkx7VYZ/PbXumtt1mH1HrT1vAAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrk/5NptP4rPlqG+AAAA[0m[Pipeline] // withEnv
+[8mha:////4I0W+ZDpqB8y/qbMtWDhu3X67J9u+C9OCc/cyKKjd0ocAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6Ikhs04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwA6/9Rob0AAAA=[0m[Pipeline] }
+[8mha:////4PRACJtp5CqVkOmNoX5AnTRpJn3BBbkMaVLy8rB3+chTAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP+ENVAr0AAAA=[0m[Pipeline] // node
+[8mha:////4G/AYqbbM+CQBx6z2zBkCBeqFSxT1+iHfWu0rbIFm/StAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkDC7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHvgnyMr0AAAA=[0m[Pipeline] End of Pipeline
+org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: de111707-1841-4599-a7ae-f3430b930c53
+Finished: ABORTED
