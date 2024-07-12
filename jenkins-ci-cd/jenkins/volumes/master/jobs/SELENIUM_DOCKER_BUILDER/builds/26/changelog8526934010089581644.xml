@@ -1,0 +1,449 @@
+commit a037d997731ad2566bf4561e0e236079abbe4eba
+tree 9f2d07671e43372517076cef6f50d70d3e7dae77
+parent ba813632262bbdcb44c3dc19462c94ccfb7e4433
+author YehorYehorychev <egor57899@gmail.com> 2024-07-12 16:40:51 -0700
+committer YehorYehorychev <egor57899@gmail.com> 2024-07-12 16:40:51 -0700
+
+    john.json file gas been changed
+
+
+:100644 100644 6be599d593df4ebc6dc418a70d70ec39d58c6f56 c638cb411365995be874fe0d7982088d17d269f3 M	jenkins-ci-cd/jenkins/volumes/master/logs/health-checker.log
+:100644 100644 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 772cd286730647433ea5f8af7ad803d02a2a772a M	jenkins-ci-cd/jenkins/volumes/master/logs/slaves/NODE1/slave.log
+:100644 100644 92b802ec6e7d7e6fc3a4fb54ccd2c26987d3d4b5 a8d73480214111714b95ce5c2a586d9752cb0b4a M	src/test/resources/test-data/vendor-portal/john.json
+commit ba813632262bbdcb44c3dc19462c94ccfb7e4433
+tree d15a9f8c0dd0422d94b419539af2997d104777a3
+parent 7f688a8ce8e184000e62fd4c1f188604d821bbff
+author YehorYehorychev <egor57899@gmail.com> 2024-07-12 16:39:18 -0700
+committer YehorYehorychev <egor57899@gmail.com> 2024-07-12 16:39:18 -0700
+
+    john.json file gas been changed
+
+
+:100644 100644 31ce9c492e84b0b60fa444c4dba0b30036230c33 fe3822a13c2951e7dbe8529c69d107945f42adad M	.idea/vcs.xml
+:100644 100644 422500562d9c4e133d59ea2ddd63e8902fb1848e d23c792cb991a0db4357f319178647ec3f97096a M	jenkins-ci-cd/jenkins/remoting/logs/remoting.log.0
+:100644 100644 084488e91c947b39f605833c8c25318892b038bd 540deb12a333ae128c1959de75a136f77d1a1568 M	jenkins-ci-cd/jenkins/remoting/logs/remoting.log.1
+:100644 100644 02785b02663f5b9a0c22651fec3539e42c233f87 084488e91c947b39f605833c8c25318892b038bd M	jenkins-ci-cd/jenkins/remoting/logs/remoting.log.2
+:100644 100644 1879c64c595985ea0109516ca3c94e83ede138ef 02785b02663f5b9a0c22651fec3539e42c233f87 M	jenkins-ci-cd/jenkins/remoting/logs/remoting.log.3
+:100644 100644 1c5372409b0f00d98b452ffcd96026a9a8db0c97 1879c64c595985ea0109516ca3c94e83ede138ef M	jenkins-ci-cd/jenkins/remoting/logs/remoting.log.4
+:000000 100644 0000000000000000000000000000000000000000 8227f15556f64fc8e2bc745dd472bcb55d115357 A	jenkins-ci-cd/jenkins/volumes/master/.java/fonts/17.0.11/fcinfo-1-66d6be3e351e-Debian GNU/Linux-12-en-.properties
+:100644 100644 a71778f7e4d1f2f44a0e62b991cbcb5860fcb30b f6ffd3ef65d7f353481cef2c1ed9e46e99320ebf M	jenkins-ci-cd/jenkins/volumes/master/copy_reference_file.log
+:000000 100644 0000000000000000000000000000000000000000 f711f0bde14a828820d4f07fd10f90ec1fe774c7 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/7/archive/output/flight-reservation/emailable-report.html
+:000000 100644 0000000000000000000000000000000000000000 26b7f74b0363f72f545a9c90ec15329fcbaf71ec A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/7/archive/output/vendor-portal/emailable-report.html
+:000000 100644 0000000000000000000000000000000000000000 e6a0d71f7489c83671bb5fa4c925d1e5ac5edd9a A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/7/build.xml
+:000000 100644 0000000000000000000000000000000000000000 14dd10523fd01a0b045ffa2e654c07faa4a0b8b5 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/7/changelog1610884836638162049.xml
+:000000 100644 0000000000000000000000000000000000000000 abac49c576a8b24c5779e0903bc84ab570983e3a A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/7/log
+:000000 100644 0000000000000000000000000000000000000000 7b72bc3f28a97905c4cd938c53107308555eafed A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/7/log-index
+:000000 100644 0000000000000000000000000000000000000000 da12fbd2a92f7bb2493260388916fac9347b1800 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/7/workflow-completed/flowNodeStore.xml
+:000000 100644 0000000000000000000000000000000000000000 775f5eedc2a2d8970d8c3eda0ba7a62197048f65 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/8/archive/output/flight-reservation/emailable-report.html
+:000000 100644 0000000000000000000000000000000000000000 eadaa055d183df19a665babfc8fa16ac8e4732e4 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/8/archive/output/vendor-portal/emailable-report.html
+:000000 100644 0000000000000000000000000000000000000000 5a2d743b19a270786c8cc9e719df36a0e56e2e74 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/8/build.xml
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/8/changelog16006876168371349601.xml
+:000000 100644 0000000000000000000000000000000000000000 f7be857d19fbbd03f0d48c0ba01445a8baaed01e A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/8/log
+:000000 100644 0000000000000000000000000000000000000000 e271d17178f76a0711b59aa4c4fb34dad98d3dd5 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/8/log-index
+:000000 100644 0000000000000000000000000000000000000000 63e581b3d84f266f1e468d7837b395a13d48daf9 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/8/workflow-completed/flowNodeStore.xml
+:000000 100644 0000000000000000000000000000000000000000 2e3750568ad82027b47f71c32e65ded409d36eda A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/9/archive/output/flight-reservation/emailable-report.html
+:000000 100644 0000000000000000000000000000000000000000 ac41a7d5090c4f16cbb5c66a7caab32d830db7c4 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/9/archive/output/vendor-portal/emailable-report.html
+:000000 100644 0000000000000000000000000000000000000000 73429739aa752d651970f26062f351c881bd3c7a A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/9/build.xml
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/9/changelog4751739436603084493.xml
+:000000 100644 0000000000000000000000000000000000000000 a5be96bd6c8f0a57a5af3efd2be4fda43b75cf90 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/9/log
+:000000 100644 0000000000000000000000000000000000000000 5f5f24cbaf7a0f2a255521e90a4d2a1c96569a91 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/9/log-index
+:000000 100644 0000000000000000000000000000000000000000 69b0c980f32d83117f51668fd69c4b0d937912c8 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/9/workflow-completed/flowNodeStore.xml
+:100644 100644 0806dc94fd6f8f8972ad983eacb18015e8c73a7f fd299c656a0b43e0a0ba0eb248e1286c4bc7013c M	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/permalinks
+:100644 100644 24a3a4d236618b713fee1dbaccabe9ce4470fff1 a3bac918d3bdfb92591e5ed9d7612ad3a9a5d121 M	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/config.xml
+:100644 100644 7f8f011eb73d6043d2e6db9d2c101195ae2801f2 f599e28b8ab0d8c9c57a486c89c4a5132dcbd3b2 M	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/nextBuildNumber
+:100644 100644 d7dbb52cedb2ee3cb2ad4f040cb098802aa5d3d7 6be599d593df4ebc6dc418a70d70ec39d58c6f56 M	jenkins-ci-cd/jenkins/volumes/master/logs/health-checker.log
+:100644 100644 32fefecc8eeae1ff05590eb18985a9410ae5f0d8 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 M	jenkins-ci-cd/jenkins/volumes/master/logs/slaves/NODE1/slave.log
+:100644 000000 a04509e814322e0457742da381932f98a490d329 0000000000000000000000000000000000000000 D	jenkins-ci-cd/jenkins/volumes/master/logs/slaves/NODE1/slave.log.1
+:100644 100644 7053223e6b6c3253315223e498f04e0790873e7f 226cfd2564d989dc448cfabf0bc177fcacf589f4 M	jenkins-ci-cd/jenkins/volumes/master/logs/tasks/Periodic background build discarder.log
+:100644 100644 b669114b8485bd1c5f64315577278071c410cfaf 7053223e6b6c3253315223e498f04e0790873e7f M	jenkins-ci-cd/jenkins/volumes/master/logs/tasks/Periodic background build discarder.log.1
+:000000 100644 0000000000000000000000000000000000000000 b669114b8485bd1c5f64315577278071c410cfaf A	jenkins-ci-cd/jenkins/volumes/master/logs/tasks/Periodic background build discarder.log.2
+:100644 100644 7d62cd68d5780658b42c1bc1d56a1d0cea295844 d8917ee260f831a858760514d14a0d4ad9bb99c8 M	jenkins-ci-cd/jenkins/volumes/master/queue.xml.bak
+:160000 160000 7eb40b2c6164e5391209056ac99f4cd83f62dcaf 9fbf9907ef7c5e3f7887dd9aa7140f0170ada6f7 M	jenkins-ci-cd/jenkins/workspace/SELENIUM_DOCKER_RUNNER
+:100644 100644 83bfa622acc14373953d5a517e17f19e12bd4f4c 92b802ec6e7d7e6fc3a4fb54ccd2c26987d3d4b5 M	src/test/resources/test-data/vendor-portal/john.json
+commit 7f688a8ce8e184000e62fd4c1f188604d821bbff
+tree 9932de3e64f01762a6bc9d936a9314bd60d959d1
+parent 4434a1de0120a1369fbb08296deaefb38ee165f0
+author YehorYehorychev <egor57899@gmail.com> 2024-07-11 17:46:10 -0700
+committer YehorYehorychev <egor57899@gmail.com> 2024-07-11 17:46:10 -0700
+
+    runner-approach-2 package -> all jenkins pipeline files have been updated
+
+
+:100644 100644 fe3822a13c2951e7dbe8529c69d107945f42adad 31ce9c492e84b0b60fa444c4dba0b30036230c33 M	.idea/vcs.xml
+:100644 100644 bc56e2ad2caeb4650c4a744bc7442cff39237cc5 422500562d9c4e133d59ea2ddd63e8902fb1848e M	jenkins-ci-cd/jenkins/remoting/logs/remoting.log.0
+:100644 100644 02785b02663f5b9a0c22651fec3539e42c233f87 084488e91c947b39f605833c8c25318892b038bd M	jenkins-ci-cd/jenkins/remoting/logs/remoting.log.1
+:100644 100644 1879c64c595985ea0109516ca3c94e83ede138ef 02785b02663f5b9a0c22651fec3539e42c233f87 M	jenkins-ci-cd/jenkins/remoting/logs/remoting.log.2
+:100644 100644 1c5372409b0f00d98b452ffcd96026a9a8db0c97 1879c64c595985ea0109516ca3c94e83ede138ef M	jenkins-ci-cd/jenkins/remoting/logs/remoting.log.3
+:100644 100644 d39e71f3b803092c492afe4a036e38d0b23d5267 1c5372409b0f00d98b452ffcd96026a9a8db0c97 M	jenkins-ci-cd/jenkins/remoting/logs/remoting.log.4
+:000000 100644 0000000000000000000000000000000000000000 fe550dad50972be7de056741c6807a2af45d523a A	jenkins-ci-cd/jenkins/volumes/master/.java/fonts/17.0.11/fcinfo-1-18644e196e92-Debian GNU/Linux-12-en-.properties
+:100644 100644 47fb3c49a9f8a4a484395108d4635c35e15882d4 ee136df4decf6e3362a07d16e0ca57193f33c20f M	jenkins-ci-cd/jenkins/volumes/master/config.xml
+:100644 100644 e927dc8d35d33fe8518d251b5614fa05cca0ef93 a71778f7e4d1f2f44a0e62b991cbcb5860fcb30b M	jenkins-ci-cd/jenkins/volumes/master/copy_reference_file.log
+:100644 100644 c2a0a5a2e67b6d157c6ebb013d2f7f2ea14a8440 0237b93c58f82560f978c6a533da4f3653260fb7 M	jenkins-ci-cd/jenkins/volumes/master/jobs/DOCKER_TEST/config.xml
+:100644 100644 dd0b4ec649b044eb709a50387e9d6ea74aac48e8 d7dbb52cedb2ee3cb2ad4f040cb098802aa5d3d7 M	jenkins-ci-cd/jenkins/volumes/master/logs/health-checker.log
+:100644 100644 1c5e22b0039f4c0bfcd01c2236c9cfb9740df06f 32fefecc8eeae1ff05590eb18985a9410ae5f0d8 M	jenkins-ci-cd/jenkins/volumes/master/logs/slaves/NODE1/slave.log
+:000000 100644 0000000000000000000000000000000000000000 a04509e814322e0457742da381932f98a490d329 A	jenkins-ci-cd/jenkins/volumes/master/logs/slaves/NODE1/slave.log.1
+:100644 000000 7d62cd68d5780658b42c1bc1d56a1d0cea295844 0000000000000000000000000000000000000000 D	jenkins-ci-cd/jenkins/volumes/master/queue.xml
+:100644 100644 8a221d8a326067ea58ec7988c2c0490b99785e96 7d62cd68d5780658b42c1bc1d56a1d0cea295844 M	jenkins-ci-cd/jenkins/volumes/master/queue.xml.bak
+:000000 100644 0000000000000000000000000000000000000000 b505dec5274d564ec96a933757e7e01ff2141439 A	jenkins-ci-cd/runner-approach-2/.env
+:000000 100644 0000000000000000000000000000000000000000 240827d9aae9b6d9b149e79df4b5c7ecf936915a A	jenkins-ci-cd/runner-approach-2/Jenkinsfile
+:000000 100644 0000000000000000000000000000000000000000 a0756af97309d336907f1c2130c0176a6a4cbc0a A	jenkins-ci-cd/runner-approach-2/grid.yml
+:000000 100644 0000000000000000000000000000000000000000 176e6d5b3d64d032e76c493e5811a1cf839220b5 A	jenkins-ci-cd/runner-approach-2/output/flight-reservation/bullet_point.png
+:000000 100644 0000000000000000000000000000000000000000 a2d80a9044f38833cb728a69c88294ce3fd007c7 A	jenkins-ci-cd/runner-approach-2/output/flight-reservation/collapseall.gif
+:000000 100644 0000000000000000000000000000000000000000 2e81efc2d4d90fe9c995571bb3ecee9acc6208a2 A	jenkins-ci-cd/runner-approach-2/output/flight-reservation/emailable-report.html
+:000000 100644 0000000000000000000000000000000000000000 c117be59a9ecd1da15ebf48f6b7f53496302a7cd A	jenkins-ci-cd/runner-approach-2/output/flight-reservation/failed.png
+:000000 100644 0000000000000000000000000000000000000000 f947da80a43a328aff74c1950f60f42e155a1ca6 A	jenkins-ci-cd/runner-approach-2/output/flight-reservation/flight-reservation/passengers-count-1.html
+:000000 100644 0000000000000000000000000000000000000000 fd74db70d86c22095e9c201013c48fe655eb4492 A	jenkins-ci-cd/runner-approach-2/output/flight-reservation/flight-reservation/passengers-count-1.xml
+:000000 100644 0000000000000000000000000000000000000000 b40f2e2f38c5b8822f68e8853f43a9cd20415579 A	jenkins-ci-cd/runner-approach-2/output/flight-reservation/flight-reservation/passengers-count-2.html
+:000000 100644 0000000000000000000000000000000000000000 4d2b68486e8912a2ad9679e569b77f614c2b1999 A	jenkins-ci-cd/runner-approach-2/output/flight-reservation/flight-reservation/passengers-count-2.xml
+:000000 100644 0000000000000000000000000000000000000000 6a104978d3c7a2b1e9ff4b83662384fca0f5e30b A	jenkins-ci-cd/runner-approach-2/output/flight-reservation/flight-reservation/passengers-count-3.html
+:000000 100644 0000000000000000000000000000000000000000 5d27c6f667f373893743c230cd3bbf6a0f3defa9 A	jenkins-ci-cd/runner-approach-2/output/flight-reservation/flight-reservation/passengers-count-3.xml
+:000000 100644 0000000000000000000000000000000000000000 9d2ec4b96dfab909a72efb9d3aabe107eb9936fe A	jenkins-ci-cd/runner-approach-2/output/flight-reservation/flight-reservation/passengers-count-4.html
+:000000 100644 0000000000000000000000000000000000000000 7921b5d6f7a633c31062b8f9ff7529dc74ec7c87 A	jenkins-ci-cd/runner-approach-2/output/flight-reservation/flight-reservation/passengers-count-4.xml
+:000000 100644 0000000000000000000000000000000000000000 e17b9f88d172258d45fc3b9166d26dcb3daa5d5c A	jenkins-ci-cd/runner-approach-2/output/flight-reservation/index.html
+:000000 100644 0000000000000000000000000000000000000000 c4c6022f2982e8dae64cebd6b9a2b59f2547faad A	jenkins-ci-cd/runner-approach-2/output/flight-reservation/jquery-3.6.0.min.js
+:000000 100644 0000000000000000000000000000000000000000 4970c1627886ea5bc73da1bba4597e0fceb1b289 A	jenkins-ci-cd/runner-approach-2/output/flight-reservation/junitreports/TEST-com.yehorychev.tests.flightreservation.FlightReservationTest.xml
+:000000 100644 0000000000000000000000000000000000000000 36d90d395c51912e718b89dd88b4a3fb53aa1d85 A	jenkins-ci-cd/runner-approach-2/output/flight-reservation/navigator-bullet.png
+:000000 100644 0000000000000000000000000000000000000000 45e85bbfd0f5e85def14b896cfd4331675be2759 A	jenkins-ci-cd/runner-approach-2/output/flight-reservation/passed.png
+:000000 100644 0000000000000000000000000000000000000000 c36a324398f7fb72a3e3dbf11535ebdbc6ed016c A	jenkins-ci-cd/runner-approach-2/output/flight-reservation/skipped.png
+:000000 100644 0000000000000000000000000000000000000000 d7b75c4047823b3b22dc4ad70c92e53d3c16da39 A	jenkins-ci-cd/runner-approach-2/output/flight-reservation/testng-reports.css
+:000000 100644 0000000000000000000000000000000000000000 c1a84a35d45334bf77bb24e1eb6437ab70a42408 A	jenkins-ci-cd/runner-approach-2/output/flight-reservation/testng-reports.js
+:000000 100644 0000000000000000000000000000000000000000 570323ffb8fe16458ee84abf2a8626926609a612 A	jenkins-ci-cd/runner-approach-2/output/flight-reservation/testng-reports1.css
+:000000 100644 0000000000000000000000000000000000000000 5342859fa4dfba0a9ef56961c5deb2906b922593 A	jenkins-ci-cd/runner-approach-2/output/flight-reservation/testng-reports2.js
+:000000 100644 0000000000000000000000000000000000000000 83d590ea314fcc68d241cf56320eac82efe64a9c A	jenkins-ci-cd/runner-approach-2/output/flight-reservation/testng-results.xml
+:000000 100644 0000000000000000000000000000000000000000 176e6d5b3d64d032e76c493e5811a1cf839220b5 A	jenkins-ci-cd/runner-approach-2/output/vendor-portal/bullet_point.png
+:000000 100644 0000000000000000000000000000000000000000 a2d80a9044f38833cb728a69c88294ce3fd007c7 A	jenkins-ci-cd/runner-approach-2/output/vendor-portal/collapseall.gif
+:000000 100644 0000000000000000000000000000000000000000 63fa60e046a9ad11dd71ee41133c13f4b96e39bb A	jenkins-ci-cd/runner-approach-2/output/vendor-portal/emailable-report.html
+:000000 100644 0000000000000000000000000000000000000000 c117be59a9ecd1da15ebf48f6b7f53496302a7cd A	jenkins-ci-cd/runner-approach-2/output/vendor-portal/failed.png
+:000000 100644 0000000000000000000000000000000000000000 4b79e995dadf6017cc309f8d5032148c41c63f76 A	jenkins-ci-cd/runner-approach-2/output/vendor-portal/index.html
+:000000 100644 0000000000000000000000000000000000000000 c4c6022f2982e8dae64cebd6b9a2b59f2547faad A	jenkins-ci-cd/runner-approach-2/output/vendor-portal/jquery-3.6.0.min.js
+:000000 100644 0000000000000000000000000000000000000000 67c22ef278cd238e7bee2c2f7b83576246c80058 A	jenkins-ci-cd/runner-approach-2/output/vendor-portal/junitreports/TEST-com.yehorychev.tests.vendorportal.VendorPortalTest.xml
+:000000 100644 0000000000000000000000000000000000000000 36d90d395c51912e718b89dd88b4a3fb53aa1d85 A	jenkins-ci-cd/runner-approach-2/output/vendor-portal/navigator-bullet.png
+:000000 100644 0000000000000000000000000000000000000000 45e85bbfd0f5e85def14b896cfd4331675be2759 A	jenkins-ci-cd/runner-approach-2/output/vendor-portal/passed.png
+:000000 100644 0000000000000000000000000000000000000000 c36a324398f7fb72a3e3dbf11535ebdbc6ed016c A	jenkins-ci-cd/runner-approach-2/output/vendor-portal/skipped.png
+:000000 100644 0000000000000000000000000000000000000000 d7b75c4047823b3b22dc4ad70c92e53d3c16da39 A	jenkins-ci-cd/runner-approach-2/output/vendor-portal/testng-reports.css
+:000000 100644 0000000000000000000000000000000000000000 c1a84a35d45334bf77bb24e1eb6437ab70a42408 A	jenkins-ci-cd/runner-approach-2/output/vendor-portal/testng-reports.js
+:000000 100644 0000000000000000000000000000000000000000 570323ffb8fe16458ee84abf2a8626926609a612 A	jenkins-ci-cd/runner-approach-2/output/vendor-portal/testng-reports1.css
+:000000 100644 0000000000000000000000000000000000000000 5342859fa4dfba0a9ef56961c5deb2906b922593 A	jenkins-ci-cd/runner-approach-2/output/vendor-portal/testng-reports2.js
+:000000 100644 0000000000000000000000000000000000000000 661ed61687adb7c8a11949f8021b766f1e4969b2 A	jenkins-ci-cd/runner-approach-2/output/vendor-portal/testng-results.xml
+:000000 100644 0000000000000000000000000000000000000000 bb114b3676b55dd5db4c3f82c84144781a0ec691 A	jenkins-ci-cd/runner-approach-2/output/vendor-portal/vendor-portal/user-john.html
+:000000 100644 0000000000000000000000000000000000000000 6d978884256c582b204951294cb359e2cdc8f12d A	jenkins-ci-cd/runner-approach-2/output/vendor-portal/vendor-portal/user-john.xml
+:000000 100644 0000000000000000000000000000000000000000 0f586270aca50c9f462f1e9b4af9e9d9c3d23298 A	jenkins-ci-cd/runner-approach-2/output/vendor-portal/vendor-portal/user-mike.html
+:000000 100644 0000000000000000000000000000000000000000 cb68353a9d44697fd86da940737234e9e9bc982a A	jenkins-ci-cd/runner-approach-2/output/vendor-portal/vendor-portal/user-mike.xml
+:000000 100644 0000000000000000000000000000000000000000 ec36895ceb83566cfb0f0ae62462d40d405668d2 A	jenkins-ci-cd/runner-approach-2/output/vendor-portal/vendor-portal/user-sam.html
+:000000 100644 0000000000000000000000000000000000000000 c097c9aade8c5735dd0045c02ab4d9d8e69300e8 A	jenkins-ci-cd/runner-approach-2/output/vendor-portal/vendor-portal/user-sam.xml
+:000000 100644 0000000000000000000000000000000000000000 2af01c01c820ba16b9d642449462c7ccee5bc7b6 A	jenkins-ci-cd/runner-approach-2/test-suites.yml
+commit 4434a1de0120a1369fbb08296deaefb38ee165f0
+tree 42c742e7e5d7a4614863f6f95b0d1dbd8253a4eb
+parent 929caba20d0981c23324709989a37032b87042e0
+author YehorYehorychev <egor57899@gmail.com> 2024-07-11 17:22:54 -0700
+committer YehorYehorychev <egor57899@gmail.com> 2024-07-11 17:22:54 -0700
+
+    jenkins package -> docker-compose has been updated
+
+
+:100644 100644 6bb04594cc9eaa3f967e7d23f6ba5b85410ff355 ed0d7ff0035d1c038103a0232e2c5a2822a80f07 M	jenkins-ci-cd/jenkins/docker-compose.yml
+:000000 100644 0000000000000000000000000000000000000000 c1c9dc437fc30b27d2753a81fb41bcd845e86926 A	jenkins-ci-cd/jenkins/remoting/jarCache/A7/919EFC2E8401B0D2D7AB1168D48520.jar
+:000000 100644 0000000000000000000000000000000000000000 47346e7a6068d688e9e2e31e9e9048cf5118a363 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/6/archive/output/flight-reservation/emailable-report.html
+:000000 100644 0000000000000000000000000000000000000000 05f3d196b05b3b52637b25699903a20e2e8d4b5f A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/6/archive/output/vendor-portal/emailable-report.html
+:000000 100644 0000000000000000000000000000000000000000 8fb8400df609ded42b44d69fd51aab9afabca78e A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/6/build.xml
+:000000 100644 0000000000000000000000000000000000000000 195ebabf63acc02f01e74e2ae102639ee03b7cb3 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/6/changelog16633743770176237687.xml
+:000000 100644 0000000000000000000000000000000000000000 235fe56f13fee1d0bddb2dc2d80f50993e27f113 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/6/log
+:000000 100644 0000000000000000000000000000000000000000 b9d7230a5857560b43dd00f18f7ec44c00e75df1 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/6/log-index
+:000000 100644 0000000000000000000000000000000000000000 ae4618c4141029868acc48337a92529dd0c7f349 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/6/workflow-completed/flowNodeStore.xml
+:100644 100644 083fefa1ccf99683ccd49219cc2e024d7f2b9849 0806dc94fd6f8f8972ad983eacb18015e8c73a7f M	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/permalinks
+:100644 100644 1e8b314962144c26d5e0e50fd29d2ca327864913 7f8f011eb73d6043d2e6db9d2c101195ae2801f2 M	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/nextBuildNumber
+:100644 100644 eaf46e2f1c65e9df3d10a35f32ed88f08071b8e2 dd0b4ec649b044eb709a50387e9d6ea74aac48e8 M	jenkins-ci-cd/jenkins/volumes/master/logs/health-checker.log
+:100644 100644 b669114b8485bd1c5f64315577278071c410cfaf 7053223e6b6c3253315223e498f04e0790873e7f M	jenkins-ci-cd/jenkins/volumes/master/logs/tasks/Periodic background build discarder.log
+:000000 100644 0000000000000000000000000000000000000000 b669114b8485bd1c5f64315577278071c410cfaf A	jenkins-ci-cd/jenkins/volumes/master/logs/tasks/Periodic background build discarder.log.1
+:000000 100644 0000000000000000000000000000000000000000 c40300fac4eccc87d9fcaf2ec90a40dc4706dcea A	jenkins-ci-cd/jenkins/volumes/master/logs/tasks/Workspace clean-up.log
+:000000 100644 0000000000000000000000000000000000000000 7d62cd68d5780658b42c1bc1d56a1d0cea295844 A	jenkins-ci-cd/jenkins/volumes/master/queue.xml
+:160000 160000 88f0fd5c40e23a58cc75f0dbf62d8a48d3ee7cd5 7eb40b2c6164e5391209056ac99f4cd83f62dcaf M	jenkins-ci-cd/jenkins/workspace/SELENIUM_DOCKER_RUNNER
+commit 929caba20d0981c23324709989a37032b87042e0
+tree 1819e8ea28399b651e8d543bede452e00b5aad3d
+parent dfe6922eb59d50f6c34ce5d1af60d3f9b5db7ec7
+author YehorYehorychev <egor57899@gmail.com> 2024-07-11 17:04:53 -0700
+committer YehorYehorychev <egor57899@gmail.com> 2024-07-11 17:04:53 -0700
+
+    runner-approach-1 package -> Jenkinsfile has been updated
+
+
+:100644 100644 792ddf0ffa635292f8811f977b43a9f624e098df eaf46e2f1c65e9df3d10a35f32ed88f08071b8e2 M	jenkins-ci-cd/jenkins/volumes/master/logs/health-checker.log
+:100644 100644 6e1f74844174998470d8b178b8da03c0edea203e 7871990380304bb87602372fcf1154b2d4525026 M	jenkins-ci-cd/runner-approach-1/Jenkinsfile
+commit dfe6922eb59d50f6c34ce5d1af60d3f9b5db7ec7
+tree 7f978402fccc536e89ebf19c4d7e34293e8cbca4
+parent 390ed018851c7858ce0092b9492d3b83a0fe5133
+author YehorYehorychev <egor57899@gmail.com> 2024-07-11 17:04:40 -0700
+committer YehorYehorychev <egor57899@gmail.com> 2024-07-11 17:04:40 -0700
+
+    runner-approach-1 package -> Jenkinsfile has been updated
+
+
+:100644 100644 afe2362d513bdc9d9b1b5fd122f25302badd7489 792ddf0ffa635292f8811f977b43a9f624e098df M	jenkins-ci-cd/jenkins/volumes/master/logs/health-checker.log
+:100644 100644 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 1c5e22b0039f4c0bfcd01c2236c9cfb9740df06f M	jenkins-ci-cd/jenkins/volumes/master/logs/slaves/NODE1/slave.log
+:100644 100644 4820388b2aff1d09a0b2bb974600b48cddd44d24 6e1f74844174998470d8b178b8da03c0edea203e M	jenkins-ci-cd/runner-approach-1/Jenkinsfile
+commit 390ed018851c7858ce0092b9492d3b83a0fe5133
+tree 74e6b5d1437f4cdb09e463e96f6a0c8c0871eb10
+parent 7d34f2d733f2d3cd6e2289fbcb0ef4bce8aa56ff
+author YehorYehorychev <egor57899@gmail.com> 2024-07-11 17:00:28 -0700
+committer YehorYehorychev <egor57899@gmail.com> 2024-07-11 17:00:28 -0700
+
+    docker-agent package -> Jenkinsfile has been refactored
+
+
+:100644 100644 31ce9c492e84b0b60fa444c4dba0b30036230c33 fe3822a13c2951e7dbe8529c69d107945f42adad M	.idea/vcs.xml
+:100644 100644 e7efcb77aec5979f8abf0a12fb5276982562a4e2 ced0510778494065f1852ce6df83d2ee114e868b M	jenkins-ci-cd/docker-agent/Jenkinsfile
+:100644 100644 1879c64c595985ea0109516ca3c94e83ede138ef bc56e2ad2caeb4650c4a744bc7442cff39237cc5 M	jenkins-ci-cd/jenkins/remoting/logs/remoting.log.0
+:100644 100644 1c5372409b0f00d98b452ffcd96026a9a8db0c97 02785b02663f5b9a0c22651fec3539e42c233f87 M	jenkins-ci-cd/jenkins/remoting/logs/remoting.log.1
+:100644 100644 d39e71f3b803092c492afe4a036e38d0b23d5267 1879c64c595985ea0109516ca3c94e83ede138ef M	jenkins-ci-cd/jenkins/remoting/logs/remoting.log.2
+:100644 100644 d67566e537e02c87840e5658837f4fd649c7e0f0 1c5372409b0f00d98b452ffcd96026a9a8db0c97 M	jenkins-ci-cd/jenkins/remoting/logs/remoting.log.3
+:100644 100644 4848d736cd2341acdcdc727ce241e247f76d2e31 d39e71f3b803092c492afe4a036e38d0b23d5267 M	jenkins-ci-cd/jenkins/remoting/logs/remoting.log.4
+:000000 100644 0000000000000000000000000000000000000000 affe5c5faa13c2f84b41c61f6934910b4def3ab4 A	jenkins-ci-cd/jenkins/volumes/master/.java/fonts/17.0.11/fcinfo-1-9f76bd5b634c-Debian GNU/Linux-12-en-.properties
+:100644 100644 f87c038364083bf30b5f39069eeb0ed54b7e71b0 e927dc8d35d33fe8518d251b5614fa05cca0ef93 M	jenkins-ci-cd/jenkins/volumes/master/copy_reference_file.log
+:000000 100644 0000000000000000000000000000000000000000 b03e40be1028957053124b89ebf870c2d3f5c8d9 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/4/build.xml
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/4/changelog17096508772067305066.xml
+:000000 100644 0000000000000000000000000000000000000000 055f0f539780efc62b8e56357d0215485188a34c A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/4/log
+:000000 100644 0000000000000000000000000000000000000000 c729cfc059a71d5efd0e697758226e19f292fd57 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/4/log-index
+:000000 100644 0000000000000000000000000000000000000000 e6a059ee44ad01676dbb7a502b4d958128ab2afb A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/4/workflow-completed/flowNodeStore.xml
+:000000 100644 0000000000000000000000000000000000000000 0c44b9e990a9dea44e09a690def7e03783b43568 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/5/build.xml
+:000000 100644 0000000000000000000000000000000000000000 523fea0e60cfd2f96e9f3c1c7dedb75c60976615 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/5/changelog2780262241932399046.xml
+:000000 100644 0000000000000000000000000000000000000000 8bb90462d8c2a00697642b7aa1613049e94036c6 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/5/log
+:000000 100644 0000000000000000000000000000000000000000 8002d9d656fa54911b2a99e1fdbc9272f31fe75d A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/5/log-index
+:000000 100644 0000000000000000000000000000000000000000 948a67e1eab3c12524beeb4dd89b5192404317ff A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/5/workflow-completed/flowNodeStore.xml
+:100644 100644 3e0e8d78b6a64f9874e9fbf2dc071683d3fdb745 083fefa1ccf99683ccd49219cc2e024d7f2b9849 M	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/permalinks
+:100644 100644 b8626c4cff2849624fb67f87cd0ad72b163671ad 1e8b314962144c26d5e0e50fd29d2ca327864913 M	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/nextBuildNumber
+:100644 100644 763ea543c022c42ea079f2e881edb3d90fcf239a afe2362d513bdc9d9b1b5fd122f25302badd7489 M	jenkins-ci-cd/jenkins/volumes/master/logs/health-checker.log
+:100644 100644 9110274203861d02f6fe80e5bc3ffcc898e3216b e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 M	jenkins-ci-cd/jenkins/volumes/master/logs/slaves/NODE1/slave.log
+:100644 000000 b7fce7146aa0df778bce725fed6feeab18c02001 0000000000000000000000000000000000000000 D	jenkins-ci-cd/jenkins/volumes/master/queue.xml
+:100644 100644 c3408add335dd658c8f38c550f98a844d37aa7e1 8a221d8a326067ea58ec7988c2c0490b99785e96 M	jenkins-ci-cd/jenkins/volumes/master/queue.xml.bak
+:100644 100644 497bd18bf8aa5352c4fed5ed39463964211e56fa f836504ca8c22108b7e94cc1409213a04b395b96 M	jenkins-ci-cd/jenkins/volumes/master/updates/default.json
+:100644 100644 b6b63bd0a775bccea67b1c7a4647eed93009fb98 5fe5a5429355e927fda829664503118c210340f1 M	jenkins-ci-cd/jenkins/volumes/master/updates/hudson.plugins.gradle.GradleInstaller
+:160000 160000 d02dabea45cfc5753ca187c703d752ba91b20838 88f0fd5c40e23a58cc75f0dbf62d8a48d3ee7cd5 M	jenkins-ci-cd/jenkins/workspace/SELENIUM_DOCKER_RUNNER
+commit 7d34f2d733f2d3cd6e2289fbcb0ef4bce8aa56ff
+tree 8370fab518691bf2a449b4c0403927550b2889b4
+parent 94b91b9774017144b6089ebea6cce72b35e38512
+author YehorYehorychev <egor57899@gmail.com> 2024-07-10 17:19:48 -0700
+committer YehorYehorychev <egor57899@gmail.com> 2024-07-10 17:19:48 -0700
+
+    Jenkinsfile has been refactored
+
+
+:100644 100644 c4b078f557a87f72882d2e03ec564432bcb1d006 763ea543c022c42ea079f2e881edb3d90fcf239a M	jenkins-ci-cd/jenkins/volumes/master/logs/health-checker.log
+:100644 100644 f3171980071b9b1b6c572dcebdf1ef3e1f0d42ce 4820388b2aff1d09a0b2bb974600b48cddd44d24 M	jenkins-ci-cd/runner-approach-1/Jenkinsfile
+:000000 100644 0000000000000000000000000000000000000000 176e6d5b3d64d032e76c493e5811a1cf839220b5 A	jenkins-ci-cd/runner-approach-1/output/flight-reservation/bullet_point.png
+:000000 100644 0000000000000000000000000000000000000000 a2d80a9044f38833cb728a69c88294ce3fd007c7 A	jenkins-ci-cd/runner-approach-1/output/flight-reservation/collapseall.gif
+:000000 100644 0000000000000000000000000000000000000000 2e81efc2d4d90fe9c995571bb3ecee9acc6208a2 A	jenkins-ci-cd/runner-approach-1/output/flight-reservation/emailable-report.html
+:000000 100644 0000000000000000000000000000000000000000 c117be59a9ecd1da15ebf48f6b7f53496302a7cd A	jenkins-ci-cd/runner-approach-1/output/flight-reservation/failed.png
+:000000 100644 0000000000000000000000000000000000000000 f947da80a43a328aff74c1950f60f42e155a1ca6 A	jenkins-ci-cd/runner-approach-1/output/flight-reservation/flight-reservation/passengers-count-1.html
+:000000 100644 0000000000000000000000000000000000000000 fd74db70d86c22095e9c201013c48fe655eb4492 A	jenkins-ci-cd/runner-approach-1/output/flight-reservation/flight-reservation/passengers-count-1.xml
+:000000 100644 0000000000000000000000000000000000000000 b40f2e2f38c5b8822f68e8853f43a9cd20415579 A	jenkins-ci-cd/runner-approach-1/output/flight-reservation/flight-reservation/passengers-count-2.html
+:000000 100644 0000000000000000000000000000000000000000 4d2b68486e8912a2ad9679e569b77f614c2b1999 A	jenkins-ci-cd/runner-approach-1/output/flight-reservation/flight-reservation/passengers-count-2.xml
+:000000 100644 0000000000000000000000000000000000000000 6a104978d3c7a2b1e9ff4b83662384fca0f5e30b A	jenkins-ci-cd/runner-approach-1/output/flight-reservation/flight-reservation/passengers-count-3.html
+:000000 100644 0000000000000000000000000000000000000000 5d27c6f667f373893743c230cd3bbf6a0f3defa9 A	jenkins-ci-cd/runner-approach-1/output/flight-reservation/flight-reservation/passengers-count-3.xml
+:000000 100644 0000000000000000000000000000000000000000 9d2ec4b96dfab909a72efb9d3aabe107eb9936fe A	jenkins-ci-cd/runner-approach-1/output/flight-reservation/flight-reservation/passengers-count-4.html
+:000000 100644 0000000000000000000000000000000000000000 7921b5d6f7a633c31062b8f9ff7529dc74ec7c87 A	jenkins-ci-cd/runner-approach-1/output/flight-reservation/flight-reservation/passengers-count-4.xml
+:000000 100644 0000000000000000000000000000000000000000 e17b9f88d172258d45fc3b9166d26dcb3daa5d5c A	jenkins-ci-cd/runner-approach-1/output/flight-reservation/index.html
+:000000 100644 0000000000000000000000000000000000000000 c4c6022f2982e8dae64cebd6b9a2b59f2547faad A	jenkins-ci-cd/runner-approach-1/output/flight-reservation/jquery-3.6.0.min.js
+:000000 100644 0000000000000000000000000000000000000000 4970c1627886ea5bc73da1bba4597e0fceb1b289 A	jenkins-ci-cd/runner-approach-1/output/flight-reservation/junitreports/TEST-com.yehorychev.tests.flightreservation.FlightReservationTest.xml
+:000000 100644 0000000000000000000000000000000000000000 36d90d395c51912e718b89dd88b4a3fb53aa1d85 A	jenkins-ci-cd/runner-approach-1/output/flight-reservation/navigator-bullet.png
+:000000 100644 0000000000000000000000000000000000000000 45e85bbfd0f5e85def14b896cfd4331675be2759 A	jenkins-ci-cd/runner-approach-1/output/flight-reservation/passed.png
+:000000 100644 0000000000000000000000000000000000000000 c36a324398f7fb72a3e3dbf11535ebdbc6ed016c A	jenkins-ci-cd/runner-approach-1/output/flight-reservation/skipped.png
+:000000 100644 0000000000000000000000000000000000000000 d7b75c4047823b3b22dc4ad70c92e53d3c16da39 A	jenkins-ci-cd/runner-approach-1/output/flight-reservation/testng-reports.css
+:000000 100644 0000000000000000000000000000000000000000 c1a84a35d45334bf77bb24e1eb6437ab70a42408 A	jenkins-ci-cd/runner-approach-1/output/flight-reservation/testng-reports.js
+:000000 100644 0000000000000000000000000000000000000000 570323ffb8fe16458ee84abf2a8626926609a612 A	jenkins-ci-cd/runner-approach-1/output/flight-reservation/testng-reports1.css
+:000000 100644 0000000000000000000000000000000000000000 5342859fa4dfba0a9ef56961c5deb2906b922593 A	jenkins-ci-cd/runner-approach-1/output/flight-reservation/testng-reports2.js
+:000000 100644 0000000000000000000000000000000000000000 83d590ea314fcc68d241cf56320eac82efe64a9c A	jenkins-ci-cd/runner-approach-1/output/flight-reservation/testng-results.xml
+:000000 100644 0000000000000000000000000000000000000000 176e6d5b3d64d032e76c493e5811a1cf839220b5 A	jenkins-ci-cd/runner-approach-1/output/vendor-portal/bullet_point.png
+:000000 100644 0000000000000000000000000000000000000000 a2d80a9044f38833cb728a69c88294ce3fd007c7 A	jenkins-ci-cd/runner-approach-1/output/vendor-portal/collapseall.gif
+:000000 100644 0000000000000000000000000000000000000000 63fa60e046a9ad11dd71ee41133c13f4b96e39bb A	jenkins-ci-cd/runner-approach-1/output/vendor-portal/emailable-report.html
+:000000 100644 0000000000000000000000000000000000000000 c117be59a9ecd1da15ebf48f6b7f53496302a7cd A	jenkins-ci-cd/runner-approach-1/output/vendor-portal/failed.png
+:000000 100644 0000000000000000000000000000000000000000 4b79e995dadf6017cc309f8d5032148c41c63f76 A	jenkins-ci-cd/runner-approach-1/output/vendor-portal/index.html
+:000000 100644 0000000000000000000000000000000000000000 c4c6022f2982e8dae64cebd6b9a2b59f2547faad A	jenkins-ci-cd/runner-approach-1/output/vendor-portal/jquery-3.6.0.min.js
+:000000 100644 0000000000000000000000000000000000000000 67c22ef278cd238e7bee2c2f7b83576246c80058 A	jenkins-ci-cd/runner-approach-1/output/vendor-portal/junitreports/TEST-com.yehorychev.tests.vendorportal.VendorPortalTest.xml
+:000000 100644 0000000000000000000000000000000000000000 36d90d395c51912e718b89dd88b4a3fb53aa1d85 A	jenkins-ci-cd/runner-approach-1/output/vendor-portal/navigator-bullet.png
+:000000 100644 0000000000000000000000000000000000000000 45e85bbfd0f5e85def14b896cfd4331675be2759 A	jenkins-ci-cd/runner-approach-1/output/vendor-portal/passed.png
+:000000 100644 0000000000000000000000000000000000000000 c36a324398f7fb72a3e3dbf11535ebdbc6ed016c A	jenkins-ci-cd/runner-approach-1/output/vendor-portal/skipped.png
+:000000 100644 0000000000000000000000000000000000000000 d7b75c4047823b3b22dc4ad70c92e53d3c16da39 A	jenkins-ci-cd/runner-approach-1/output/vendor-portal/testng-reports.css
+:000000 100644 0000000000000000000000000000000000000000 c1a84a35d45334bf77bb24e1eb6437ab70a42408 A	jenkins-ci-cd/runner-approach-1/output/vendor-portal/testng-reports.js
+:000000 100644 0000000000000000000000000000000000000000 570323ffb8fe16458ee84abf2a8626926609a612 A	jenkins-ci-cd/runner-approach-1/output/vendor-portal/testng-reports1.css
+:000000 100644 0000000000000000000000000000000000000000 5342859fa4dfba0a9ef56961c5deb2906b922593 A	jenkins-ci-cd/runner-approach-1/output/vendor-portal/testng-reports2.js
+:000000 100644 0000000000000000000000000000000000000000 661ed61687adb7c8a11949f8021b766f1e4969b2 A	jenkins-ci-cd/runner-approach-1/output/vendor-portal/testng-results.xml
+:000000 100644 0000000000000000000000000000000000000000 bb114b3676b55dd5db4c3f82c84144781a0ec691 A	jenkins-ci-cd/runner-approach-1/output/vendor-portal/vendor-portal/user-john.html
+:000000 100644 0000000000000000000000000000000000000000 6d978884256c582b204951294cb359e2cdc8f12d A	jenkins-ci-cd/runner-approach-1/output/vendor-portal/vendor-portal/user-john.xml
+:000000 100644 0000000000000000000000000000000000000000 0f586270aca50c9f462f1e9b4af9e9d9c3d23298 A	jenkins-ci-cd/runner-approach-1/output/vendor-portal/vendor-portal/user-mike.html
+:000000 100644 0000000000000000000000000000000000000000 cb68353a9d44697fd86da940737234e9e9bc982a A	jenkins-ci-cd/runner-approach-1/output/vendor-portal/vendor-portal/user-mike.xml
+:000000 100644 0000000000000000000000000000000000000000 ec36895ceb83566cfb0f0ae62462d40d405668d2 A	jenkins-ci-cd/runner-approach-1/output/vendor-portal/vendor-portal/user-sam.html
+:000000 100644 0000000000000000000000000000000000000000 c097c9aade8c5735dd0045c02ab4d9d8e69300e8 A	jenkins-ci-cd/runner-approach-1/output/vendor-portal/vendor-portal/user-sam.xml
+commit 94b91b9774017144b6089ebea6cce72b35e38512
+tree 81604d24b7429fcafcef8da42881076eb1cea3bb
+parent 9360e2818ed84c353d2cb4b6049667e5cde1179f
+author YehorYehorychev <egor57899@gmail.com> 2024-07-10 17:04:43 -0700
+committer YehorYehorychev <egor57899@gmail.com> 2024-07-10 17:04:43 -0700
+
+    docker-compose file has been renamed to test-suites.yml
+
+
+:100644 100644 fae9c0d229fdf0a2a96be9d04a2935f0874a2caf c4b078f557a87f72882d2e03ec564432bcb1d006 M	jenkins-ci-cd/jenkins/volumes/master/logs/health-checker.log
+:100644 100644 4aba36991dd83167cc3d7f57e8ac52f8727cd315 4aba36991dd83167cc3d7f57e8ac52f8727cd315 R100	jenkins-ci-cd/runner-approach-1/docker-compose.yml	jenkins-ci-cd/runner-approach-1/test-suites.yml
+commit 9360e2818ed84c353d2cb4b6049667e5cde1179f
+tree 71c6ca04e6c27750f2d3421ba1a72c33d55fa0fe
+parent df5b74f896d891a7647a997914b8e9099c134f03
+author YehorYehorychev <egor57899@gmail.com> 2024-07-10 17:03:00 -0700
+committer YehorYehorychev <egor57899@gmail.com> 2024-07-10 17:03:00 -0700
+
+    docker-compose file has been refactored. 'Depends on' tags have been removed
+
+
+:100644 100644 34e92df07d2f0714dfb38fa657f6e747becf556d fae9c0d229fdf0a2a96be9d04a2935f0874a2caf M	jenkins-ci-cd/jenkins/volumes/master/logs/health-checker.log
+:100644 100644 e2de3c3255ad9c7a656650d56e22e2a6a4ed9366 4aba36991dd83167cc3d7f57e8ac52f8727cd315 M	jenkins-ci-cd/runner-approach-1/docker-compose.yml
+commit df5b74f896d891a7647a997914b8e9099c134f03
+tree be9b96599616059731c44d47f7068a9f7f070f0d
+parent b047cf160ca27e266a832a731501c0ed2b6b62df
+author YehorYehorychev <egor57899@gmail.com> 2024-07-10 17:01:08 -0700
+committer YehorYehorychev <egor57899@gmail.com> 2024-07-10 17:01:08 -0700
+
+    .env file created and grid.yml file has been refactored
+
+
+:100644 100644 fe3822a13c2951e7dbe8529c69d107945f42adad 31ce9c492e84b0b60fa444c4dba0b30036230c33 M	.idea/vcs.xml
+:100644 100644 d03273115ce962a7d0f22979a30c842228f1802e 34e92df07d2f0714dfb38fa657f6e747becf556d M	jenkins-ci-cd/jenkins/volumes/master/logs/health-checker.log
+:000000 100644 0000000000000000000000000000000000000000 b505dec5274d564ec96a933757e7e01ff2141439 A	jenkins-ci-cd/runner-approach-1/.env
+:100644 100644 805eee8a07783cf45cef557bb96c1e76f9fa78bd 251ff9a16ab040de32d12d498e4a32560dd38c5b M	jenkins-ci-cd/runner-approach-1/grid.yml
+commit b047cf160ca27e266a832a731501c0ed2b6b62df
+tree d3ee4215a802664ed969755eb1c7da8639b31d58
+parent 81c7651a8c02d56e455cc6a28470caa89055fa60
+author YehorYehorychev <egor57899@gmail.com> 2024-07-10 16:55:34 -0700
+committer YehorYehorychev <egor57899@gmail.com> 2024-07-10 16:55:34 -0700
+
+    In runner-approach-1 grid.yml file has been refactored
+
+
+:100644 100644 bfd9b555596f0927018035b2b2f971375ecb21c6 d03273115ce962a7d0f22979a30c842228f1802e M	jenkins-ci-cd/jenkins/volumes/master/logs/health-checker.log
+:100644 100644 58afc8bdb45c31bf5aafad1cb38108537c56a057 805eee8a07783cf45cef557bb96c1e76f9fa78bd M	jenkins-ci-cd/runner-approach-1/grid.yml
+commit 81c7651a8c02d56e455cc6a28470caa89055fa60
+tree 6c77279bc85a625ae3f151124d09894ea7a4ca07
+parent 9b0b498807c7c4d0fa7d390154e4c4f3c16e3acb
+author YehorYehorychev <egor57899@gmail.com> 2024-07-10 16:54:40 -0700
+committer YehorYehorychev <egor57899@gmail.com> 2024-07-10 16:54:40 -0700
+
+    In runner-approach-1 docker-compose file has been refactored to fix infinite jenkins job issue
+
+
+:100644 100644 5ea20fa3c7a3391b621131e56c43b499e22c5182 bfd9b555596f0927018035b2b2f971375ecb21c6 M	jenkins-ci-cd/jenkins/volumes/master/logs/health-checker.log
+:100644 100644 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 9110274203861d02f6fe80e5bc3ffcc898e3216b M	jenkins-ci-cd/jenkins/volumes/master/logs/slaves/NODE1/slave.log
+:100644 100644 07ce8274ae6973f909ab07ce38e8052a47383b56 e2de3c3255ad9c7a656650d56e22e2a6a4ed9366 M	jenkins-ci-cd/runner-approach-1/docker-compose.yml
+commit 9b0b498807c7c4d0fa7d390154e4c4f3c16e3acb
+tree ed1f977fa84db81c47444ee915bd475da6b52e39
+parent 493d0aa41526b3c60e280b2f08d046f1fe925a1c
+author YehorYehorychev <egor57899@gmail.com> 2024-07-10 16:53:19 -0700
+committer YehorYehorychev <egor57899@gmail.com> 2024-07-10 16:53:19 -0700
+
+    In runner-approach-1 folder grid.yml file has been added to fix infinite jenkins job issue
+
+
+:100644 100644 1c5372409b0f00d98b452ffcd96026a9a8db0c97 1879c64c595985ea0109516ca3c94e83ede138ef M	jenkins-ci-cd/jenkins/remoting/logs/remoting.log.0
+:100644 100644 d39e71f3b803092c492afe4a036e38d0b23d5267 1c5372409b0f00d98b452ffcd96026a9a8db0c97 M	jenkins-ci-cd/jenkins/remoting/logs/remoting.log.1
+:100644 100644 d67566e537e02c87840e5658837f4fd649c7e0f0 d39e71f3b803092c492afe4a036e38d0b23d5267 M	jenkins-ci-cd/jenkins/remoting/logs/remoting.log.2
+:100644 100644 4848d736cd2341acdcdc727ce241e247f76d2e31 d67566e537e02c87840e5658837f4fd649c7e0f0 M	jenkins-ci-cd/jenkins/remoting/logs/remoting.log.3
+:100644 100644 762dc26b7391a9e0aa10c5eb3b96685993ddd097 4848d736cd2341acdcdc727ce241e247f76d2e31 M	jenkins-ci-cd/jenkins/remoting/logs/remoting.log.4
+:000000 100644 0000000000000000000000000000000000000000 469f0c3444211de3c4888c91688024ae79922cb9 A	jenkins-ci-cd/jenkins/volumes/master/.java/fonts/17.0.11/fcinfo-1-6392b146dd36-Debian GNU/Linux-12-en-.properties
+:100644 100644 3e0febf1210fe6cb8f6dd3c299ae179cc4a9b7d8 f87c038364083bf30b5f39069eeb0ed54b7e71b0 M	jenkins-ci-cd/jenkins/volumes/master/copy_reference_file.log
+:000000 100644 0000000000000000000000000000000000000000 f555c2d4550c2769b3fad3007f7e1b044136c774 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/2/build.xml
+:000000 100644 0000000000000000000000000000000000000000 25c39c69409e33e60a59c736c61a9b8486b3a4b0 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/2/changelog2275430498880783306.xml
+:000000 100644 0000000000000000000000000000000000000000 2268ec9484ea6fac12d97d9c0be7caeae32360ba A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/2/log
+:000000 100644 0000000000000000000000000000000000000000 fa7cacd60fb94e98dc954d390b72610b4e6b51d5 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/2/log-index
+:000000 100644 0000000000000000000000000000000000000000 45731826ac7fa459dd36f90ce042d2cdb1186e48 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/2/workflow-completed/flowNodeStore.xml
+:000000 100644 0000000000000000000000000000000000000000 2a96924ec59de044c17e7465ffe06504720af044 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/3/build.xml
+:000000 100644 0000000000000000000000000000000000000000 a15388353a7c01b6e52502bde5ed105b92afd54a A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/3/changelog2382853858896630982.xml
+:000000 100644 0000000000000000000000000000000000000000 e57dc18d4de17246dfc108243ad0ed39c4265c65 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/3/log
+:000000 100644 0000000000000000000000000000000000000000 b7df179f1cb834803aa3f0368cdc287fdf7c3cbb A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/3/log-index
+:000000 100644 0000000000000000000000000000000000000000 dcca9a90ebe9051f530c8fbfd781f1789e9fb4f3 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/3/workflow-completed/flowNodeStore.xml
+:100644 100644 7438f55db033413fd86a4c8f63f05e2b4205925e 3e0e8d78b6a64f9874e9fbf2dc071683d3fdb745 M	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/permalinks
+:100644 100644 0cfbf08886fca9a91cb753ec8734c84fcbe52c9f b8626c4cff2849624fb67f87cd0ad72b163671ad M	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/nextBuildNumber
+:100644 100644 e948ba72fffd60ca9658c27bbe41421982d9bcda 5ea20fa3c7a3391b621131e56c43b499e22c5182 M	jenkins-ci-cd/jenkins/volumes/master/logs/health-checker.log
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	jenkins-ci-cd/jenkins/volumes/master/logs/slaves/NODE1/slave.log
+:100644 100644 54263cac5acdc3555701fe3efe8f91d366572b71 b7fce7146aa0df778bce725fed6feeab18c02001 M	jenkins-ci-cd/jenkins/volumes/master/queue.xml
+:100644 100644 c611f873b6466925d48bbdbfbf979d105d4d8127 c3408add335dd658c8f38c550f98a844d37aa7e1 M	jenkins-ci-cd/jenkins/volumes/master/queue.xml.bak
+:100644 100644 7eb12944a1b02cc3891dccd405e8832747fbf39d 497bd18bf8aa5352c4fed5ed39463964211e56fa M	jenkins-ci-cd/jenkins/volumes/master/updates/default.json
+:160000 160000 df79daf6dfb254ab20be24e6924340bbab8d57fd d02dabea45cfc5753ca187c703d752ba91b20838 M	jenkins-ci-cd/jenkins/workspace/SELENIUM_DOCKER_RUNNER
+:000000 100644 0000000000000000000000000000000000000000 58afc8bdb45c31bf5aafad1cb38108537c56a057 A	jenkins-ci-cd/runner-approach-1/grid.yml
+commit 493d0aa41526b3c60e280b2f08d046f1fe925a1c
+tree 542eed7ecfe1dd3290fb80be421b17533ef87fe2
+parent a73c8096c84e0469bdd58f813de911e17c561771
+author YehorYehorychev <egor57899@gmail.com> 2024-07-09 18:04:18 -0700
+committer YehorYehorychev <egor57899@gmail.com> 2024-07-09 18:04:18 -0700
+
+    runner-approach-1 folder with Jenkinsfile and docker-compose have been created and implemented as Project Runners
+
+
+:100644 100644 a91293b81b3cd25acf40b6bbdd13cf512b69b3b1 fe3822a13c2951e7dbe8529c69d107945f42adad M	.idea/vcs.xml
+:000000 100644 0000000000000000000000000000000000000000 5d8131f149b0d58b149d42602190e21a0ac752cd A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/1/build.xml
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/1/changelog3060034021686706475.xml
+:000000 100644 0000000000000000000000000000000000000000 2efad28ae9c888e3f8e5142305650dd00df65403 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/1/log
+:000000 100644 0000000000000000000000000000000000000000 1aba2eff29ec35de40c8babebd25a06f589a49dd A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/1/log-index
+:000000 100644 0000000000000000000000000000000000000000 1fc0065c56c089cbd71fcd1571598591c7296580 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/1/workflow-completed/flowNodeStore.xml
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/legacyIds
+:000000 100644 0000000000000000000000000000000000000000 7438f55db033413fd86a4c8f63f05e2b4205925e A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/permalinks
+:000000 100644 0000000000000000000000000000000000000000 24a3a4d236618b713fee1dbaccabe9ce4470fff1 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/config.xml
+:000000 100644 0000000000000000000000000000000000000000 0cfbf08886fca9a91cb753ec8734c84fcbe52c9f A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/nextBuildNumber
+:100644 100644 b17821de033eed55b43d1c9ab0037f75784ed58e e948ba72fffd60ca9658c27bbe41421982d9bcda M	jenkins-ci-cd/jenkins/volumes/master/logs/health-checker.log
+:100644 100644 ce9b9898b821da2e6d838ffe610c80c59443b1d4 54263cac5acdc3555701fe3efe8f91d366572b71 M	jenkins-ci-cd/jenkins/volumes/master/queue.xml
+:000000 160000 0000000000000000000000000000000000000000 df79daf6dfb254ab20be24e6924340bbab8d57fd A	jenkins-ci-cd/jenkins/workspace/SELENIUM_DOCKER_RUNNER
+:100644 100644 1d12e9d057dc9463bc94ba976ef57ac9f0681fb1 f3171980071b9b1b6c572dcebdf1ef3e1f0d42ce M	jenkins-ci-cd/runner-approach-1/Jenkinsfile
+:100644 100644 1f0cba9054d73906d580b0cd59642f0a9ec5afd6 07ce8274ae6973f909ab07ce38e8052a47383b56 M	jenkins-ci-cd/runner-approach-1/docker-compose.yml
+commit a73c8096c84e0469bdd58f813de911e17c561771
+tree 7087cc468a3f732518820e6706eef03a072999a4
+parent 4255eca022d50f7084433ce4bb05cbb0ed0aaff6
+author YehorYehorychev <egor57899@gmail.com> 2024-07-09 17:48:37 -0700
+committer YehorYehorychev <egor57899@gmail.com> 2024-07-09 17:48:37 -0700
+
+    runner-approach-1 folder with Jenkinsfile and docker-compose have been created and implemented as Project Runners
+
+
+:100644 100644 639ba326614e11e48cb45f4d9956051fc133a320 b21d08fbe51f80a0f2aff27f6657520ce6c96584 M	jenkins-ci-cd/agent-label/Jenkinsfile
+:100644 100644 3126b947eae899721b00fe462411740c04040505 e7efcb77aec5979f8abf0a12fb5276982562a4e2 M	jenkins-ci-cd/docker-agent/Jenkinsfile
+:100644 100644 77253efc1e50cb4f4f62b055a53d5eb3fc60b23a 3af93b3e10082e1cf272e65041a9cad380d630d9 M	jenkins-ci-cd/env-variable/Jenkinsfile
+:000000 100644 0000000000000000000000000000000000000000 b17821de033eed55b43d1c9ab0037f75784ed58e A	jenkins-ci-cd/jenkins/volumes/master/logs/health-checker.log
+:000000 100644 0000000000000000000000000000000000000000 b669114b8485bd1c5f64315577278071c410cfaf A	jenkins-ci-cd/jenkins/volumes/master/logs/tasks/Periodic background build discarder.log
+:100644 000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0000000000000000000000000000000000000000 D	jenkins-ci-cd/run-container/Jenkinsfile
+:000000 100644 0000000000000000000000000000000000000000 1d12e9d057dc9463bc94ba976ef57ac9f0681fb1 A	jenkins-ci-cd/runner-approach-1/Jenkinsfile
+:000000 100644 0000000000000000000000000000000000000000 1f0cba9054d73906d580b0cd59642f0a9ec5afd6 A	jenkins-ci-cd/runner-approach-1/docker-compose.yml
+commit 4255eca022d50f7084433ce4bb05cbb0ed0aaff6
+tree 0d0f483ea3b34858ba65359709533aab4abd5d2f
+parent 91c0f90bb6e594ddab4dc3ca5b1f1954ff0169be
+author YehorYehorychev <egor57899@gmail.com> 2024-07-09 16:49:16 -0700
+committer YehorYehorychev <egor57899@gmail.com> 2024-07-09 16:49:16 -0700
+
+    Jenkins pipeline file has been updated
+
+
+:100644 100644 eeafc16789453a79d830e3cbd971dca5471afb43 68186a7faf2e70a47f6029c87493255b29da609b M	Jenkinsfile
+:100644 100644 d67566e537e02c87840e5658837f4fd649c7e0f0 1c5372409b0f00d98b452ffcd96026a9a8db0c97 M	jenkins-ci-cd/jenkins/remoting/logs/remoting.log.0
+:100644 100644 4848d736cd2341acdcdc727ce241e247f76d2e31 d39e71f3b803092c492afe4a036e38d0b23d5267 M	jenkins-ci-cd/jenkins/remoting/logs/remoting.log.1
+:100644 100644 762dc26b7391a9e0aa10c5eb3b96685993ddd097 d67566e537e02c87840e5658837f4fd649c7e0f0 M	jenkins-ci-cd/jenkins/remoting/logs/remoting.log.2
+:100644 100644 509dfa0438e563e35b84a49f9722effd4e6f2780 4848d736cd2341acdcdc727ce241e247f76d2e31 M	jenkins-ci-cd/jenkins/remoting/logs/remoting.log.3
+:100644 100644 101c45b29ec5785a0052f233ddefebd341ebfec9 762dc26b7391a9e0aa10c5eb3b96685993ddd097 M	jenkins-ci-cd/jenkins/remoting/logs/remoting.log.4
+:000000 100644 0000000000000000000000000000000000000000 3fa76f5d5dfa7e0e2bb3837f0ccd279dcd16070f A	jenkins-ci-cd/jenkins/volumes/master/.java/fonts/17.0.11/fcinfo-1-0e69422088da-Debian GNU/Linux-12-en-.properties
+:100644 100644 99d26f601099ddc1bc29ec773fead1e233219e0a 3e0febf1210fe6cb8f6dd3c299ae179cc4a9b7d8 M	jenkins-ci-cd/jenkins/volumes/master/copy_reference_file.log
+:100644 100644 18e6cf5b937ded7512bb4574d3c1dbef6abe32ed b26e18be599cfb4b86e0742f7ff0130c0e720c23 M	jenkins-ci-cd/jenkins/volumes/master/fingerprints/fd/a8/c38a52c02c01f989e2d715821d30.xml
+:000000 100644 0000000000000000000000000000000000000000 d477acfc949fd5f27229f7d33156a66c48ceb80b A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/23/build.xml
+:000000 100644 0000000000000000000000000000000000000000 f8fd7d414d2b5d351befaeb207b7397f32a6c39e A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/23/changelog6624077241910288371.xml
+:000000 100644 0000000000000000000000000000000000000000 bc995b490ce9f8ddc4970a8980cc0fb2e93c0aef A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/23/log
+:000000 100644 0000000000000000000000000000000000000000 31df79db7b321b672a53bb3effbed9d223d1c501 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/23/log-index
+:000000 100644 0000000000000000000000000000000000000000 d8b91004c2cfbf4ac114b5b690ad24bca225ead3 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/23/workflow-completed/flowNodeStore.xml
+:000000 100644 0000000000000000000000000000000000000000 9b844832ce0aa6ae9ed4de7450ec1d660c764e97 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/24/build.xml
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/24/changelog865709675036632207.xml
+:000000 100644 0000000000000000000000000000000000000000 c117ba0022a2ab37ef90251c0d6ea8e313c2e8c9 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/24/log
+:000000 100644 0000000000000000000000000000000000000000 7b50953bbc1a07ae784eed4ba32746fd0bb7e331 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/24/log-index
+:000000 100644 0000000000000000000000000000000000000000 6a0531808bddadcdd484cb2c50a639f38f9ba775 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/24/workflow-completed/flowNodeStore.xml
+:000000 100644 0000000000000000000000000000000000000000 b147f84394207cafba718218bccda15b883b3cf9 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/25/build.xml
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/25/changelog1507209005671681355.xml
+:000000 100644 0000000000000000000000000000000000000000 ea8ab0aa8060bb04864db202ea4862b06e7fe7b0 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/25/log
+:000000 100644 0000000000000000000000000000000000000000 6d6fba7ec4ca07a6a71fc98295a42a36eb53aa13 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/25/log-index
+:000000 100644 0000000000000000000000000000000000000000 32fb85db32bf3489ed21455360f5140849ba3616 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/25/workflow-completed/flowNodeStore.xml
+:100644 100644 06b1f03ab1e7bb2d2584bbccdeb080a5c1dde8c6 5940be9166f50ee5f352ca2edda81f5b55ae5c2d M	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/permalinks
+:100644 100644 409940768f2a684935a7d15a29f96e82c487f439 6f4247a6255c99f420d1df558d68745592862ff7 M	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/nextBuildNumber
+:100644 000000 8a78b2a88262135b2648d28be41c08ec7b9f6e2b 0000000000000000000000000000000000000000 D	jenkins-ci-cd/jenkins/volumes/master/logs/health-checker.log
+:100644 000000 1eef723651803b310d3f97a031988c63ed4ca83e 0000000000000000000000000000000000000000 D	jenkins-ci-cd/jenkins/volumes/master/logs/tasks/Periodic background build discarder.log
+:100644 100644 c611f873b6466925d48bbdbfbf979d105d4d8127 ce9b9898b821da2e6d838ffe610c80c59443b1d4 M	jenkins-ci-cd/jenkins/volumes/master/queue.xml
+:100644 100644 7289858a33272103cab0adb7521935e7c90ea024 c611f873b6466925d48bbdbfbf979d105d4d8127 M	jenkins-ci-cd/jenkins/volumes/master/queue.xml.bak
+:160000 160000 20cbe10877103c28455b5ae278a5b24dba91a0be 00523502b6214026a6cc9d9f1141a10397c6a745 M	jenkins-ci-cd/jenkins/workspace/SELENIUM_DOCKER_BUILDER
