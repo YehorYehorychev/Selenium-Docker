@@ -1,0 +1,27 @@
+commit 7eb40b2c6164e5391209056ac99f4cd83f62dcaf
+tree 6cba808639cc6e99f6df3410bdd06928eee846e6
+parent 0b3420269daf93defc6cee4bb98a63fa24a0a738
+author Yehor Yehorychev <131714384+YehorYehorychev@users.noreply.github.com> 2024-07-11 17:06:18 -0700
+committer GitHub <noreply@github.com> 2024-07-11 17:06:18 -0700
+
+    Jenkinsfile has been updated
+
+:000000 100644 0000000000000000000000000000000000000000 c148e058febe864592b1bbbf3f6df7348a0809f7 A	Jenkinsfile
+commit 0b3420269daf93defc6cee4bb98a63fa24a0a738
+tree 68cb64dc30bc570ad4e402148f050983f2acb46f
+parent 1f51918de61510f8588eb92606adec2e57ccc1c0
+author Yehor Yehorychev <131714384+YehorYehorychev@users.noreply.github.com> 2024-07-11 17:05:54 -0700
+committer GitHub <noreply@github.com> 2024-07-11 17:05:54 -0700
+
+    Delete Jenkinsfile
+
+:100644 000000 3f666f754b49b398073c353e796bf9bdd19eaf80 0000000000000000000000000000000000000000 D	Jenkinsfile
+commit 1f51918de61510f8588eb92606adec2e57ccc1c0
+tree 2e3482eced163794b0d5a576bf948ebe374d7a67
+parent 88f0fd5c40e23a58cc75f0dbf62d8a48d3ee7cd5
+author Yehor Yehorychev <131714384+YehorYehorychev@users.noreply.github.com> 2024-07-10 17:33:34 -0700
+committer GitHub <noreply@github.com> 2024-07-10 17:33:34 -0700
+
+    Update README.md
+
+:100644 100644 f8e1bf746d3758fd4ecba650a5b2f3f44d163fef a7f4fe7d05727ea82c3fdf2b5d2d023c9ec0ef26 M	README.md
