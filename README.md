@@ -42,6 +42,29 @@ Archive test results via Jenkins in the cloud. This framework provides mechanism
 
 # Running Tests 🚀
 
+## Dockerfile Env
+Before building the entire project, creating the .jar file, and sending it to Docker Hub to subsequently run all tests, check the Dockerfile and remember to set the appropriate environment depending on your operating system. This example specifies what should be written if you have Windows and what should be done if you have Linux or macOS.
+
+```Dockerfile
+FROM bellsoft/liberica-openjdk-alpine:17.0.10
+
+# Install curl and jq
+RUN apk add curl jq
+
+# Workspace (we create a selenium-docker directory)
+WORKDIR /home/selenium-docker
+
+# Add the required files
+ADD target/docker-resources        ./
+ADD runner.sh                      runner.sh
+
+# Fix for windows
+RUN dos2unix runner.sh
+
+# Start the runner.sh
+#ENTRYPOINT sh runner.sh
+
+
 ### TestNG parameters
 
 - Running a test suite
