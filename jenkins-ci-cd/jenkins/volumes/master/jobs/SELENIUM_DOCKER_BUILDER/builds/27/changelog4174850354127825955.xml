@@ -1,0 +1,60 @@
+commit 4894c6e62e20d5481b9acf5cdbd6afba87c0a786
+tree a65d3dad301ba1f7c3240c854e56d68e30a85721
+parent 42682b68e16d8ed7e785f2513e2af0169a7b5edb
+author YehorYehorychev <egor57899@gmail.com> 2024-07-12 16:53:58 -0700
+committer YehorYehorychev <egor57899@gmail.com> 2024-07-12 16:53:58 -0700
+
+    john.json file gas been changed
+
+
+:100644 100644 83bfa622acc14373953d5a517e17f19e12bd4f4c 50f3852ac4f661382ac91b6db95578d80bd217cd M	src/test/resources/test-data/vendor-portal/john.json
+commit 42682b68e16d8ed7e785f2513e2af0169a7b5edb
+tree 27d30201e488c0519c3848428b69f3103513a29a
+parent 7ed1ef7d48806abfc495165f75ed2c1e3808db23
+author YehorYehorychev <egor57899@gmail.com> 2024-07-12 16:53:14 -0700
+committer YehorYehorychev <egor57899@gmail.com> 2024-07-12 16:53:14 -0700
+
+    john.json file gas been changed
+
+
+:100644 100644 e989d94397424c262853c02309b3e7d548868bfe 868e445dbc9a5eeb7578b23a09fb101ac0ae8c1b M	jenkins-ci-cd/jenkins/volumes/master/logs/health-checker.log
+:100644 000000 772cd286730647433ea5f8af7ad803d02a2a772a 0000000000000000000000000000000000000000 D	jenkins-ci-cd/jenkins/volumes/master/logs/slaves/NODE1/slave.log
+:100644 000000 226cfd2564d989dc448cfabf0bc177fcacf589f4 0000000000000000000000000000000000000000 D	jenkins-ci-cd/jenkins/volumes/master/logs/tasks/Periodic background build discarder.log
+:100644 000000 7053223e6b6c3253315223e498f04e0790873e7f 0000000000000000000000000000000000000000 D	jenkins-ci-cd/jenkins/volumes/master/logs/tasks/Periodic background build discarder.log.1
+:100644 000000 b669114b8485bd1c5f64315577278071c410cfaf 0000000000000000000000000000000000000000 D	jenkins-ci-cd/jenkins/volumes/master/logs/tasks/Periodic background build discarder.log.2
+:100644 000000 c40300fac4eccc87d9fcaf2ec90a40dc4706dcea 0000000000000000000000000000000000000000 D	jenkins-ci-cd/jenkins/volumes/master/logs/tasks/Workspace clean-up.log
+:100644 100644 50f3852ac4f661382ac91b6db95578d80bd217cd 83bfa622acc14373953d5a517e17f19e12bd4f4c M	src/test/resources/test-data/vendor-portal/john.json
+commit 7ed1ef7d48806abfc495165f75ed2c1e3808db23
+tree 0d742bbc71f99297be865406acfbff31ab12f0c6
+parent a037d997731ad2566bf4561e0e236079abbe4eba
+author YehorYehorychev <egor57899@gmail.com> 2024-07-12 16:51:47 -0700
+committer YehorYehorychev <egor57899@gmail.com> 2024-07-12 16:51:47 -0700
+
+    john.json file gas been changed
+
+
+:100644 100644 fe3822a13c2951e7dbe8529c69d107945f42adad b719ccf7bd4364370d752f3e0b20b7e016584fca M	.idea/vcs.xml
+:100644 100644 b26e18be599cfb4b86e0742f7ff0130c0e720c23 6cf3be464165d710f59001a079a221a56adc46b0 M	jenkins-ci-cd/jenkins/volumes/master/fingerprints/fd/a8/c38a52c02c01f989e2d715821d30.xml
+:000000 100644 0000000000000000000000000000000000000000 772517ada31e6f890ee173e3998d666211bbb4ef A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/26/build.xml
+:000000 100644 0000000000000000000000000000000000000000 d885e19ab1bf68062b7ef59d0738f138a95ab15c A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/26/changelog8526934010089581644.xml
+:000000 100644 0000000000000000000000000000000000000000 cd2aa2214c1f6fa7957e4c51ab166ffbd26220ff A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/26/log
+:000000 100644 0000000000000000000000000000000000000000 5f3923c126b8ebbfa214f88cf731e96b7525ee3a A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/26/log-index
+:000000 100644 0000000000000000000000000000000000000000 0df255a3a68cd51be9665cf290506f5e65ff1a4c A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/26/workflow-completed/flowNodeStore.xml
+:100644 100644 5940be9166f50ee5f352ca2edda81f5b55ae5c2d 5f8cb45ec45fab5e75ef33604f14d196a3cb0035 M	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/permalinks
+:100644 100644 6f4247a6255c99f420d1df558d68745592862ff7 f64f5d8d85ac0230d36724bd7e6ba351a95b4942 M	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/nextBuildNumber
+:000000 100644 0000000000000000000000000000000000000000 3d2b523a5a6ecaf679a0fd61aa7d14cf9c4a3388 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/10/build.xml
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/10/changelog6175775231002425398.xml
+:000000 100644 0000000000000000000000000000000000000000 c3178206d57000bd70dd0b1f43f09c65d54ce130 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/10/log
+:000000 100644 0000000000000000000000000000000000000000 19416d4fcb1ee9145e2a51c55a45c541207aaa21 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/10/log-index
+:000000 100644 0000000000000000000000000000000000000000 03024f9ae23089c5dacfa5e2cde83796050aca83 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/10/workflow-completed/flowNodeStore.xml
+:000000 100644 0000000000000000000000000000000000000000 be9b73c771e8147ddde05bb89378730959f7ac43 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/11/build.xml
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/11/changelog12004123543097015859.xml
+:000000 100644 0000000000000000000000000000000000000000 956f24c159feec72eb250832cfad21ac37a05fa4 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/11/log
+:000000 100644 0000000000000000000000000000000000000000 19416d4fcb1ee9145e2a51c55a45c541207aaa21 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/11/log-index
+:000000 100644 0000000000000000000000000000000000000000 2b9d9182302f27b290746905d12a71330198cdd8 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/11/workflow-completed/flowNodeStore.xml
+:100644 100644 fd299c656a0b43e0a0ba0eb248e1286c4bc7013c c43e2f57aab3e0a1413594ac605e689894f4a077 M	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/permalinks
+:100644 100644 f599e28b8ab0d8c9c57a486c89c4a5132dcbd3b2 48082f72f087ce7e6fa75b9c41d7387daecd447b M	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/nextBuildNumber
+:100644 100644 c638cb411365995be874fe0d7982088d17d269f3 e989d94397424c262853c02309b3e7d548868bfe M	jenkins-ci-cd/jenkins/volumes/master/logs/health-checker.log
+:000000 100644 0000000000000000000000000000000000000000 a16bec65edd26244fadc3eb7dc9de58985afda93 A	jenkins-ci-cd/jenkins/volumes/master/queue.xml
+:160000 160000 00523502b6214026a6cc9d9f1141a10397c6a745 8ac23201b8bf6da32cc5a209e49a3965f3473fe8 M	jenkins-ci-cd/jenkins/workspace/SELENIUM_DOCKER_BUILDER
+:100644 100644 a8d73480214111714b95ce5c2a586d9752cb0b4a 50f3852ac4f661382ac91b6db95578d80bd217cd M	src/test/resources/test-data/vendor-portal/john.json
