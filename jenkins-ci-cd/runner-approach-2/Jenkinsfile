@@ -15,6 +15,11 @@ pipeline {
         stage('Run Tests') {
             steps {
                 bat "docker-compose -f test-suites.yml up" // For Linux/Mac use -> sh "docker-compose -f test-suites.yml up"
+                script {
+                    if (fileExists('output/vendor-portal/testng-failed.xml') || ('output/flight-reservation/testng-failed.xml')) {
+                        error('Failed Tests Found!')
+                    }
+                }
             }
         }
     }

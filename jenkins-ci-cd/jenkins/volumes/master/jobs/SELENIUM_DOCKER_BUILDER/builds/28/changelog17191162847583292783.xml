@@ -1,0 +1,28 @@
+commit 9defc62904789276a5a17cbdc72aa9fe4af3123b
+tree 823a6af16a2a65a9bb99e871c050122a68f5e804
+parent 4894c6e62e20d5481b9acf5cdbd6afba87c0a786
+author YehorYehorychev <egor57899@gmail.com> 2024-07-12 17:20:15 -0700
+committer YehorYehorychev <egor57899@gmail.com> 2024-07-12 17:20:15 -0700
+
+    Dockerfile file gas been refactored for Windows
+
+
+:100644 100644 32779e99f9542f7e059b1dd88bd72e36f7161b8b b24f2baf921a4ef45e81e078ca19e3d58f3600d4 M	Dockerfile
+:100644 100644 6cf3be464165d710f59001a079a221a56adc46b0 72de69ce5f26356466486b148ada268068d94895 M	jenkins-ci-cd/jenkins/volumes/master/fingerprints/fd/a8/c38a52c02c01f989e2d715821d30.xml
+:000000 100644 0000000000000000000000000000000000000000 79fc18f7e47882bc14fb023975786cedf39f46a4 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/27/build.xml
+:000000 100644 0000000000000000000000000000000000000000 6a7bd2b37f990cfb58a47891c3fdf1b77fa56db8 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/27/changelog4174850354127825955.xml
+:000000 100644 0000000000000000000000000000000000000000 52ebdf1a565583af20562263d3dde699c94cac55 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/27/log
+:000000 100644 0000000000000000000000000000000000000000 5f3923c126b8ebbfa214f88cf731e96b7525ee3a A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/27/log-index
+:000000 100644 0000000000000000000000000000000000000000 c37585fd7fa8ad9dc0e3a1ee9285bfe3c4bb3f30 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/27/workflow-completed/flowNodeStore.xml
+:100644 100644 5f8cb45ec45fab5e75ef33604f14d196a3cb0035 7a4fb8a984e4d2d8ac8a3a1201bd66f8939f2cfc M	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/builds/permalinks
+:100644 100644 f64f5d8d85ac0230d36724bd7e6ba351a95b4942 9902f17848a8974ab57d57999b74a63198fe6e23 M	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_BUILDER/nextBuildNumber
+:000000 100644 0000000000000000000000000000000000000000 f87456905424c0a9a4a22f1b22b5979d1ad09a23 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/12/build.xml
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/12/changelog3393605545006190503.xml
+:000000 100644 0000000000000000000000000000000000000000 8854cad7b47f15696a1cf1dfe6aa3267de524d3a A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/12/log
+:000000 100644 0000000000000000000000000000000000000000 19416d4fcb1ee9145e2a51c55a45c541207aaa21 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/12/log-index
+:000000 100644 0000000000000000000000000000000000000000 6be3dff433a07eeb0678b781b52296fee77dec30 A	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/12/workflow-completed/flowNodeStore.xml
+:100644 100644 c43e2f57aab3e0a1413594ac605e689894f4a077 3541120d61bc520abfe3d195cd22e606ef93c2c9 M	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/builds/permalinks
+:100644 100644 48082f72f087ce7e6fa75b9c41d7387daecd447b b1bd38b62a0800a4f6a80c34e21c5acffae52c7e M	jenkins-ci-cd/jenkins/volumes/master/jobs/SELENIUM_DOCKER_RUNNER/nextBuildNumber
+:100644 100644 868e445dbc9a5eeb7578b23a09fb101ac0ae8c1b 09e02fb5624e6053337dfcbabb0b751c870fb51a M	jenkins-ci-cd/jenkins/volumes/master/logs/health-checker.log
+:100644 100644 a16bec65edd26244fadc3eb7dc9de58985afda93 23b151fe728d7bd34d7a02a7b120d9077f5dbf9a M	jenkins-ci-cd/jenkins/volumes/master/queue.xml
+:160000 160000 8ac23201b8bf6da32cc5a209e49a3965f3473fe8 f5371540e1d56f800eadea50a15f0380e6f170a5 M	jenkins-ci-cd/jenkins/workspace/SELENIUM_DOCKER_BUILDER
