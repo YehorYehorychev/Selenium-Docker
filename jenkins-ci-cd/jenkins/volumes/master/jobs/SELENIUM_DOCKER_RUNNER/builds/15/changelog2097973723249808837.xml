@@ -1,0 +1,18 @@
+commit d880886a75fbe4ea7ead3a898a0f2cb9885fe901
+tree 44984575f3fed71e89437a9d1108662ae68c46a5
+parent ca4ca3cc3ef524757e740538f6480090019f5be0
+author Yehor Yehorychev <131714384+YehorYehorychev@users.noreply.github.com> 2024-07-15 17:42:59 -0700
+committer GitHub <noreply@github.com> 2024-07-15 17:42:59 -0700
+
+    Add files via upload
+
+:000000 100644 0000000000000000000000000000000000000000 cd09f1e49dac0533ca79e320f85f73184b265aad A	Jenkinsfile
+commit ca4ca3cc3ef524757e740538f6480090019f5be0
+tree 6328f77e0666f758e1aad7807b388b0fdbd6473e
+parent 9fbf9907ef7c5e3f7887dd9aa7140f0170ada6f7
+author Yehor Yehorychev <131714384+YehorYehorychev@users.noreply.github.com> 2024-07-15 17:42:47 -0700
+committer GitHub <noreply@github.com> 2024-07-15 17:42:47 -0700
+
+    Delete Jenkinsfile
+
+:100644 000000 869da40bcde55680ebdd7f6a972c80fb14b35101 0000000000000000000000000000000000000000 D	Jenkinsfile
