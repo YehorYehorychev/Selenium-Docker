@@ -74,6 +74,8 @@ RUN dos2unix runner.sh
 #ENTRYPOINT sh runner.sh
 ```
 
+## Optional
+
 ### TestNG parameters
 
 - Running a test suite
