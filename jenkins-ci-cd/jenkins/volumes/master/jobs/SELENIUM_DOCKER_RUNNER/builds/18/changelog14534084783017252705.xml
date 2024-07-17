@@ -1,0 +1,9 @@
+commit 203543ebfd2f67e101200914019ae02a2858dcef
+tree 1dfc53026ef21f37a75ba721808cbfc5a5f0b1e5
+parent d880886a75fbe4ea7ead3a898a0f2cb9885fe901
+author Yehor Yehorychev <131714384+YehorYehorychev@users.noreply.github.com> 2024-07-15 18:02:49 -0700
+committer GitHub <noreply@github.com> 2024-07-15 18:02:49 -0700
+
+    Jenkinsfile has been updated
+
+:100644 100644 cd09f1e49dac0533ca79e320f85f73184b265aad f558c9646227f7d12e3e1d1743753b343a2e6b3d M	Jenkinsfile
