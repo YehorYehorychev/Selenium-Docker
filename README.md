@@ -44,7 +44,7 @@ Archive test results via Jenkins in the cloud. This framework provides mechanism
 
 ## Jenkins Pipeline Steps
 - Clone this framework and the Selenium-Docker-Runner framework to your local machine.
-- Navigate to the `jenkins-ci-cd/jenkins` directory and run docker-compose up in the terminal to launch Jenkins at `http://localhost:8080/`.
+- Navigate to the `jenkins-ci-cd/jenkins` directory and run `docker-compose up` in the terminal to launch Jenkins at `http://localhost:8080/`.
 - Create a Node with 2 executors in Jenkins
 - Open a second terminal tab, navigate to the `jenkins-ci-cd/jenkins/volumes/node/` directory, and launch the node (In Jenkins, click on the node icon on the left side of the screen and copy the command).
 - Create Selenium-Docker-Builder in Jenkins
