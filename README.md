@@ -42,6 +42,11 @@ Archive test results via Jenkins in the cloud. This framework provides mechanism
 
 # Running Tests 🚀
 
+`mvn clean package -DskipTests
+ docker build -t yehorychev/selenium-docker .
+ docker push yehorychev/selenium-docker
+`
+
 ## Jenkins Pipeline Steps
 - Clone this framework and the Selenium-Docker-Runner framework to your local machine.
 - Navigate to the `jenkins-ci-cd/jenkins` directory and run `docker-compose up` in the terminal to launch Jenkins at `http://localhost:8080/`.
