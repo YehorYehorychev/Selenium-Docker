@@ -43,9 +43,9 @@ Archive test results via Jenkins in the cloud. This framework provides mechanism
 # Running Tests 🚀
 
 ```Commands
-`mvn clean package -DskipTests
- docker build -t yehorychev/selenium-docker .
- docker push yehorychev/selenium-docker
+mvn clean package -DskipTests
+docker build -t yehorychev/selenium-docker .
+docker push yehorychev/selenium-docker
 ```
 
 ## Jenkins Pipeline Steps
