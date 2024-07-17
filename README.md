@@ -56,6 +56,7 @@ docker push yehorychev/selenium-docker
 - Create Selenium-Docker-Builder in Jenkins
 - Create Selenium-Docker-Runner in Jenkins
 - Your Pipeline is ready
+- Run `docker-compose down` to teardown Jenkins
 
 ## Dockerfile Env
 Before building the entire project, creating the .jar file, and sending it to Docker Hub to subsequently run all tests, check the Dockerfile and remember to set the appropriate environment depending on your operating system. This example specifies what should be written if you have Windows and what should be done if you have Linux or macOS.
