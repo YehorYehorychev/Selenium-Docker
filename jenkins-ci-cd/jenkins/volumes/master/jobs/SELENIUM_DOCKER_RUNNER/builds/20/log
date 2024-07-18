@@ -1,0 +1,211 @@
+Started by upstream project "[8mha:////4PQTtJAfHqfGeGdlpfymzKQZTgSdqvskfPfQsTJzGuE1AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JH1nz3hnl3gXV19/fQBIJ3ULxQAAAA==[0mCI_CD_DEMO" build number [8mha:////4Mfdzr6ezvI2c33SuF5JrKay70y10H+aY6+XdPotFkBzAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBkH9rPwkfWfPeGeXeBdXX399IwD8P2fTxgAAAA==[0m2
+originally caused by:
+ Started by user [8mha:////4H+WqQa1ZoDx9ded0jOssnob+S6HtJb53veE3/YhCypLAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Obtained Jenkinsfile from git https://github.com/YehorYehorychev/Selenium-Docker-Runner.git
+[8mha:////4LrkJDeuQiCu9WGOe39ouc2G+RQHL3nWjroV7/3KHkKZAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4FoCj1V+q54xQlBE7k7fYBfEsktUqNG+jGgRa0XxNCREAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4PE9qqNypaSIdLUGqe6DIAW+T9brEeVagzN3wZtqDLrtAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgYB/eT83ILSktQifT9/F1dDfQCjW1X2xQAAAA==[0mNODE1 in C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_RUNNER@2
+[8mha:////4CquftZvq+ID6Kwzdf3GUwijUgkh2GnSWFutyc+IYqQCAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4PKVLhbRIY4FE3aY6lSoRgEg7ZTqK/qemY+D8ua7J4akAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4KX7S3o40vroNSPaRAbdvTOzKJEbLn0xrvL72MCZQ9n4AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4KlypsoNTkUrBa2Bje5a8djqGROYut906aZJoNn6UeouAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/YehorYehorychev/Selenium-Docker-Runner.git
+ > git init C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_RUNNER@2 # timeout=10
+Fetching upstream changes from https://github.com/YehorYehorychev/Selenium-Docker-Runner.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.45.1.windows.1'
+ > git fetch --tags --force --progress -- https://github.com/YehorYehorychev/Selenium-Docker-Runner.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/YehorYehorychev/Selenium-Docker-Runner.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision 203543ebfd2f67e101200914019ae02a2858dcef (refs/remotes/origin/main)
+Commit message: "Jenkinsfile has been updated"
+ > git rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 203543ebfd2f67e101200914019ae02a2858dcef # timeout=10
+ > git rev-list --no-walk 203543ebfd2f67e101200914019ae02a2858dcef # timeout=10
+[8mha:////4BdQUPup8n3Cg3EzAX14RngV+zd0z0FJ0Bvs27USC7EqAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4JcG4E8m7QCqiWgcBT2NJBaSzKtB/Pv4SOaJF6mdfglHAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4HV6v/lRT7xdxJoLQDF5+rJnHbTjXNHsuQ4MeRn5Tt+YAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4HVz3cM/4y9BWJNoWQv2pjjxiYx6A5xn0cEmk3lhE91wAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4KUa9Wu7m8seMBbB8/J+N1LuO5UZt2IfdfLNg3gI28IdAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4ASJ5BATpCIfdDmB54ZlImdkV/jzScq9oDtvrZxEgvdlAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Start Grid)
+[8mha:////4EWlIPCfBxy4ZFxXkoQOAlWHghhOLoeo6EZaH0oAvIfYAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] bat
+
+C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_RUNNER@2>docker-compose -f grid.yml up --scale firefox=2 -d 
+time="2024-07-16T17:17:27-07:00" level=warning msg="C:\\Users\\egory\\IdeaProjects\\Selenium-Docker\\jenkins-ci-cd\\jenkins\\workspace\\SELENIUM_DOCKER_RUNNER@2\\grid.yml: `version` is obsolete"
+ Network selenium_docker_runner2_default  Creating
+ Network selenium_docker_runner2_default  Created
+ Container selenium_docker_runner2-hub-1  Creating
+ Container selenium_docker_runner2-hub-1  Created
+ Container selenium_docker_runner2-firefox-2  Creating
+ Container selenium_docker_runner2-firefox-1  Creating
+ Container selenium_docker_runner2-firefox-2  Created
+ Container selenium_docker_runner2-firefox-1  Created
+ Container selenium_docker_runner2-hub-1  Starting
+ Container selenium_docker_runner2-hub-1  Started
+ Container selenium_docker_runner2-firefox-2  Starting
+ Container selenium_docker_runner2-firefox-2  Started
+ Container selenium_docker_runner2-firefox-1  Starting
+ Container selenium_docker_runner2-firefox-1  Started
+[8mha:////4ExSMHKyuVvqUQHuvmByFGdy1pKucqqNp4rvn+F7QN/nAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N7BnLt++AAAA[0m[Pipeline] }
+[8mha:////4PT6HAqfmsNIKv+2DWpMvfbREYAthy2xEb77JcFWL2RmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N4glvS6+AAAA[0m[Pipeline] // stage
+[8mha:////4ACNx9KsS/KtW83IXDECKB3bkAZCVDPCSRWY/Dhar5s/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUnRgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9ANydZ8vCAAAA[0m[Pipeline] stage
+[8mha:////4FcVNRXreD6tIpbZUt/SOmqXlvqUzt4xq/H2Meq3LHP+AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (Run Tests)
+[8mha:////4F5E+mz8qMxVA92AucpEV6mtq+uCn8qGbqH/G9eEb2/TAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] bat
+
+C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_RUNNER@2>docker-compose -f test-suites.yml up --pull=always 
+time="2024-07-16T17:17:28-07:00" level=warning msg="C:\\Users\\egory\\IdeaProjects\\Selenium-Docker\\jenkins-ci-cd\\jenkins\\workspace\\SELENIUM_DOCKER_RUNNER@2\\test-suites.yml: `version` is obsolete"
+ vendor-portal Pulling 
+ flight-reservation Pulling 
+ flight-reservation Pulled 
+ vendor-portal Pulled 
+time="2024-07-16T17:17:30-07:00" level=warning msg="Found orphan containers ([selenium_docker_runner2-firefox-2 selenium_docker_runner2-firefox-1 selenium_docker_runner2-hub-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
+ Container selenium_docker_runner2-vendor-portal-1  Creating
+ Container selenium_docker_runner2-flight-reservation-1  Creating
+ Container selenium_docker_runner2-flight-reservation-1  Created
+ Container selenium_docker_runner2-vendor-portal-1  Created
+Attaching to flight-reservation-1, vendor-portal-1
+vendor-portal-1       | -------------------------------------------
+vendor-portal-1       | HUB_HOST      : hub
+vendor-portal-1       | BROWSER       : firefox
+vendor-portal-1       | THREAD_COUNT  : 3
+vendor-portal-1       | TEST_SUITE    : vendor-portal.xml
+vendor-portal-1       | -------------------------------------------
+vendor-portal-1       | Checking if hub is ready..!
+vendor-portal-1       | Attempt: 1
+flight-reservation-1  | -------------------------------------------
+flight-reservation-1  | HUB_HOST      : hub
+flight-reservation-1  | BROWSER       : firefox
+flight-reservation-1  | THREAD_COUNT  : 4
+flight-reservation-1  | TEST_SUITE    : flight-reservation.xml
+flight-reservation-1  | -------------------------------------------
+flight-reservation-1  | Checking if hub is ready..!
+flight-reservation-1  | Attempt: 1
+flight-reservation-1  | Selenium Grid is up and running. Running the test....
+vendor-portal-1       | Selenium Grid is up and running. Running the test....
+vendor-portal-1       | 00:17:32.183 INFO  [           main] [36morg.testng.internal.Utils     [0;39m : [TestNG] Running:
+vendor-portal-1       |   /home/selenium-docker/test-suites/vendor-portal.xml
+vendor-portal-1       | 
+vendor-portal-1       | 00:17:32.192 INFO  [           main] [36mc.y.tests.util.ResourceLoader [0;39m : Reading resource from location: config/default.properties
+vendor-portal-1       | 00:17:32.193 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : Test Properties
+vendor-portal-1       | 00:17:32.193 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : ----------------------------------------
+vendor-portal-1       | 00:17:32.193 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : selenium.grid.urlFormat=http://%s:4444/wd/hub
+vendor-portal-1       | 00:17:32.193 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : browser=firefox
+vendor-portal-1       | 00:17:32.193 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+vendor-portal-1       | 00:17:32.193 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : selenium.grid.enabled=true
+vendor-portal-1       | 00:17:32.194 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+vendor-portal-1       | 00:17:32.194 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : selenium.grid.hubHost=hub
+vendor-portal-1       | 00:17:32.194 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : ----------------------------------------
+flight-reservation-1  | 00:17:32.199 INFO  [           main] [36morg.testng.internal.Utils     [0;39m : [TestNG] Running:
+flight-reservation-1  |   /home/selenium-docker/test-suites/flight-reservation.xml
+flight-reservation-1  | 
+vendor-portal-1       | 00:17:32.206 INFO  [ TestNG-tests-3] [36mcom.yehorychev.tests.BaseTest [0;39m : Grid URL: http://hub:4444/wd/hub
+vendor-portal-1       | 00:17:32.206 INFO  [ TestNG-tests-1] [36mcom.yehorychev.tests.BaseTest [0;39m : Grid URL: http://hub:4444/wd/hub
+vendor-portal-1       | 00:17:32.206 INFO  [ TestNG-tests-2] [36mcom.yehorychev.tests.BaseTest [0;39m : Grid URL: http://hub:4444/wd/hub
+flight-reservation-1  | 00:17:32.209 INFO  [           main] [36mc.y.tests.util.ResourceLoader [0;39m : Reading resource from location: config/default.properties
+flight-reservation-1  | 00:17:32.209 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : Test Properties
+flight-reservation-1  | 00:17:32.209 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : ----------------------------------------
+flight-reservation-1  | 00:17:32.209 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : selenium.grid.urlFormat=http://%s:4444/wd/hub
+flight-reservation-1  | 00:17:32.209 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : browser=firefox
+flight-reservation-1  | 00:17:32.209 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+flight-reservation-1  | 00:17:32.209 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : selenium.grid.enabled=true
+flight-reservation-1  | 00:17:32.210 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : flightReservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+flight-reservation-1  | 00:17:32.210 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : selenium.grid.hubHost=hub
+flight-reservation-1  | 00:17:32.210 INFO  [           main] [36mc.yehorychev.tests.util.Config[0;39m : ----------------------------------------
+flight-reservation-1  | 00:17:32.219 INFO  [ TestNG-tests-3] [36mcom.yehorychev.tests.BaseTest [0;39m : Grid URL: http://hub:4444/wd/hub
+flight-reservation-1  | 00:17:32.219 INFO  [ TestNG-tests-1] [36mcom.yehorychev.tests.BaseTest [0;39m : Grid URL: http://hub:4444/wd/hub
+flight-reservation-1  | 00:17:32.219 INFO  [ TestNG-tests-2] [36mcom.yehorychev.tests.BaseTest [0;39m : Grid URL: http://hub:4444/wd/hub
+flight-reservation-1  | 00:17:32.219 INFO  [ TestNG-tests-4] [36mcom.yehorychev.tests.BaseTest [0;39m : Grid URL: http://hub:4444/wd/hub
+vendor-portal-1       | Jul 17, 2024 12:17:32 AM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+vendor-portal-1       | INFO: Using OpenTelemetry for tracing
+flight-reservation-1  | Jul 17, 2024 12:17:32 AM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+flight-reservation-1  | INFO: Using OpenTelemetry for tracing
+flight-reservation-1  | 00:17:34.591 INFO  [ TestNG-tests-1] [36mc.y.tests.util.ResourceLoader [0;39m : Reading resource from location: test-data/flight-reservation/passenger-1.json
+flight-reservation-1  | 00:17:34.591 INFO  [ TestNG-tests-3] [36mc.y.tests.util.ResourceLoader [0;39m : Reading resource from location: test-data/flight-reservation/passenger-3.json
+flight-reservation-1  | 00:17:34.591 INFO  [ TestNG-tests-2] [36mc.y.tests.util.ResourceLoader [0;39m : Reading resource from location: test-data/flight-reservation/passenger-2.json
+flight-reservation-1  | 00:17:34.591 INFO  [ TestNG-tests-4] [36mc.y.tests.util.ResourceLoader [0;39m : Reading resource from location: test-data/flight-reservation/passenger-4.json
+vendor-portal-1       | 00:17:34.600 INFO  [ TestNG-tests-1] [36mc.y.tests.util.ResourceLoader [0;39m : Reading resource from location: test-data/vendor-portal/sam.json
+vendor-portal-1       | 00:17:34.600 INFO  [ TestNG-tests-2] [36mc.y.tests.util.ResourceLoader [0;39m : Reading resource from location: test-data/vendor-portal/mike.json
+vendor-portal-1       | 00:17:34.600 INFO  [ TestNG-tests-3] [36mc.y.tests.util.ResourceLoader [0;39m : Reading resource from location: test-data/vendor-portal/john.json
+vendor-portal-1       | 00:17:36.293 INFO  [ TestNG-tests-2] [36mc.y.p.v.DashboardPage         [0;39m : Results count: 10
+vendor-portal-1       | 00:17:36.313 INFO  [ TestNG-tests-1] [36mc.y.p.v.DashboardPage         [0;39m : Results count: 8
+vendor-portal-1       | 00:17:37.803 INFO  [ TestNG-tests-3] [36mc.y.p.v.DashboardPage         [0;39m : Results count: 0
+vendor-portal-1       | 
+vendor-portal-1       | ===============================================
+vendor-portal-1       | vendor-portal
+vendor-portal-1       | Total tests run: 9, Passes: 9, Failures: 0, Skips: 0
+vendor-portal-1       | ===============================================
+vendor-portal-1       | 
+[Kvendor-portal-1 exited with code 0
+flight-reservation-1  | 00:17:40.412 INFO  [ TestNG-tests-4] [36mc.y.p.f.FlightConfirmationPage[0;39m : Flight confirmation number# : 2024-7-1721175460252
+flight-reservation-1  | 00:17:40.412 INFO  [ TestNG-tests-4] [36mc.y.p.f.FlightConfirmationPage[0;39m : Total Price : $2338 USD
+flight-reservation-1  | 00:17:41.486 INFO  [ TestNG-tests-3] [36mc.y.p.f.FlightConfirmationPage[0;39m : Flight confirmation number# : 2024-7-1721175461033
+flight-reservation-1  | 00:17:41.486 INFO  [ TestNG-tests-3] [36mc.y.p.f.FlightConfirmationPage[0;39m : Total Price : $1753 USD
+flight-reservation-1  | 00:17:42.189 INFO  [ TestNG-tests-1] [36mc.y.p.f.FlightConfirmationPage[0;39m : Flight confirmation number# : 2024-7-1721175462052
+flight-reservation-1  | 00:17:42.189 INFO  [ TestNG-tests-1] [36mc.y.p.f.FlightConfirmationPage[0;39m : Total Price : $584 USD
+flight-reservation-1  | 00:17:42.351 INFO  [ TestNG-tests-2] [36mc.y.p.f.FlightConfirmationPage[0;39m : Flight confirmation number# : 2024-7-1721175461912
+flight-reservation-1  | 00:17:42.351 INFO  [ TestNG-tests-2] [36mc.y.p.f.FlightConfirmationPage[0;39m : Total Price : $1169 USD
+flight-reservation-1  | 
+flight-reservation-1  | ===============================================
+flight-reservation-1  | flight-reservation
+flight-reservation-1  | Total tests run: 20, Passes: 20, Failures: 0, Skips: 0
+flight-reservation-1  | ===============================================
+flight-reservation-1  | 
+[Kflight-reservation-1 exited with code 0
+[8mha:////4FYQ0pi/dn1DeAtM0WrTWFM1qA/aFqMQL5Ed4A3v4h4uAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUmJBQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQF8icecwgAAAA==[0m[Pipeline] script
+[8mha:////4NAU6UUZoLyH5oob3xcKreiBNpDKQ4IeV5t9ejQ/GSA5AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] {
+[8mha:////4A6oMGMblEOXBFGQRZcTP/hvpb3wuVivJyaIkC9STQYtAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bH7uiub4AAAA=[0m[Pipeline] fileExists
+[8mha:////4D8DOI2hhw7vFOMS3Mu/C/gq6loDcCR1GN7UdEX5WBarAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDudt+ah/eXoq5oL4AAAA=[0m[Pipeline] fileExists
+[8mha:////4MJk9vsLYRGjT3E+Lwb3wdgC6PVtxJwahcXpvH+ogSLGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BmecueC+AAAA[0m[Pipeline] }
+[8mha:////4N1dhef8/JL6prdD0l5GSqeUDnfRzdrYKIrK6Mn/q/UcAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCkKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN1R/4ly+AAAA[0m[Pipeline] // script
+[8mha:////4PnQqV5T85cb/FRI4ClN6d5+/6FlfSpRvNiJkLxEke7FAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKBASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAC9aA/74AAAA=[0m[Pipeline] }
+[8mha:////4N9Sah7Iee5YdqrJQPcYAoFtBDDcP9wsZwtawCf8lHh1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaFIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QE/GGOkvgAAAA==[0m[Pipeline] // stage
+[8mha:////4HaVaBSq5unrQo4y/ZTEgAnr+E7BuXqRiJOZc69wxu96AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUJCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFsmmy7/edZvQGUNdkLwgAAAA==[0m[Pipeline] stage
+[8mha:////4NqIw/qhJbf7fZ4uOx62tm2D3snVOrn63elMRPJpRm/pAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4FL2gdUlVlz7EjexJMjVImFAU41DJdc5/70tkifT2LFRAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] bat
+
+C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_RUNNER@2>docker-compose -f grid.yml down 
+time="2024-07-16T17:17:45-07:00" level=warning msg="C:\\Users\\egory\\IdeaProjects\\Selenium-Docker\\jenkins-ci-cd\\jenkins\\workspace\\SELENIUM_DOCKER_RUNNER@2\\grid.yml: `version` is obsolete"
+ Container selenium_docker_runner2-firefox-1  Stopping
+ Container selenium_docker_runner2-firefox-2  Stopping
+ Container selenium_docker_runner2-firefox-1  Stopped
+ Container selenium_docker_runner2-firefox-1  Removing
+ Container selenium_docker_runner2-firefox-1  Removed
+ Container selenium_docker_runner2-firefox-2  Stopped
+ Container selenium_docker_runner2-firefox-2  Removing
+ Container selenium_docker_runner2-firefox-2  Removed
+ Container selenium_docker_runner2-hub-1  Stopping
+ Container selenium_docker_runner2-hub-1  Stopped
+ Container selenium_docker_runner2-hub-1  Removing
+ Container selenium_docker_runner2-hub-1  Removed
+ Network selenium_docker_runner2_default  Removing
+ Network selenium_docker_runner2_default  Removed
+[8mha:////4OK1TyiAV3zVAwVvK7gUMKUk8TzacBBKg4Iwcu6y8ScAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AGMzKKgvgAAAA==[0m[Pipeline] bat
+
+C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_RUNNER@2>docker-compose -f test-suites.yml down 
+time="2024-07-16T17:17:51-07:00" level=warning msg="C:\\Users\\egory\\IdeaProjects\\Selenium-Docker\\jenkins-ci-cd\\jenkins\\workspace\\SELENIUM_DOCKER_RUNNER@2\\test-suites.yml: `version` is obsolete"
+ Container selenium_docker_runner2-vendor-portal-1  Stopping
+ Container selenium_docker_runner2-flight-reservation-1  Stopping
+ Container selenium_docker_runner2-flight-reservation-1  Stopped
+ Container selenium_docker_runner2-flight-reservation-1  Removing
+ Container selenium_docker_runner2-flight-reservation-1  Removed
+ Container selenium_docker_runner2-vendor-portal-1  Stopped
+ Container selenium_docker_runner2-vendor-portal-1  Removing
+ Container selenium_docker_runner2-vendor-portal-1  Removed
+[8mha:////4O207nRALW0y/QFPjXhthZIWnctxuHQotsXOmhZXQeHhAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQohqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAcw+QVkfcu1r/wFPn4+LvgAAAA==[0m[Pipeline] archiveArtifacts
+Archiving artifacts
+[8mha:////4NR8jbABcxOVXL6qnq+4QPnArdEJ3A05Odk0+Ct/oybXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSIUQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAcw+Qbk/5Kpr/wEOrpSSvgAAAA==[0m[Pipeline] archiveArtifacts
+Archiving artifacts
+[8mha:////4KRfpUFLalpRgAiwZqoKeRECRzkNMzOkZX9TpNe1ACVyAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQ1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw/hHxVIvgAAAA==[0m[Pipeline] }
+[8mha:////4GYRhg2KQZVSWsacjiudSBQh71h0Em5xTBXWZHckFStMAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigZCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu32u7eED0vxO9L4AAAA=[0m[Pipeline] // stage
+[8mha:////4PUzX5iP7hk4XU+aGV1wPjWv2t3mtDJpB82r7abNdRgAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiCIkGUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5P+Sq6w8bZSsgvgAAAA==[0m[Pipeline] }
+[8mha:////4AflWKHz3UZ2E8WnzSv1e5z/fOHpy7AqGv1oov4aph7HAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICoqBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w8ohnCcvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4JU0w64T/CNuXOHWD+qVtBPcQ2jUbVCv964fgn69nhQmAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpoEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AE/B/a+9AAAA[0m[Pipeline] }
+[8mha:////4PC2gyrYz74xul3bbxbdWgQ5ER6BAfmQw4uV9EBUahGFAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUVI5jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAXH35DL0AAAA=[0m[Pipeline] // node
+[8mha:////4OCjQsudi07pQVUPgeTSx4Ib2pHcVhC5KBQ8tgNNdX/TAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBiA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcBAx/ra70AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
