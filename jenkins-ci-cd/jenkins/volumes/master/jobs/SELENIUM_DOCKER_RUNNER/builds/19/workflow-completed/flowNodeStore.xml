@@ -1,0 +1,377 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<linked-hash-map>
+  <entry>
+    <string>2</string>
+    <Tag plugin="workflow-support@907.v6713a_ed8a_573">
+      <node class="org.jenkinsci.plugins.workflow.graph.FlowStartNode" plugin="workflow-api@1316.v33eb_726c50b_a_">
+        <parentIds/>
+        <id>2</id>
+      </node>
+      <actions>
+        <wf.a.TimingAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <startTime>1721175367831</startTime>
+        </wf.a.TimingAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>3</string>
+    <Tag plugin="workflow-support@907.v6713a_ed8a_573">
+      <node class="cps.n.StepStartNode" plugin="workflow-cps@3903.v48a_8836749e9">
+        <parentIds>
+          <string>2</string>
+        </parentIds>
+        <id>3</id>
+        <descriptorId>org.jenkinsci.plugins.workflow.support.steps.ExecutorStep</descriptorId>
+      </node>
+      <actions>
+        <s.a.LogStorageAction/>
+        <wf.a.TimingAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <startTime>1721175368027</startTime>
+        </wf.a.TimingAction>
+        <org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution_-QueueItemActionImpl plugin="workflow-durable-task-step@1353.v1891a_b_01da_18">
+          <id>38</id>
+        </org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution_-QueueItemActionImpl>
+        <s.a.WorkspaceActionImpl>
+          <node>NODE1</node>
+          <path>C:\Users\egory\IdeaProjects\Selenium-Docker\jenkins-ci-cd\jenkins\workspace\SELENIUM_DOCKER_RUNNER</path>
+          <labels class="sorted-set">
+            <hudson.model.labels.LabelAtom>docker</hudson.model.labels.LabelAtom>
+            <hudson.model.labels.LabelAtom>java17</hudson.model.labels.LabelAtom>
+            <hudson.model.labels.LabelAtom>mac</hudson.model.labels.LabelAtom>
+            <hudson.model.labels.LabelAtom>windows</hudson.model.labels.LabelAtom>
+          </labels>
+        </s.a.WorkspaceActionImpl>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>4</string>
+    <Tag plugin="workflow-support@907.v6713a_ed8a_573">
+      <node class="cps.n.StepEndNode" plugin="workflow-cps@3903.v48a_8836749e9">
+        <parentIds>
+          <string>3</string>
+        </parentIds>
+        <id>4</id>
+        <startId>3</startId>
+      </node>
+      <actions>
+        <wf.a.TimingAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <startTime>1721175406989</startTime>
+        </wf.a.TimingAction>
+        <wf.a.ErrorAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <error class="org.jenkinsci.plugins.workflow.steps.FlowInterruptedException" plugin="workflow-step-api@657.v03b_e8115821b_">
+            <stackTrace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.interrupt(CpsFlowExecution.java:1215)</trace>
+              <trace>org.jenkinsci.plugins.workflow.job.WorkflowRun$2.lambda$interrupt$0(WorkflowRun.java:397)</trace>
+              <trace>jenkins.security.ImpersonatingScheduledExecutorService$1.run(ImpersonatingScheduledExecutorService.java:67)</trace>
+              <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+              <trace>java.base/java.lang.Thread.run(Unknown Source)</trace>
+            </stackTrace>
+            <suppressedExceptions>
+              <wf.a.ErrorAction_-ErrorId plugin="workflow-api@1316.v33eb_726c50b_a_">
+                <stackTrace/>
+                <suppressedExceptions class="empty-list"/>
+                <uuid>06e389ae-b406-47dc-b7e7-113c7f84c982</uuid>
+              </wf.a.ErrorAction_-ErrorId>
+            </suppressedExceptions>
+            <result>
+              <name>ABORTED</name>
+              <ordinal>4</ordinal>
+              <color>ABORTED</color>
+              <completeBuild>false</completeBuild>
+            </result>
+            <causes class="java.util.Arrays$ArrayList">
+              <a class="jenkins.model.CauseOfInterruption-array">
+                <org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerCancelledCause plugin="pipeline-build-step@540.vb_e8849e1a_b_d8">
+                  <cause class="org.jenkinsci.plugins.workflow.steps.FlowInterruptedException" plugin="workflow-step-api@657.v03b_e8115821b_">
+                    <stackTrace>
+                      <trace>org.jenkinsci.plugins.workflow.steps.BodyExecution.cancel(BodyExecution.java:59)</trace>
+                      <trace>org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution$PlaceholderTask$PlaceholderExecutable$1.lambda$interrupt$1(ExecutorStepExecution.java:1118)</trace>
+                      <trace>org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution$PlaceholderTask$1.onSuccess(ExecutorStepExecution.java:485)</trace>
+                      <trace>org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution$PlaceholderTask$1.onSuccess(ExecutorStepExecution.java:481)</trace>
+                      <trace>com.google.common.util.concurrent.Futures$CallbackListener.run(Futures.java:1137)</trace>
+                      <trace>com.google.common.util.concurrent.DirectExecutor.execute(DirectExecutor.java:31)</trace>
+                      <trace>com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1298)</trace>
+                      <trace>com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:1059)</trace>
+                      <trace>com.google.common.util.concurrent.AbstractFuture.set(AbstractFuture.java:784)</trace>
+                      <trace>com.google.common.util.concurrent.SettableFuture.set(SettableFuture.java:49)</trace>
+                      <trace>org.jenkinsci.plugins.workflow.cps.CpsFlowExecution$5.onSuccess(CpsFlowExecution.java:1084)</trace>
+                      <trace>org.jenkinsci.plugins.workflow.cps.CpsFlowExecution$5.onSuccess(CpsFlowExecution.java:1062)</trace>
+                      <trace>org.jenkinsci.plugins.workflow.cps.CpsFlowExecution$4$1.run(CpsFlowExecution.java:978)</trace>
+                      <trace>org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$wrap$2(CpsVmExecutorService.java:83)</trace>
+                      <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)</trace>
+                      <trace>java.base/java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+                      <trace>hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)</trace>
+                      <trace>jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)</trace>
+                      <trace>jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)</trace>
+                      <trace>jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)</trace>
+                      <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)</trace>
+                      <trace>java.base/java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+                      <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+                      <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+                      <trace>org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:53)</trace>
+                      <trace>org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:50)</trace>
+                      <trace>org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:136)</trace>
+                      <trace>org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:275)</trace>
+                      <trace>org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$categoryThreadFactory$0(CpsVmExecutorService.java:50)</trace>
+                      <trace>java.base/java.lang.Thread.run(Unknown Source)</trace>
+                    </stackTrace>
+                    <suppressedExceptions class="empty-list"/>
+                    <result>
+                      <name>ABORTED</name>
+                      <ordinal>4</ordinal>
+                      <color>ABORTED</color>
+                      <completeBuild>false</completeBuild>
+                    </result>
+                    <causes class="java.util.Arrays$ArrayList">
+                      <a class="jenkins.model.CauseOfInterruption-array"/>
+                    </causes>
+                    <actualInterruption>true</actualInterruption>
+                  </cause>
+                </org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerCancelledCause>
+              </a>
+            </causes>
+            <actualInterruption>true</actualInterruption>
+          </error>
+        </wf.a.ErrorAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>5</string>
+    <Tag plugin="workflow-support@907.v6713a_ed8a_573">
+      <node class="cps.n.StepStartNode" plugin="workflow-cps@3903.v48a_8836749e9">
+        <parentIds>
+          <string>4</string>
+        </parentIds>
+        <id>5</id>
+        <descriptorId>org.jenkinsci.plugins.workflow.support.steps.StageStep</descriptorId>
+      </node>
+      <actions>
+        <s.a.LogStorageAction/>
+        <cps.a.ArgumentsActionImpl plugin="workflow-cps@3903.v48a_8836749e9">
+          <arguments>
+            <entry>
+              <string>name</string>
+              <string>Declarative: Post Actions</string>
+            </entry>
+          </arguments>
+          <sensitiveVariables/>
+          <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+        </cps.a.ArgumentsActionImpl>
+        <wf.a.TimingAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <startTime>1721175407128</startTime>
+        </wf.a.TimingAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>6</string>
+    <Tag plugin="workflow-support@907.v6713a_ed8a_573">
+      <node class="cps.n.StepStartNode" plugin="workflow-cps@3903.v48a_8836749e9">
+        <parentIds>
+          <string>5</string>
+        </parentIds>
+        <id>6</id>
+        <descriptorId>org.jenkinsci.plugins.workflow.support.steps.StageStep</descriptorId>
+      </node>
+      <actions>
+        <wf.a.BodyInvocationAction plugin="workflow-api@1316.v33eb_726c50b_a_"/>
+        <wf.a.LabelAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <displayName>Declarative: Post Actions</displayName>
+        </wf.a.LabelAction>
+        <wf.a.TimingAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <startTime>1721175407137</startTime>
+        </wf.a.TimingAction>
+        <wf.a.TagsAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <tags>
+            <entry>
+              <string>SYNTHETIC_STAGE</string>
+              <string>POST</string>
+            </entry>
+          </tags>
+        </wf.a.TagsAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>7</string>
+    <Tag plugin="workflow-support@907.v6713a_ed8a_573">
+      <node class="cps.n.StepAtomNode" plugin="workflow-cps@3903.v48a_8836749e9">
+        <parentIds>
+          <string>6</string>
+        </parentIds>
+        <id>7</id>
+        <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.BatchScriptStep</descriptorId>
+      </node>
+      <actions>
+        <cps.a.ArgumentsActionImpl plugin="workflow-cps@3903.v48a_8836749e9">
+          <arguments>
+            <entry>
+              <string>script</string>
+              <string>docker-compose -f grid.yml down</string>
+            </entry>
+          </arguments>
+          <sensitiveVariables/>
+          <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+        </cps.a.ArgumentsActionImpl>
+        <wf.a.TimingAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <startTime>1721175407249</startTime>
+        </wf.a.TimingAction>
+        <s.a.LogStorageAction/>
+        <wf.a.ErrorAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <error class="org.jenkinsci.plugins.workflow.steps.MissingContextVariableException" plugin="workflow-step-api@657.v03b_e8115821b_">
+            <stackTrace>
+              <trace>org.jenkinsci.plugins.workflow.steps.StepDescriptor.checkContextAvailability(StepDescriptor.java:265)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.DSL.invokeStep(DSL.java:300)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.DSL.invokeMethod(DSL.java:196)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:124)</trace>
+              <trace>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+              <trace>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)</trace>
+              <trace>java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)</trace>
+              <trace>java.base/java.lang.reflect.Method.invoke(Unknown Source)</trace>
+              <trace>org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)</trace>
+              <trace>groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)</trace>
+              <trace>groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)</trace>
+              <trace>groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:41)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)</trace>
+              <trace>org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:180)</trace>
+              <trace>org.kohsuke.groovy.sandbox.GroovyInterceptor.onMethodCall(GroovyInterceptor.java:23)</trace>
+              <trace>org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onMethodCall(SandboxInterceptor.java:163)</trace>
+              <trace>org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:178)</trace>
+              <trace>org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:182)</trace>
+              <trace>org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:152)</trace>
+              <trace>com.cloudbees.groovy.cps.sandbox.SandboxInvoker.methodCall(SandboxInvoker.java:17)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.LoggingInvoker.methodCall(LoggingInvoker.java:105)</trace>
+              <trace>WorkflowScript.run(WorkflowScript:29)</trace>
+              <trace>org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.delegateAndExecute(ModelInterpreter.groovy:138)</trace>
+              <trace>org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:768)</trace>
+              <trace>org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.catchRequiredContextForNode(ModelInterpreter.groovy:402)</trace>
+              <trace>org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.catchRequiredContextForNode(ModelInterpreter.groovy:400)</trace>
+              <trace>org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:767)</trace>
+              <trace>com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2125)</trace>
+              <trace>com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2110)</trace>
+              <trace>com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2151)</trace>
+              <trace>org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:757)</trace>
+              <trace>org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy)</trace>
+              <trace>org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.executePostBuild(ModelInterpreter.groovy:735)</trace>
+              <trace>___cps.transform___(Native Method)</trace>
+              <trace>com.cloudbees.groovy.cps.impl.ContinuationGroup.methodCall(ContinuationGroup.java:90)</trace>
+              <trace>com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.dispatchOrArg(FunctionCallBlock.java:116)</trace>
+              <trace>com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.fixArg(FunctionCallBlock.java:85)</trace>
+              <trace>jdk.internal.reflect.GeneratedMethodAccessor175.invoke(Unknown Source)</trace>
+              <trace>java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)</trace>
+              <trace>java.base/java.lang.reflect.Method.invoke(Unknown Source)</trace>
+              <trace>com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)</trace>
+              <trace>com.cloudbees.groovy.cps.impl.ConstantBlock.eval(ConstantBlock.java:21)</trace>
+              <trace>com.cloudbees.groovy.cps.Next.step(Next.java:83)</trace>
+              <trace>com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:147)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.SandboxContinuable.access$001(SandboxContinuable.java:17)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.SandboxContinuable.run0(SandboxContinuable.java:49)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:180)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:423)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:331)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:295)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$wrap$4(CpsVmExecutorService.java:136)</trace>
+              <trace>java.base/java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+              <trace>hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)</trace>
+              <trace>jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)</trace>
+              <trace>jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)</trace>
+              <trace>jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)</trace>
+              <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:53)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:50)</trace>
+              <trace>org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:136)</trace>
+              <trace>org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:275)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$categoryThreadFactory$0(CpsVmExecutorService.java:50)</trace>
+              <trace>java.base/java.lang.Thread.run(Unknown Source)</trace>
+            </stackTrace>
+            <suppressedExceptions>
+              <wf.a.ErrorAction_-ErrorId plugin="workflow-api@1316.v33eb_726c50b_a_">
+                <stackTrace/>
+                <suppressedExceptions class="empty-list"/>
+                <uuid>c918d8f2-ea7a-483e-ad83-cd944a7e3e10</uuid>
+              </wf.a.ErrorAction_-ErrorId>
+            </suppressedExceptions>
+            <type>hudson.FilePath</type>
+            <functionName>bat</functionName>
+          </error>
+        </wf.a.ErrorAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>8</string>
+    <Tag plugin="workflow-support@907.v6713a_ed8a_573">
+      <node class="cps.n.StepEndNode" plugin="workflow-cps@3903.v48a_8836749e9">
+        <parentIds>
+          <string>7</string>
+        </parentIds>
+        <id>8</id>
+        <startId>6</startId>
+      </node>
+      <actions>
+        <wf.a.BodyInvocationAction plugin="workflow-api@1316.v33eb_726c50b_a_"/>
+        <wf.a.TimingAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <startTime>1721175407374</startTime>
+        </wf.a.TimingAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>9</string>
+    <Tag plugin="workflow-support@907.v6713a_ed8a_573">
+      <node class="cps.n.StepEndNode" plugin="workflow-cps@3903.v48a_8836749e9">
+        <parentIds>
+          <string>8</string>
+        </parentIds>
+        <id>9</id>
+        <startId>5</startId>
+      </node>
+      <actions>
+        <wf.a.TimingAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <startTime>1721175407552</startTime>
+        </wf.a.TimingAction>
+        <wf.a.ErrorAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <error class="org.jenkinsci.plugins.workflow.steps.FlowInterruptedException" reference="../../../../../entry[3]/Tag/actions/wf.a.ErrorAction/error"/>
+        </wf.a.ErrorAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>10</string>
+    <Tag plugin="workflow-support@907.v6713a_ed8a_573">
+      <node class="org.jenkinsci.plugins.workflow.graph.FlowEndNode" plugin="workflow-api@1316.v33eb_726c50b_a_">
+        <parentIds>
+          <string>9</string>
+        </parentIds>
+        <id>10</id>
+        <startId>2</startId>
+        <result>
+          <name>ABORTED</name>
+          <ordinal>4</ordinal>
+          <color>ABORTED</color>
+          <completeBuild>false</completeBuild>
+        </result>
+      </node>
+      <actions>
+        <wf.a.ErrorAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <error class="org.jenkinsci.plugins.workflow.steps.FlowInterruptedException" reference="../../../../../entry[3]/Tag/actions/wf.a.ErrorAction/error"/>
+        </wf.a.ErrorAction>
+        <wf.a.TimingAction plugin="workflow-api@1316.v33eb_726c50b_a_">
+          <startTime>1721175407603</startTime>
+        </wf.a.TimingAction>
+      </actions>
+    </Tag>
+  </entry>
+</linked-hash-map>
